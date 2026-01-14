@@ -140,10 +140,8 @@ Before starting, ensure you have the following:
 
 ### Required Accounts & Access
 - **AWS Account**: 
-  - Active AWS account with programmatic access
+  - Active AWS account
   - IAM user with permissions for Amazon Bedrock
-  - Access to Amazon Bedrock Nova Pro model (must be enabled in your AWS region)
-  - Configured AWS credentials (`~/.aws/credentials` or environment variables)
   
 - **IMO Health API Access**:
   - Active IMO Health account
@@ -198,67 +196,23 @@ Before starting, ensure you have the following:
    > **Note for macOS users**: If you encounter SSL certificate errors, you may need to run: 
    > `/Applications/Python\ 3.x/Install\ Certificates.command` (replace 3.x with your Python version)
    
-4. **Configure credentials**
+4. **Configure credentials**   
    
-   ### a. AWS Credentials Setup
-   Configure AWS credentials for Amazon Bedrock access. Choose one of the following methods:
-   
-   **Option 1: AWS CLI Configuration (Recommended)**
-   ```bash
-   # Install AWS CLI if not already installed
-   pip install awscli
-   
-   # Configure AWS credentials
-   aws configure
-   ```
-   You'll be prompted to enter:
-   - AWS Access Key ID
-   - AWS Secret Access Key
-   - Default region (e.g., `us-east-1`)
-   - Output format (press Enter for default)
-   
-   **Option 2: Manual Configuration**
-   Create/edit `~/.aws/credentials` file:
-   ```ini
-   [default]
-   aws_access_key_id = YOUR_ACCESS_KEY_ID
-   aws_secret_access_key = YOUR_SECRET_ACCESS_KEY
-   ```
-   
-   Create/edit `~/.aws/config` file:
-   ```ini
-   [default]
-   region = us-east-1
-   ```
-   
-   **Option 3: Environment Variables**
-   ```bash
-   # Windows (PowerShell):
-   $env:AWS_ACCESS_KEY_ID="YOUR_ACCESS_KEY_ID"
-   $env:AWS_SECRET_ACCESS_KEY="YOUR_SECRET_ACCESS_KEY"
-   $env:AWS_DEFAULT_REGION="us-east-1"
-   
-   # macOS/Linux:
-   export AWS_ACCESS_KEY_ID="YOUR_ACCESS_KEY_ID"
-   export AWS_SECRET_ACCESS_KEY="YOUR_SECRET_ACCESS_KEY"
-   export AWS_DEFAULT_REGION="us-east-1"
-   ```  
-   
-   ### b. IMO Health API Configuration
+   ### a. IMO Health API Configuration
    Edit the `config.py` file in the PythonNotebook directory:
    
    ```python 
    # IMO Health API Credentials
-   # Option 1: Direct credentials (not recommended for production)
-   _default_imo_client_id = "YOUR_IMO_CLIENT_ID"
-   _default_imo_client_secret = "YOUR_IMO_CLIENT_SECRET"
-   _default_imo_diag_client_id = "YOUR_IMO_DIAGNOSTIC_CLIENT_ID"
-   _default_imo_diag_client_secret = "YOUR_IMO_DIAGNOSTIC_CLIENT_SECRET"
-   
-   # Option 2: AWS SSM Parameter Store (recommended for production)
+   # Option 1: AWS SSM Parameter Store
    # Store credentials in AWS SSM and they'll be fetched automatically
    IMO_CLIENT_ID_PARAM = "/ambient-ai-solution/imo_client_id"
    IMO_CLIENT_SECRET_PARAM = "/ambient-ai-solution/imo_client_secret"
+   
+   # Option 2: Direct credentials
+   _default_imo_client_id = "YOUR_IMO_CLIENT_ID"
+   _default_imo_client_secret = "YOUR_IMO_CLIENT_SECRET"
+   _default_imo_diag_client_id = "YOUR_IMO_DIAGNOSTIC_CLIENT_ID"
+   _default_imo_diag_client_secret = "YOUR_IMO_DIAGNOSTIC_CLIENT_SECRET"   
    ```
    
    > ⚠️ **Security Warning**: Never commit `config.py` with actual credentials to version control. 
@@ -333,3 +287,4 @@ See main project LICENSE file.
 **Last Updated**: 2024
 **Version**: 1.0
 **Maintainer**: Solution Engineering Team
+
