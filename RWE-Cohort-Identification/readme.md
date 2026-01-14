@@ -224,6 +224,7 @@ Directory structure and key files:
 ```
 Output/
 ├── patient_output.xlsx
+├── cohort_matching_results.csv
 └── OMOP_CSV/
    ├── PERSON.csv
    ├── VISIT_OCCURRENCE.csv
