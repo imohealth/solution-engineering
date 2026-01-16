@@ -1,0 +1,10246 @@
+hospitalGuid,encounterGuid,patientGuid,notesDEID
+a157ccfd7c20009546af7ffaf5bd0a7dbd294c2d518e9e221948e98186170a5e,a1cb4b02b687b76d5e217008d7e8bb41e99912674260e3685743b316634c6096,ea5172254cce3ba3b1257b5a4cb05f2e3673ca5c0bd1058af9dc611f029b04fe,"Consult
+Pharmacy has been consulted to manage selected antiobiotic: Vancomycin
+Type of Consult: New start
+Suspected Infection: Skin/Soft tissue
+Labs: 
+
+
+Sodium  137 mmol/L (136-145)   [DATE_1]  18:55    
+Potassium  4.0 mmol/L (3.5-5.1)   [DATE_1]  18:55    
+Chloride  106 mmol/L (98-107)   [DATE_1]  18:55    
+Carbon Dioxide  26.0 mmol/L (21.0-32.0)   [DATE_1]  18:55    
+Anion Gap  5  (5-15)   [DATE_1]  18:55    
+BUN  9 mg/dL (7-18)   [DATE_1]  18:55    
+Creatinine  0.73 mg/dL (0.55-1.02)   [DATE_1]  18:55    
+Est GFR (MDRD) Af Amer  115 mL/min (>60)   [DATE_1]  18:55    
+Est GFR (MDRD) Non-Af  95 mL/min (>60)   [DATE_1]  18:55    
+BUN/Creatinine Ratio  12.3 RATIO (10-20)   [DATE_1]  18:55    
+Glucose  98 mg/dL (74-106)   [DATE_1]  18:55    
+
+
+Microbiology: 
+Microbiology
+
+[DATE_1] 19:05   Nasal Secretion   SARS-CoV-2 Antigen (Rapid) - Final
+
+
+Goal Trough: 15-20 mcg/mL
+Pharmacy Plan for Drug Dosing: 
+
+Pharmacy Service will continue to monitor and adjust dosing as required. 
+
+Medications
+
+Vancomycin HCl 1,500 mg/ (Sodium Chloride)  530 mls @ 250 mls/hr IV Q8H SCH
+
+Discontinued Medications
+
+Vancomycin HCl 2,000 mg/ (Sodium Chloride)  540 mls @ 250 mls/hr IV X1 ONE
+ Stop: [DATE_1] 23:51
+ Last Admin: [DATE_1] 22:15 Dose:  250 mls/hr
+ Documented by: 
+
+
+Follow-Up Labs: Trough Vancomycin
+Labs to be done on [date and time ordered]: [DATE_2] @ 2130"
+910296d0011b8baeb029be76682fe56de0d5ce94d627def6938a17593adc8634,0b862e66940599a11957552fd2194d96b10c994ea9fb45a76b3bf904dda864b2,4553fc3a75421887d1bd8e9276620d823eb1b7c9f703ac8a549b021df7032126,"History of Present Illness
+
+
+Consult date: [DATE_1]
+
+
+Requesting physician: [NAME_1]
+
+
+Reason for consult: dyspnea, cough
+
+
+Chief complaint: Shortness of breath, cough
+
+
+History of present illness: 
+
+
+ This is a [AGE_1]-year-old white female patient who was originally admitted to the 
+
+hospital on [DATE_2] when she came in for evaluation of hematuria, severe 
+
+right-sided flank pain, nausea and vomiting.  Patient had a diagnosis of kidney 
+
+stones in the past.  Her urinalysis showed large number of white blood cells, 
+
+greater than 182, and red blood cells, with moderate leukocyte esterase, 4+ 
+
+glucose, 2+ protein negative for nitrites.  CT of the abdomen and pelvis showed 
+
+right-sided hydronephrosis and hydroureter and probable calculus in the distal 
+
+right ureter.  On [DATE_3] patient had a cystoscopy with placement of a 
+
+double-J catheter on [DATE_3] for an obstructing 9 mm distal ureteral stone.  
+
+Patient's past medical history significant for diabetes mellitus, GERD, and 
+
+depression.  She is a nonsmoker and nondrinker.  Patient had episode of chest 
+
+pain on [DATE_4] and cardiology was consulted.  The chest pain was associated 
+
+with shortness of breath, nausea, diaphoresis.  EKG showed normal sinus rhythm 
+
+with no acute ST or T-wave changes, she did have a mildly elevated troponin 
+
+levels of 0.036, 0.025, and 0.037.  Her proBNP level was elevated at 4830.  
+
+Chest x-ray showed perihilar and right suprahilar opacity that could represent 
+
+pneumonia along with increased interstitial density.  COVID PCR was negative.  
+
+Patient was given IV Lasix, her d-dimer was 27.05.  CTA chest showed no acute 
+
+pulmonary embolism, and scattered reticular nodular opacities with somewhat 
+
+tree-in-bud appearance, nonspecific findings.  Bilateral right greater than left
+
+pleural effusions.  Patient did have an episode of low-grade fever early this 
+
+morning with a temp of 100.1F.  She states she has been coughing, however the 
+
+cough is not new, she's been coughing for the past 6 months, no phlegm 
+
+production, no hemoptysis, she does have history of GERD.  She is a nonsmoker.  
+
+There is no phlegm production.  She is on room air, with a pulse ox of 92-93%, 
+
+she denies any exertional dyspnea.  She has been on IV Rocephin since 
+
+[DATE_3].  Urine culture showed Candida glabrata.  Today's labs have been 
+
+reviewed showing white blood cell count of 9.1, hemoglobin of 11.9, sodium is 
+
+136, potassium is 4.5, chloride is 107, BUN is 22, creatinine of 0.9.  Echocard
+
+iogram has been reviewed showing preserved LV function with EF of 55-60%, normal
+
+diastolic filling pattern, mild to moderate tricuspid regurg, and mild to 
+
+moderate pulmonary hypertension with right-sided pressure of 46.7 mmHg.  
+
+
+
+
+
+
+
+
+Review of Systems
+
+
+All systems: negative
+
+
+Constitutional: Denies chills, Denies fever
+
+
+Eyes: denies blurred vision, denies pain
+
+
+Ears, nose, mouth and throat: Denies headache, Denies sore throat
+
+
+Cardiovascular: Denies chest pain, Denies shortness of breath
+
+
+Respiratory: Reports cough, Reports dyspnea
+
+
+Gastrointestinal: Denies abdominal pain, Denies diarrhea, Denies nausea, Denies 
+
+vomiting
+
+
+Genitourinary: Denies dysuria, Denies hematuria
+
+
+Musculoskeletal: Denies myalgias
+
+
+Integumentary: Denies pruritus, Denies rash
+
+
+Neurological: Denies numbness, Denies weakness
+
+
+Psychiatric: Denies anxiety, Denies depression
+
+
+Endocrine: Denies fatigue, Denies weight change
+
+
+
+
+
+Past Medical History
+
+
+Past Medical History: Diabetes Mellitus, GERD/Reflux, Rheumatoid Arthritis (RA)
+
+
+Additional Past Medical History / Comment(s): sh[NAME_2]s
+
+
+History of Any Multi-Drug Resistant Organisms: None Reported
+
+
+Past Surgical History: Back Surgery, Bladder Surgery, Joint Replacement, 
+
+Orthopedic Surgery
+
+
+Additional Past Surgical History / Comment(s): bilateral rotator cuff repair, 
+
+bladder suspension ""with screws across pelvis"", hip , bone spurs on right foot, 
+
+meniscus knee surgrey
+
+
+Past Anesthesia/Blood Transfusion Reactions: Previous Problems w/ Anesthesia
+
+
+Additional Past Anesthesia/Blood Transfusion Reaction / Comment(s): difficulty 
+
+waking up after back surgery, hair loss attributes to anesthesia
+
+
+Past Psychological History: Depression
+
+
+Smoking Status: Never smoker
+
+
+Past Alcohol Use History: None Reported
+
+
+Past Drug Use History: None Reported
+
+
+
+
+
+- Past Family History
+
+
+  ** Father
+
+
+Family Medical History: Cancer
+
+
+
+
+
+  ** Sister(s)
+
+
+Family Medical History: Cancer
+
+
+
+
+
+Medications and Allergies
+
+
+                                Home Medications
+
+
+
+
+
+
+
+
+
+
+
+ Medication  Instructions  Recorded  Confirmed  Type
+
+
+ 
+
+
+DULoxetine HCL [Cymbalta] 60 mg PO HS [DATE_5] [DATE_6] History
+
+
+ 
+
+
+Empagliflozin [Jardiance] 25 mg PO HS [DATE_7] [DATE_6] History
+
+
+ 
+
+
+Pioglitazone [Actos] 30 mg PO HS [DATE_7] [DATE_6] History
+
+
+ 
+
+
+metFORMIN HCL [Glucophage] 2,000 mg PO PC-SUPPER [DATE_7] [DATE_6] History
+
+
+ 
+
+
+Insulin Glargine,Hum.rec.anlog 36 unit SQ DAILY [DATE_8] [DATE_6] History
+
+
+
+
+
+[Lantus Solostar Pen]    
+
+
+ 
+
+
+Cyanocobalamin (Vitamin B-12) 1,000 mcg PO HS [DATE_6] [DATE_6] History
+
+
+
+
+
+[Vitamin B-12]    
+
+
+ 
+
+
+Ergocalciferol (Vitamin D2) 1,250 mcg PO TH [DATE_6] [DATE_6] History
+
+
+
+
+
+[Drisdol (50,000 Iu)]    
+
+
+ 
+
+
+Fluvastatin Sodium [Fluvastatin ER] 80 mg PO HS [DATE_6] [DATE_6] History
+
+
+ 
+
+
+Ibuprofen [Motrin] 800 mg PO Q8H PRN [DATE_6] [DATE_6] History
+
+
+ 
+
+
+Propranolol HCl 20 mg PO BID [DATE_6] [DATE_6] History
+
+
+ 
+
+
+Semaglutide [Ozempic] 1 mg SQ MO [DATE_6] [DATE_6] History
+
+
+ 
+
+
+Vitamin B Complex 1 cap PO TH [DATE_6] [DATE_6] History
+
+
+ 
+
+
+lisinopriL 10 mg PO HS [DATE_6] [DATE_6] History
+
+
+ 
+
+
+Fluconazole [Diflucan] 100 mg PO DAILY #10 tab [DATE_9]  Rx
+
+
+ 
+
+
+HYDROcodone/APAP 5-325MG [Norco 1 tab PO Q4HR PRN #14 tab [DATE_9]  Rx
+
+
+
+
+
+5-325]    
+
+
+ 
+
+
+Levofloxacin [Levaquin] 500 mg PO DAILY 1 Days #10 tab [DATE_9]  Rx
+
+
+
+
+
+
+
+
+                                    Allergies
+
+
+
+
+
+
+
+
+
+
+
+Allergy/AdvReac Type Severity Reaction Status Date / Time
+
+
+ 
+
+
+No Known Allergies Allergy   Verified [DATE_6] 21:07
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Physical Exam
+
+
+Vitals: 
+
+
+                                   Vital Signs
+
+
+
+
+
+
+
+
+
+
+
+  Temp Pulse Resp BP Pulse Ox
+
+
+ 
+
+
+ [DATE_1] 07:18  99.1 F  85  18  140/81  93 L
+
+
+ 
+
+
+ [DATE_1] 05:00  100.1 F H  93  16  172/70  94 L
+
+
+ 
+
+
+ [DATE_9] 20:44  99.6 F  91  16  131/73  92 L
+
+
+ 
+
+
+ [DATE_9] 12:20  98.1 F  84  17  156/69  93 L
+
+
+
+
+
+
+
+
+                                Intake and Output
+
+
+
+
+
+
+
+
+
+
+
+ [DATE_9] [DATE_1] [DATE_1]
+
+
+
+
+
+ 22:59 06:59 14:59
+
+
+ 
+
+
+Intake Total 1510 590 510
+
+
+ 
+
+
+Output Total 0  
+
+
+ 
+
+
+Balance 1510 590 510
+
+
+ 
+
+
+Intake:   
+
+
+ 
+
+
+  Intake, IV Titration 570  
+
+
+
+
+
+  Amount   
+
+
+ 
+
+
+    Sodium Chloride 0.9% 1, 520  
+
+
+
+
+
+    000 ml @ 130 mls/hr IV .   
+
+
+
+
+
+    Q7H42M SCH Rx#:004431750   
+
+
+ 
+
+
+    cefTRIAXone 1 gm In 50  
+
+
+
+
+
+    Sodium Chloride 0.9% 50   
+
+
+
+
+
+    ml @ 100 mls/hr IVPB   
+
+
+
+
+
+    Q24HR SCH Rx#:004432302   
+
+
+ 
+
+
+  Oral 940 590 510
+
+
+ 
+
+
+Output:   
+
+
+ 
+
+
+  Stool 0  
+
+
+ 
+
+
+Other:   
+
+
+ 
+
+
+  Voiding Method Toilet  
+
+
+
+
+
+ Bedside Commode  
+
+
+ 
+
+
+  # Voids 6 2 
+
+
+ 
+
+
+  # Bowel Movements 1  
+
+
+
+
+
+
+
+
+
+
+
+ GENERAL EXAM: Alert, very pleasant, [AGE_1]-year-old white female, on room air with 
+
+a pulse oximetry 92-94% comfortable in no apparent distress.
+
+
+HEAD: Normocephalic/atraumatic.
+
+
+EYES: Normal reaction of pupils, equal size.  Conjunctiva pink, sclera white.
+
+
+NOSE: Clear with pink turbinates.
+
+
+THROAT: No erythema or exudates.
+
+
+NECK: No masses, no JVD, no thyroid enlargement, no adenopathy.
+
+
+CHEST: No chest wall deformity.  Symmetrical expansion. 
+
+
+LUNGS: Equal air entry with bibasilar crackles, but no wheeze, rhonchi or 
+
+dullness.
+
+
+CVS: Regular rate and rhythm, normal S1 and S2, no gallops, no murmurs, no rubs
+
+
+ABDOMEN: Soft, nontender.  No hepatosplenomegaly, normal bowel sounds, no 
+
+guarding or rigidity.
+
+
+EXTREMITIES: No clubbing, no edema, no cyanosis, 2+ pulses and upper and lower 
+
+extremities.
+
+
+MUSCULOSKELETAL: Muscle strength and tone normal.
+
+
+SPINE: No scoliosis or deformity
+
+
+SKIN: No rashes
+
+
+CENTRAL NERVOUS SYSTEM: Alert and oriented -3.  No focal deficits, tone is 
+
+normal in all 4 extremities.
+
+
+PSYCHIATRIC: Alert and oriented -3.  Appropriate affect.  Intact judgment and 
+
+insight.
+
+
+
+
+
+
+
+
+
+
+
+Results
+
+
+
+
+
+- Laboratory Findings
+
+
+CBC and BMP: 
+
+
+                                 [DATE_1] 05:57
+
+
+
+
+
+                                 [DATE_1] 05:57
+
+
+PT/INR, D-dimer
+
+
+
+
+
+
+
+
+
+
+
+PT  9.5 sec (9.0-12.0)   [DATE_6]  18:28    
+
+
+ 
+
+
+INR  0.9  (<1.2)   [DATE_6]  18:28    
+
+
+ 
+
+
+D-Dimer  27.05 mg/L FEU (<0.60)  H  [DATE_9]  13:22    
+
+
+
+
+
+
+
+
+Abnormal lab findings: 
+
+
+                                  Abnormal Labs
+
+
+
+
+
+
+
+
+
+
+
+  [DATE_6] [DATE_6] [DATE_6]
+
+
+
+
+
+  18:28 18:28 18:28
+
+
+ 
+
+
+WBC  15.0 H  
+
+
+ 
+
+
+Hct  46.7 H  
+
+
+ 
+
+
+Neutrophils #  12.6 H  
+
+
+ 
+
+
+D-Dimer   
+
+
+ 
+
+
+Sodium    134 L
+
+
+ 
+
+
+Chloride   
+
+
+ 
+
+
+Carbon Dioxide    21 L
+
+
+ 
+
+
+BUN    19 H
+
+
+ 
+
+
+Creatinine   
+
+
+ 
+
+
+Glucose    198 H
+
+
+ 
+
+
+POC Glucose (mg/dL)   
+
+
+ 
+
+
+Calcium   
+
+
+ 
+
+
+Troponin I   
+
+
+ 
+
+
+Total Protein   
+
+
+ 
+
+
+Albumin   
+
+
+ 
+
+
+Triglycerides   
+
+
+ 
+
+
+HDL Cholesterol   
+
+
+ 
+
+
+Urine Appearance   Turbid H 
+
+
+ 
+
+
+Urine Protein   2+ H 
+
+
+ 
+
+
+Urine Glucose (UA)   4+ H 
+
+
+ 
+
+
+Urine Blood   Large H 
+
+
+ 
+
+
+Ur Leukocyte Esterase   Moderate H 
+
+
+ 
+
+
+Urine RBC   >182 H 
+
+
+ 
+
+
+Urine WBC   >182 H 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  [DATE_10] [DATE_10] [DATE_10]
+
+
+
+
+
+  14:50 16:10 17:00
+
+
+ 
+
+
+WBC   
+
+
+ 
+
+
+Hct   
+
+
+ 
+
+
+Neutrophils #   
+
+
+ 
+
+
+D-Dimer   
+
+
+ 
+
+
+Sodium   
+
+
+ 
+
+
+Chloride   
+
+
+ 
+
+
+Carbon Dioxide   
+
+
+ 
+
+
+BUN   
+
+
+ 
+
+
+Creatinine   
+
+
+ 
+
+
+Glucose   
+
+
+ 
+
+
+POC Glucose (mg/dL)  131 H  117 H  120 H
+
+
+ 
+
+
+Calcium   
+
+
+ 
+
+
+Troponin I   
+
+
+ 
+
+
+Total Protein   
+
+
+ 
+
+
+Albumin   
+
+
+ 
+
+
+Triglycerides   
+
+
+ 
+
+
+HDL Cholesterol   
+
+
+ 
+
+
+Urine Appearance   
+
+
+ 
+
+
+Urine Protein   
+
+
+ 
+
+
+Urine Glucose (UA)   
+
+
+ 
+
+
+Urine Blood   
+
+
+ 
+
+
+Ur Leukocyte Esterase   
+
+
+ 
+
+
+Urine RBC   
+
+
+ 
+
+
+Urine WBC   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  [DATE_10] [DATE_11] [DATE_11]
+
+
+
+
+
+  20:12 05:40 05:40
+
+
+ 
+
+
+WBC   18.3 H 
+
+
+ 
+
+
+Hct   
+
+
+ 
+
+
+Neutrophils #   16.1 H 
+
+
+ 
+
+
+D-Dimer   
+
+
+ 
+
+
+Sodium    134 L
+
+
+ 
+
+
+Chloride   
+
+
+ 
+
+
+Carbon Dioxide    18 L
+
+
+ 
+
+
+BUN    31 H
+
+
+ 
+
+
+Creatinine    1.36 H
+
+
+ 
+
+
+Glucose    271 H
+
+
+ 
+
+
+POC Glucose (mg/dL)  265 H  
+
+
+ 
+
+
+Calcium    7.8 L
+
+
+ 
+
+
+Troponin I   
+
+
+ 
+
+
+Total Protein   
+
+
+ 
+
+
+Albumin   
+
+
+ 
+
+
+Triglycerides   
+
+
+ 
+
+
+HDL Cholesterol   
+
+
+ 
+
+
+Urine Appearance   
+
+
+ 
+
+
+Urine Protein   
+
+
+ 
+
+
+Urine Glucose (UA)   
+
+
+ 
+
+
+Urine Blood   
+
+
+ 
+
+
+Ur Leukocyte Esterase   
+
+
+ 
+
+
+Urine RBC   
+
+
+ 
+
+
+Urine WBC   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  [DATE_11] [DATE_11] [DATE_11]
+
+
+
+
+
+  07:22 11:30 17:04
+
+
+ 
+
+
+WBC   
+
+
+ 
+
+
+Hct   
+
+
+ 
+
+
+Neutrophils #   
+
+
+ 
+
+
+D-Dimer   
+
+
+ 
+
+
+Sodium   
+
+
+ 
+
+
+Chloride   
+
+
+ 
+
+
+Carbon Dioxide   
+
+
+ 
+
+
+BUN   
+
+
+ 
+
+
+Creatinine   
+
+
+ 
+
+
+Glucose   
+
+
+ 
+
+
+POC Glucose (mg/dL)  273 H  222 H  156 H
+
+
+ 
+
+
+Calcium   
+
+
+ 
+
+
+Troponin I   
+
+
+ 
+
+
+Total Protein   
+
+
+ 
+
+
+Albumin   
+
+
+ 
+
+
+Triglycerides   
+
+
+ 
+
+
+HDL Cholesterol   
+
+
+ 
+
+
+Urine Appearance   
+
+
+ 
+
+
+Urine Protein   
+
+
+ 
+
+
+Urine Glucose (UA)   
+
+
+ 
+
+
+Urine Blood   
+
+
+ 
+
+
+Ur Leukocyte Esterase   
+
+
+ 
+
+
+Urine RBC   
+
+
+ 
+
+
+Urine WBC   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  [DATE_11] [DATE_12] [DATE_12]
+
+
+
+
+
+  20:04 07:23 11:34
+
+
+ 
+
+
+WBC   
+
+
+ 
+
+
+Hct   
+
+
+ 
+
+
+Neutrophils #   
+
+
+ 
+
+
+D-Dimer   
+
+
+ 
+
+
+Sodium   
+
+
+ 
+
+
+Chloride   
+
+
+ 
+
+
+Carbon Dioxide   
+
+
+ 
+
+
+BUN   
+
+
+ 
+
+
+Creatinine   
+
+
+ 
+
+
+Glucose   
+
+
+ 
+
+
+POC Glucose (mg/dL)  126 H  111 H  104 H
+
+
+ 
+
+
+Calcium   
+
+
+ 
+
+
+Troponin I   
+
+
+ 
+
+
+Total Protein   
+
+
+ 
+
+
+Albumin   
+
+
+ 
+
+
+Triglycerides   
+
+
+ 
+
+
+HDL Cholesterol   
+
+
+ 
+
+
+Urine Appearance   
+
+
+ 
+
+
+Urine Protein   
+
+
+ 
+
+
+Urine Glucose (UA)   
+
+
+ 
+
+
+Urine Blood   
+
+
+ 
+
+
+Ur Leukocyte Esterase   
+
+
+ 
+
+
+Urine RBC   
+
+
+ 
+
+
+Urine WBC   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  [DATE_12] [DATE_12] [DATE_12]
+
+
+
+
+
+  17:02 22:58 22:58
+
+
+ 
+
+
+WBC   
+
+
+ 
+
+
+Hct   
+
+
+ 
+
+
+Neutrophils #   
+
+
+ 
+
+
+D-Dimer   
+
+
+ 
+
+
+Sodium   134 L 
+
+
+ 
+
+
+Chloride   111 H 
+
+
+ 
+
+
+Carbon Dioxide   16 L 
+
+
+ 
+
+
+BUN   32 H 
+
+
+ 
+
+
+Creatinine   1.06 H 
+
+
+ 
+
+
+Glucose   124 H 
+
+
+ 
+
+
+POC Glucose (mg/dL)  104 H  
+
+
+ 
+
+
+Calcium   7.7 L 
+
+
+ 
+
+
+Troponin I    0.036 H*
+
+
+ 
+
+
+Total Protein   5.0 L 
+
+
+ 
+
+
+Albumin   2.6 L 
+
+
+ 
+
+
+Triglycerides   
+
+
+ 
+
+
+HDL Cholesterol   
+
+
+ 
+
+
+Urine Appearance   
+
+
+ 
+
+
+Urine Protein   
+
+
+ 
+
+
+Urine Glucose (UA)   
+
+
+ 
+
+
+Urine Blood   
+
+
+ 
+
+
+Ur Leukocyte Esterase   
+
+
+ 
+
+
+Urine RBC   
+
+
+ 
+
+
+Urine WBC   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  [DATE_9] [DATE_9] [DATE_9]
+
+
+
+
+
+  07:00 08:39 08:39
+
+
+ 
+
+
+WBC   
+
+
+ 
+
+
+Hct   
+
+
+ 
+
+
+Neutrophils #   
+
+
+ 
+
+
+D-Dimer   
+
+
+ 
+
+
+Sodium   
+
+
+ 
+
+
+Chloride   
+
+
+ 
+
+
+Carbon Dioxide   
+
+
+ 
+
+
+BUN   
+
+
+ 
+
+
+Creatinine   
+
+
+ 
+
+
+Glucose   
+
+
+ 
+
+
+POC Glucose (mg/dL)  109 H  
+
+
+ 
+
+
+Calcium   
+
+
+ 
+
+
+Troponin I   0.037 H* 
+
+
+ 
+
+
+Total Protein   
+
+
+ 
+
+
+Albumin   
+
+
+ 
+
+
+Triglycerides    168.00 H
+
+
+ 
+
+
+HDL Cholesterol    23.70 L
+
+
+ 
+
+
+Urine Appearance   
+
+
+ 
+
+
+Urine Protein   
+
+
+ 
+
+
+Urine Glucose (UA)   
+
+
+ 
+
+
+Urine Blood   
+
+
+ 
+
+
+Ur Leukocyte Esterase   
+
+
+ 
+
+
+Urine RBC   
+
+
+ 
+
+
+Urine WBC   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  [DATE_9] [DATE_9] [DATE_9]
+
+
+
+
+
+  13:22 13:42 17:26
+
+
+ 
+
+
+WBC   
+
+
+ 
+
+
+Hct   
+
+
+ 
+
+
+Neutrophils #   
+
+
+ 
+
+
+D-Dimer  27.05 H  
+
+
+ 
+
+
+Sodium   136 L 
+
+
+ 
+
+
+Chloride   109 H 
+
+
+ 
+
+
+Carbon Dioxide   18 L 
+
+
+ 
+
+
+BUN   24 H 
+
+
+ 
+
+
+Creatinine   
+
+
+ 
+
+
+Glucose   142 H 
+
+
+ 
+
+
+POC Glucose (mg/dL)    177 H
+
+
+ 
+
+
+Calcium   8.0 L 
+
+
+ 
+
+
+Troponin I   
+
+
+ 
+
+
+Total Protein   
+
+
+ 
+
+
+Albumin   
+
+
+ 
+
+
+Triglycerides   
+
+
+ 
+
+
+HDL Cholesterol   
+
+
+ 
+
+
+Urine Appearance   
+
+
+ 
+
+
+Urine Protein   
+
+
+ 
+
+
+Urine Glucose (UA)   
+
+
+ 
+
+
+Urine Blood   
+
+
+ 
+
+
+Ur Leukocyte Esterase   
+
+
+ 
+
+
+Urine RBC   
+
+
+ 
+
+
+Urine WBC   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  [DATE_9] [DATE_1] [DATE_1]
+
+
+
+
+
+  19:54 05:57 07:01
+
+
+ 
+
+
+WBC   
+
+
+ 
+
+
+Hct   
+
+
+ 
+
+
+Neutrophils #   
+
+
+ 
+
+
+D-Dimer   
+
+
+ 
+
+
+Sodium   136 L 
+
+
+ 
+
+
+Chloride   
+
+
+ 
+
+
+Carbon Dioxide   21 L 
+
+
+ 
+
+
+BUN   22 H 
+
+
+ 
+
+
+Creatinine   
+
+
+ 
+
+
+Glucose   276 H 
+
+
+ 
+
+
+POC Glucose (mg/dL)  154 H   284 H
+
+
+ 
+
+
+Calcium   7.9 L 
+
+
+ 
+
+
+Troponin I   
+
+
+ 
+
+
+Total Protein   
+
+
+ 
+
+
+Albumin   
+
+
+ 
+
+
+Triglycerides   
+
+
+ 
+
+
+HDL Cholesterol   
+
+
+ 
+
+
+Urine Appearance   
+
+
+ 
+
+
+Urine Protein   
+
+
+ 
+
+
+Urine Glucose (UA)   
+
+
+ 
+
+
+Urine Blood   
+
+
+ 
+
+
+Ur Leukocyte Esterase   
+
+
+ 
+
+
+Urine RBC   
+
+
+ 
+
+
+Urine WBC   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- Diagnostic Findings
+
+
+Chest x-ray: report reviewed, image reviewed
+
+
+CT scan - chest: report reviewed, image reviewed
+
+
+
+
+
+Assessment and Plan
+
+
+Plan: 
+
+
+ Assessment:
+
+
+
+
+
+#1.  Shortness of breath, appears to be due to acute exacerbation of diastolic 
+
+heart failure.  COVID-19 PCR was negative, CTA chest showed nonspecific pattern 
+
+of tree-in-bud appearance, and bilateral right greater than left pleural 
+
+effusions.  No acute pulmonary embolism
+
+
+
+
+
+#2.  Acute hydronephrosis, with right-sided hydronephrosis and obstructing 9 mm 
+
+renal stone, status post cystoscopy with placement of a double-J catheter on 
+
+[DATE_3]
+
+
+
+
+
+#3.  Acute urinary tract infection related to the above, patient has been on 
+
+Rocephin, urine culture is showing Candida glabrata
+
+
+
+
+
+#4.  Previous history of kidney stones
+
+
+
+
+
+#5.  Nonsmoker
+
+
+
+
+
+#6.  Diabetes mellitus type 2
+
+
+
+
+
+#7.  Hypertension
+
+
+
+
+
+#8.  GERD/reflux
+
+
+
+
+
+#9.  Elevated d-dimer with no CT evidence of pulmonary embolism
+
+
+
+
+
+#10.  Osteoarthritis
+
+
+
+
+
+#11.  Depression
+
+
+
+
+
+Plan:
+
+
+
+
+
+Continue diuretics
+
+
+Chest x-ray, CTA chest reviewed
+
+
+More consistent with fluid overload, no evidence of PE, there is a nonspecific 
+
+pattern of tree-in-bud appearance
+
+
+No clear evidence of pneumonia
+
+
+Patient has already been covered with antibiotics for acute pyelonephritis
+
+
+Send procalcitonin level
+
+
+We will follow
+
+
+
+
+
+I performed a history & physical examination of the patient and discussed their 
+
+management with my nurse practitioner, [NAME_3].  I reviewed the nurse 
+
+practitioner's note and agree with the documented findings and plan of care.  
+
+Lung sounds are positive for clear breath sounds throughout the lung fields.  
+
+The findings and the impression was discussed with the patient.  I attest to the
+
+documentation by the nurse practitioner. 
+
+
+
+
+
+Time with Patient: Greater than 30"
+9760a7ba615086c9632183ca50b6b7f51e3f424f9d8ac97edac50e09283a0a6e,b771025c73beb15d0b483b8e3f6be44e2ca57eb1d82051b7f4b57ee0f40c8a7d,d5a0536916f20683fd56d59112806636a4e8ff036663c2fd624bb774c2d3952c,"SMC IMHU Progress Note
+
+
+Progress Note
+
+
+DATE OF SERVICE: [DATE_1]
+
+
+
+
+
+HISTORY: She is a [AGE_1]-year-old Caucasian female, married, living with
+
+
+her husband, their own house. Was brought to the emergency room (ER) for
+
+
+suicidal thoughts. 
+
+
+
+
+
+HISTORY OF PRESENT ILLNESS:  Patient spoke to her RN at River Wellness at River
+
+
+Hospital that she was depressed and she wanted to end her life. She was brought
+
+
+by the police. Patient reports that she has been going through a lot with her
+
+
+husband. He has been diagnosed with Alzheimer's at Veteran's Administration
+
+
+(VA), and he has been very angry and has been abusing her. The day she was
+
+
+brought here patient reports he was beating her in the front yard. This has
+
+
+happened several times. Her daughters had asked her to take a picture of it and
+
+
+send it to them, which she has done. Her husband and his daughter, they acute
+
+
+her of adult care abuse. Patient recently has stopped taking her medications
+
+
+also. The main reason was the medication was making her cloudy. Reports she
+
+
+wanted to be clear in her thoughts, as she was foreseeing a lot of legal issues
+
+
+with her husband. Reports the police came to her house at least nine times. She
+
+
+has been diagnosed with bipolar disorder, currently depressed, decreased sleep,
+
+
+poor appetite, tearfulness, guilt feeling, poor concentration, and suicidal
+
+
+thoughts and plan to overdose on pills. Patient reports she had been diagnosed
+
+
+with bipolar disorder about 20 years ago. She has a history of hypomanic
+
+
+episodes. 
+
+
+
+
+
+Interval report; patient is cooperative, reports she is less depressed, 
+
+continues to have suicidal thoughts
+
+
+
+
+
+VITAL SIGNS: See below.
+
+
+
+
+
+
+
+
+
+
+
+CURRENT MEDICATIONS: See below.
+
+
+
+
+
+MENTAL STATUS EXAMINATION:
+
+
+She is a [AGE_1]-year-old female who is thin built, cooperative made good eye 
+
+contact, psychomotor activity is normal, mood is depressed ,affect is labile, 
+
+thought process linear goal-directed, thought content continues to have suicidal
+
+thoughts with vague plans, however she reports she is less depressed, denied any
+
+delusions, memory immediate remote recent are good, he is oriented to time place
+
+and person.
+
+
+DIAGNOSES:
+
+
+1.  Bipolar 1 disorder depressed
+
+
+
+
+
+ 
+
+
+ASSESSMENT: Patient shows some improvement however continues to have suicidal 
+
+thoughts, no side effect of the medication
+
+
+
+
+
+MANAGEMENT PLAN: Continue current treatment
+
+
+
+
+
+TIME SPENT: 15 minutes
+
+
+
+
+
+Vital Signs
+
+
+
+
+
+Vital Signs
+
+
+
+
+
+
+
+
+  Date Time  Temp Pulse Resp B/P (MAP) Pulse Ox O2 Delivery O2 Flow Rate FiO2
+
+
+ 
+
+
+[DATE_1] 09:33  53  127/72    
+
+
+ 
+
+
+[DATE_1] 08:30      Room Air  
+
+
+ 
+
+
+[DATE_1] 07:31 98.3  18  99   
+
+
+
+
+
+
+
+
+
+
+
+Current Medications
+
+
+
+
+
+Current Medications
+
+
+
+
+
+
+
+
+ Medications
+
+
+  (Trade)  Dose
+
+
+ Ordered  Sig/Sch
+
+
+ Route
+
+
+ PRN Reason  Start Time
+
+
+ Stop Time Status Last Admin
+
+
+Dose Admin
+
+
+ 
+
+
+ Acetaminophen
+
+
+  (Tylenol Tab)  650 mg  Q6HP  PRN
+
+
+ PO
+
+
+ HEADACHE or MILD DISCOMFORT  [DATE_2] 14:55
+
+
+     
+
+
+
+
+
+ 
+
+
+ Al Hydrox/Mg
+
+
+ Hydrox/Simethicone
+
+
+  (Mylanta)  30 ml  Q4HP  PRN
+
+
+ PO
+
+
+ HEARTBURN/INDIGESTION  [DATE_2] 14:55
+
+
+     
+
+
+
+
+
+ 
+
+
+ Cetirizine HCl
+
+
+  (ZyrTEC)  10 mg  DAILY
+
+
+ PO
+
+
+   [DATE_3] 09:00
+
+
+    [DATE_1] 09:35
+
+
+
+
+
+ 
+
+
+ Clonazepam
+
+
+  (KlonoPIN)  1 mg  TID
+
+
+ PO
+
+
+   [DATE_2] 21:00
+
+
+    [DATE_1] 09:34
+
+
+
+
+
+ 
+
+
+ Clonazepam
+
+
+  (KlonoPIN)  1 mg  TID  PRN
+
+
+ PO
+
+
+ anxiety  [DATE_2] 08:20
+
+
+ [DATE_2] 18:29 DC  
+
+
+
+
+
+ 
+
+
+ Fluticasone
+
+
+ Propionate
+
+
+  (Flonase 0.05%
+
+
+ Nasal Spray)  1 spray  BID
+
+
+ NA
+
+
+   [DATE_2] 21:00
+
+
+    [DATE_1] 09:33
+
+
+
+
+
+ 
+
+
+ Folic Acid
+
+
+  (Folic Acid)  1 mg  DAILY
+
+
+ PO
+
+
+   [DATE_3] 09:00
+
+
+    [DATE_1] 09:35
+
+
+
+
+
+ 
+
+
+ Home Med
+
+
+  (Home Med List
+
+
+ Complete!)    ASDIRECTED
+
+
+ XX
+
+
+   [DATE_2] 07:55
+
+
+ [DATE_2] 07:57 DC  
+
+
+
+
+
+ 
+
+
+ Hydrochlorothiazide
+
+
+  (Hydrodiuril)  25 mg  QAM
+
+
+ PO
+
+
+   [DATE_2] 09:00
+
+
+ [DATE_2] 18:52 DC [DATE_2] 09:55
+
+
+
+
+
+ 
+
+
+ Hydrochlorothiazide
+
+
+  (Hydrodiuril)  25 mg  QAM
+
+
+ PO
+
+
+   [DATE_3] 09:00
+
+
+    [DATE_1] 09:35
+
+
+
+
+
+ 
+
+
+ Ibuprofen
+
+
+  (Advil)  400 mg  Q6HP  PRN
+
+
+ PO
+
+
+ moderate pain  [DATE_3] 19:00
+
+
+     
+
+
+
+
+
+ 
+
+
+ Lidocaine
+
+
+  (Lidoderm Patch)  1 patch  DAILY@2100
+
+
+ TD
+
+
+   [DATE_3] 21:00
+
+
+    [DATE_3] 22:46
+
+
+
+
+
+ 
+
+
+ Lithium Carbonate
+
+
+  (Lithium
+
+
+ Carbonate)  300 mg  BID
+
+
+ PO
+
+
+   [DATE_3] 21:00
+
+
+    [DATE_1] 09:36
+
+
+
+
+
+ 
+
+
+ Lithium Carbonate
+
+
+  (Lithium
+
+
+ Carbonate)  300 mg  DAILY
+
+
+ PO
+
+
+   [DATE_3] 09:00
+
+
+ [DATE_3] 12:44 DC [DATE_3] 09:13
+
+
+
+
+
+ 
+
+
+ Magnesium
+
+
+ Hydroxide
+
+
+  (Milk Of
+
+
+ Magnesia)  30 ml  DAILYPRN  PRN
+
+
+ PO
+
+
+ CONSTIPATION  [DATE_2] 14:55
+
+
+     
+
+
+
+
+
+ 
+
+
+ Non-Formulary
+
+
+ Medication
+
+
+  (** See Comment
+
+
+ Field Below **)  REMOVE
+
+
+ LIDODERM
+
+
+ PATCH  DAILY
+
+
+ XX
+
+
+   [DATE_1] 09:00
+
+
+    [DATE_1] 09:00
+
+
+
+
+
+ 
+
+
+ Promethazine HCl
+
+
+  (Phenergan)  25 mg  DAILY  PRN
+
+
+ PO
+
+
+ NAUSEA  [DATE_2] 18:30
+
+
+     
+
+
+
+
+
+ 
+
+
+ Propranolol HCl
+
+
+  (Inderal)  80 mg  DAILY
+
+
+ PO
+
+
+   [DATE_2] 09:00
+
+
+ [DATE_2] 18:52 DC [DATE_2] 09:56
+
+
+
+
+
+ 
+
+
+ Propranolol HCl
+
+
+  (Inderal)  80 mg  DAILY
+
+
+ PO
+
+
+   [DATE_3] 09:00
+
+
+    [DATE_1] 09:33
+
+
+
+
+
+ 
+
+
+ Ropinirole HCl
+
+
+  (Requip)  0.5 mg  TID
+
+
+ PO
+
+
+   [DATE_3] 16:00
+
+
+    [DATE_1] 09:34
+
+
+
+
+
+ 
+
+
+ Ropinirole HCl
+
+
+  (Requip)  1 mg  TID
+
+
+ PO
+
+
+   [DATE_2] 09:00
+
+
+ [DATE_2] 15:03 DC [DATE_2] 09:57
+
+
+
+
+
+ 
+
+
+ Trazodone HCl
+
+
+  (Desyrel)  50 mg  QHSP  PRN
+
+
+ PO
+
+
+ INSOMNIA  [DATE_2] 14:55
+
+
+    [DATE_3] 00:42
+
+
+
+
+
+ 
+
+
+ Venlafaxine HCl
+
+
+  (Effexor **Xr**)  75 mg  BID
+
+
+ PO
+
+
+   [DATE_3] 21:00
+
+
+    [DATE_1] 09:35
+
+
+
+
+
+ 
+
+
+ Venlafaxine HCl
+
+
+  (Effexor **Xr**)  75 mg  DAILY
+
+
+ PO
+
+
+   [DATE_3] 09:00
+
+
+ [DATE_3] 12:44 DC [DATE_3] 09:13
+
+
+
+
+
+ 
+
+
+ Venlafaxine HCl
+
+
+  (Effexor **Xr**)  225 mg  DAILY
+
+
+ PO
+
+
+   [DATE_2] 09:00
+
+
+ [DATE_2] 18:55 DC [DATE_2] 09:56
+
+
+
+
+
+ 
+
+
+ Zolpidem Tartrate
+
+
+  (Ambien)  10 mg  QHS
+
+
+ PO
+
+
+   [DATE_2] 21:00
+
+
+    [DATE_3] 22:45
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Allergies
+
+
+Coded Allergies:  
+
+
+     diphenhydramine (Verified  Allergy, Unknown, [DATE_2])
+
+
+
+
+
+
+
+
+
+
+
+[NAME_1] MD           [DATE_4] 15:35"
+9760a7ba615086c9632183ca50b6b7f51e3f424f9d8ac97edac50e09283a0a6e,1a776b9353c1d406c0708a109c86c1d512a9633a5d9df7b682fb752c8e152557,0880292d86f3b4e6c0614aff8d96226614b4bfe002c683c3838017ee3cdbedc5,"Continuity of Care Document (CCD)
+
+                             Created on: [DATE_1]
+
+
+
+[NAME_1]
+
+External Reference #: MRN.4595.de58c6d6-20e2-4b5c-8825-de682b8e011a
+
+DOB: [DOB_1]
+
+Sex: Male
+
+
+
+Demographics
+
+
+
+
+
+                          Address                   28 Antwerp Street
+
+Philadelphia, NY  13673
+
+ 
+
+                          Home Phone                [PHONE_NUMBER_1]
+
+ 
+
+                          Preferred Language        Unknown
+
+ 
+
+                          Marital Status            Unknown
+
+ 
+
+                          Religious Affiliation     Unknown
+
+ 
+
+                          Race                      White
+
+ 
+
+                          Ethnic Group              Not Hispanic or Latino
+
+
+
+
+
+Author
+
+
+
+
+
+                          Author                    [NAME_2] M.D.
+
+ 
+
+                          Organization              Unknown
+
+ 
+
+                          Address                   53-59 Public SQ Ste 301
+
+Watertown, NY  13601-2695
+
+
+
+ 
+
+                          Phone                     [PHONE_NUMBER_2]
+
+
+
+
+
+
+
+Care Team Providers
+
+
+
+
+
+                    Care Team Member Name Role                Phone
+
+ 
+
+                    [NAME_3] MD   AUTM                [PHONE_NUMBER_2]
+
+ 
+
+                    [NAME_4] MD AUTM                [PHONE_NUMBER_3]
+
+
+
+
+
+
+
+Problems
+
+
+
+
+
+                    Active Problems     Provider            Date
+
+ 
+
+                    Degenerative joint disease involving multiple joints        
+
+             Onset: [DATE_2]
+
+ 
+
+                    Esophageal reflux finding                     Onset: [DATE_3]
+
+011
+
+ 
+
+                    Anemia                                  Onset: [DATE_4]
+
+ 
+
+                    Hyperlipidemia                          Onset: [DATE_5]
+
+ 
+
+                    Depressive disorder                     Onset: [DATE_6]
+
+ 
+
+                    Benign essential hypertension                     Onset: [DATE_7]
+
+ 
+
+                    Type 2 diabetes mellitus [NAME_5], D.O. Onset: 0
+
+[DATE_8]
+
+ 
+
+                    Cellulitis of toe   [NAME_6], M.D. Onset: [DATE_9]
+
+
+
+
+
+
+
+Social History
+
+
+
+
+
+                Type            Date            Description     Comments
+
+ 
+
+                Birth Sex                       Unknown          
+
+ 
+
+                ETOH Use                        Rarely consumes alcohol  
+
+ 
+
+                Tobacco Use     Start: Unknown  Patient has never smoked  
+
+
+
+
+
+
+
+Allergies, Adverse Reactions, Alerts
+
+
+
+
+
+                                        Description
+
+ 
+
+                                        No Known Drug Allergies
+
+
+
+
+
+
+
+Medications
+
+
+
+
+
+           Active Medications SIG        Qnty       Indications Ordering Provide
+
+r Date
+
+ 
+
+                          Doxycycline Hyclate                     100mg Tablets 
+
+                  two 
+
+tablets with food once 2tabs                           [NAME_6], M.D. [DATE_10]
+
+[DATE_11]
+
+ 
+
+                                        Humalog Kwikpen                     100U
+
+nit/ML Solution Pen-Inject              
+
+             give per sliding scale 15ml                      [NAME_6], M.
+
+D. [DATE_12]
+
+ 
+
+                                        Ozempic (0.25 Or 0.5 MG/Dose)           
+
+          2mg/1.5ML Solution Pen-Inject 
+
+                 0.5 mg inject weekly 6.0ml                     [NAME_6], 
+
+M.D. [DATE_13]
+
+ 
+
+                          Lipitor                     10mg Tablets              
+
+     1 by mouth every 
+
+evening         90tabs                          [NAME_6], M.D. [DATE_14]
+
+ 
+
+                                        1St Tier Unifine Pentips 33GX4MM        
+
+             33G X 4 mm Misc            
+
+             use as directed 100units                  [NAME_7], ANP [DATE_15]
+
+[DATE_16]
+
+ 
+
+                                        Fluticasone Propionate                  
+
+   50mcg/Act Suspension                 
+
+             2 sprays each nostril daily                           [NAME_8], M.D. [DATE_17]
+
+ 
+
+                          Glimepiride                     2mg Tablets           
+
+        take 1 tablet by 
+
+mouth twice daily - before breakfast and dinner 180tabs                         
+
+[NAME_6], M.D. 
+
+[DATE_18]
+
+ 
+
+                                        Lantus Solostar                     100U
+
+nit/ML Solution Pen-Inject              
+
+             inject 80 units at at bedtime sq 1box                      [NAME_9], M.D. [DATE_19]
+
+ 
+
+                          Hydrochlorothiazide                     25mg Tablets  
+
+                 1 by 
+
+mouth every day 90tabs                          [NAME_6], M.D. [DATE_20]
+
+ 
+
+                          Aspirin                     81mg Tablets DR           
+
+        1 by mouth every 
+
+day                                             [NAME_6], M.D. [DATE_20]
+
+ 
+
+                          Onetouch Basic System                     W/Device Kit
+
+                   as 
+
+directed dx:e11.9 1units                          [NAME_6], M.D. [DATE_21]
+
+6
+
+ 
+
+                                        Onetouch Basic/Profile Test Strips      
+
+                Strips                  
+
+             test tid a day or as directed dx:e11.9 300units                  Ja
+
+[NAME_10], M.D. 
+
+[DATE_22]
+
+ 
+
+                          Onetouch Lancets                      Misc            
+
+       test tid a day dx: 
+
+e11.9           300units                        [NAME_6], M.D. [DATE_22]
+
+ 
+
+                    Cozaar                     50mg Tablets                   1 
+
+tablet po daily   
+
+90tabs                                  [NAME_6], M.D. [DATE_23]
+
+ 
+
+                          Wellbutrin SR                     150mg Tablets ER 12H
+
+R                   1 
+
+tablet, 2 times per day, 180tabs                         [NAME_6], M.D. 00
+
+/00/0000
+
+ 
+
+                          Omeprazole                     40mg Capsules DR       
+
+            1 capsule, 1 
+
+time per day,   90caps                          [NAME_6], M.D. 00/00/0000
+
+ 
+
+                          Metformin HCL                     1000mg Tablets      
+
+             one pill by 
+
+mouth every morning and 1 1/2 at suppertime 270tabs                         Jaso
+
+[NAME_11], M.D. 
+
+[DATE_24]
+
+ 
+
+                          Fluconazole                     100mg Tablets         
+
+          one tab by mouth
+
+                                                Unknown         [DATE_24]
+
+ 
+
+                          Administration Of Flu Vaccine                      Inj
+
+ection                    
+
+                                                Unknown         [DATE_24]
+
+
+
+
+
+
+
+Medications Administered in Office
+
+
+
+
+
+           Medication SIG        Qnty       Indications Ordering Provider Date
+
+ 
+
+                          Covid-19 vaccine, Unspecified                      Inj
+
+ection                    
+
+                                                Unknown         [DATE_25]
+
+ 
+
+                          Covid-19 vaccine, Unspecified                      Inj
+
+ection                    
+
+                                                Unknown         [DATE_26]
+
+ 
+
+                                        Immunization Adminstration,1 Vaccine/Tox
+
+oid                      Injection      
+
+                                                    [NAME_6], M.D. [DATE_27]
+
+020
+
+
+
+
+
+
+
+Immunizations
+
+
+
+
+
+             CPT Code     Status       Date         Vaccine      Lot #
+
+ 
+
+                90674           Given           [DATE_12]      Influenza Vaccin
+
+e Quadrivalent Preser/Antibiotic Free Im 
+
+Use                                     279832
+
+ 
+
+             90658        Given        [DATE_28]   Influenza Virus Vaccine  
+
+ 
+
+             90658        Given        [DATE_29]   Influenza Virus Vaccine  
+
+ 
+
+             90658        Given        [DATE_30]   Influenza Virus Vaccine  
+
+ 
+
+             90658        Given        [DATE_31]   Influenza Virus Vaccine  
+
+ 
+
+             90715        Given        [DATE_32]   Adacel- Tetanus Diphtheria P
+
+ertussis (Age[AGE_1])  
+
+
+
+
+
+
+
+Vital Signs
+
+
+
+
+
+                Date            Vital           Result          Comment
+
+ 
+
+                [DATE_1]  8:12am BP Systolic     152 mmHg        walked the st
+
+airs
+
+ 
+
+                    BP Diastolic        72 mmHg             walked the stairs
+
+ 
+
+                    Heart Rate          78 /min              
+
+ 
+
+                    Height              69 inches           5'9""
+
+ 
+
+                    Weight              246.00 lb            
+
+ 
+
+                    BMI (Body Mass Index) 36.3 kg/m2           
+
+ 
+
+                [DATE_33] 11:21am BP Systolic     132 mmHg         
+
+ 
+
+                    BP Diastolic        60 mmHg              
+
+ 
+
+                    Heart Rate          70 /min              
+
+ 
+
+                    Height              69 inches           5'9""
+
+ 
+
+                    Weight              247.00 lb            
+
+ 
+
+                    BMI (Body Mass Index) 36.5 kg/m2           
+
+
+
+
+
+
+
+Results
+
+
+
+
+
+        Test    Acquired Date Facility Test    Result  H/L     Range   Note
+
+ 
+
+                    Laboratory test finding [DATE_1]          Watertown Intern
+
+ists, pc
+
+Lab Director: Dr [NAME_12]
+
+Watertown, NY 13601
+
+           [PHONE_NUMBER_4] A1c        <pending>                         
+
+ 
+
+                    A1c                 [DATE_33]          Watertown Internists
+
+, pc
+
+Lab Director: Dr [NAME_12]
+
+Watertown, NY 13601
+
+           [PHONE_NUMBER_4] Hba1c      7.7 %      High       <5.7       1
+
+ 
+
+             Est Avg Glucose 174 mg/dL    High         60 - 110      
+
+ 
+
+                    Comprehensive Chem Profile [DATE_33]          Watertown Int
+
+ernists, pc
+
+Lab Director: Dr [NAME_12]
+
+Watertown, NY 13601
+
+           [PHONE_NUMBER_4] Glucose    74 mg/dL              74 - 99    2
+
+ 
+
+             BUN          18 mg/dL                  7 - 18        
+
+ 
+
+             Creatinine   1.1 mg/dL                 0.6 - 1.3     
+
+ 
+
+             Sodium       138 mEq/L                 136 - 145     
+
+ 
+
+             Potassium    3.3 mEq/L    Low          3.5 - 5.1     
+
+ 
+
+             Chloride     100 mEq/L                 98 - 107      
+
+ 
+
+             Carbon Dioxide 27 mEq/L                  21 - 32       
+
+ 
+
+             Calcium      9.0 mg/dL                 8.5 - 10.1    
+
+ 
+
+             Alk. Phosphatase 95 mg/dL                  46 - 116      
+
+ 
+
+             Total Bilirubin 0.4 mg/dL                 0.2 - 1.0     
+
+ 
+
+             Ast (Sgot)   27 U/L                    15 - 37       
+
+ 
+
+             Alt (SGPT)   41 U/L                    12 - 78       
+
+ 
+
+             Albumin      3.8 g/dL                  3.4 - 5.0     
+
+ 
+
+             Total Protein 7.2 g/dL                  6.4 - 8.2     
+
+ 
+
+             A/G Ratio    1.12 CALC                 1.00 - 1.90   
+
+ 
+
+             GFR Caucasian >= 60 mL/min              >60           
+
+ 
+
+             GFR African American >= 60 mL/min              >60          3
+
+ 
+
+                    Laboratory test finding [DATE_33]          Watertown Intern
+
+ists, pc
+
+Lab Director: Dr [NAME_12]
+
+Watertown, NY 13601
+
+           [PHONE_NUMBER_4] Thyroid Stimulating Hormone 1.55 uIU/mL            0.3
+
+6 - 3.74  
+
+ 
+
+                    Prothrombin Time/Inr [DATE_34]          Samaritan Medical C
+
+enter
+
+                                        830 WASHINGTON ST
+
+Watertown, NY 13601
+
+           [PHONE_NUMBER_5] Prothrombin Time 12.5 seconds Normal     12.5-14.3   
+
+ 
+
+             Inr          0.91         Normal                    4
+
+ 
+
+                    Basic Metabolic Profile [DATE_34]          Samaritan Medica
+
+l Center
+
+                                        830 WASHINGTON ST
+
+Watertown, NY 13601
+
+           [PHONE_NUMBER_5] Glucose, Fasting 278 mg/dL  High       70-100      
+
+ 
+
+             Blood Urea Nitrogen 14 mg/dL     Normal       7-18          
+
+ 
+
+             Creatinine For GFR 1.32 mg/dL   High         0.70-1.30     
+
+ 
+
+             Glomerular Filtration Rate 58.7         Normal       >49          5
+
+ 
+
+             Sodium Level 136 mEq/L    Normal       136-145       
+
+ 
+
+             Potassium Serum 3.6 mEq/L    Normal       3.5-5.1       
+
+ 
+
+             Chloride Level 100 mEq/L    Normal       98-107        
+
+ 
+
+             Carbon Dioxide Level 28 mEq/L     Normal       21-32         
+
+ 
+
+             Anion Gap    8 mEq/L      Normal       8-16          
+
+ 
+
+             Calcium Level 9.0 mg/dL    Normal       8.8-10.2      
+
+
+
+
+
+
+
+                          1                         Lab Result Notes:
+
+Pre-Diabetes   5.7 - 6.4 %
+
+Diabetes           = or > 6.5%
+
+
+
+ 
+
+                          2                         100-125 mg/dL     PRE-DIABET
+
+ES/FASTING
+
+>126 mg/dL          DIABETES/FASTING
+
+
+
+ 
+
+                          3                         CHRONIC KIDNEY DISEASE STAGI
+
+NG PER NKF
+
+
+
+STAGE I & II      GFR >= 60        NORMAL TO MILDLY DECREASED
+
+STAGE III          GFR 30-59          MODERATELY DECREASED
+
+STAGE IV           GFR 15-29         SEVERELY DECREASED
+
+STAGE V            GFR <15            VERY LITTLE GFR LEFT
+
+ESRD                 GFR <15            ON RRT
+
+
+
+ 
+
+                          4                         THERAPUTIC HUMAN INR VALUES
+
+INDICATIONS                      NORMAL RANGES
+
+PROPHYLAXIS/TREATMENT OF:
+
+VENOUS THROMBOSIS                2.0-3.0
+
+PULMONARY EMBOLISM               2.0-3.0
+
+PREVENTION OF SYSTEMIC EMBOLISM FROM:
+
+TISSUE HEART VALVES              2.0-3.0
+
+ACUTE MYOCARDIAL INFARCTION      2.0-3.0
+
+VALVULAR HEART DISEASE           2.0-3.0
+
+ATRIAL FIBRILLATION              2.0-3.0
+
+MECHANICAL VALVES(HIGH RISK)     2.5-3.5
+
+RECURRENT MYOCARDIAL INFARCTION  2.5-3.5
+
+
+
+ 
+
+                          5                         Units are mL/min/1.73 m2
+
+
+
+Chronic Kidney Disease Staging per NKF:
+
+
+
+Stage I & II   GFR >=60       Normal to Mildly Decreased
+
+Stage III      GFR 30-59      Moderately Decreased
+
+Stage IV       GFR 15-29      Severely Decreased
+
+Stage V        GFR <15        Very Little GFR Left
+
+ESRD           GFR <15 on RRT
+
+
+
+
+
+
+
+
+
+Procedures
+
+
+
+
+
+                Date            Code            Description     Status
+
+ 
+
+                [DATE_33]      99214           Office/Outpatient Established Mo
+
+d MDM 30-39 Min Completed
+
+ 
+
+                [DATE_35]      134395001       Diabetic Retinal Eye Exam Comple
+
+[NAME_13]
+
+ 
+
+                [DATE_36]      73761001        Colonoscopy     Completed
+
+
+
+
+
+
+
+Medical Devices
+
+
+
+
+
+                                        Description
+
+ 
+
+                                        No Information Available
+
+
+
+
+
+
+
+Encounters
+
+
+
+
+
+           Type       Date       Location   Provider   Dx         Diagnosis
+
+ 
+
+             Office Visit [DATE_33] 11:00a Watertown Internists, P.C. [NAME_14]. 
+
+[NAME_15], M.D. 
+
+E11.65                                  Type 2 diabetes mellitus with hyperglyce
+
+[NAME_16]
+
+ 
+
+                          E11.40                    Type 2 diabetes mellitus wit
+
+h diabetic neuropathy, unsp
+
+ 
+
+                          Z79.4                     Long term (current) use of i
+
+nsulin
+
+ 
+
+                          N40.1                     Benign prostatic hyperplasia
+
+ with lower urinary tract symp
+
+ 
+
+                          E78.5                     Hyperlipidemia, unspecified
+
+ 
+
+                          I10                       Essential (primary) hyperten
+
+sion
+
+ 
+
+                          M25.572                   Pain in left ankle and joint
+
+s of left foot
+
+ 
+
+                          G47.09                    Other insomnia
+
+ 
+
+                          Z91.14                    Patient's other noncomplianc
+
+e with medication regimen
+
+
+
+
+
+
+
+Assessments
+
+
+
+
+
+                Date            Code            Description     Provider
+
+ 
+
+                [DATE_33]      E11.65          Type 2 diabetes mellitus with hy
+
+perglycemia [NAME_6], 
+
+M.D.
+
+ 
+
+                    [DATE_33]          E11.40              Type 2 diabetes mell
+
+itus with diabetic neuropathy, unspecified
+
+                                        [NAME_6], M.D.
+
+ 
+
+                [DATE_33]      Z79.4           Long term (current) use of insul
+
+in [NAME_6], M.D.
+
+ 
+
+                [DATE_33]      N40.1           Benign prostatic hyperplasia wit
+
+h lower urinary tract symptoms 
+
+[NAME_6], M.D.
+
+ 
+
+                [DATE_33]      E78.5           Hyperlipidemia, unspecified Jaso
+
+[NAME_11], M.D.
+
+ 
+
+                [DATE_33]      I10             Essential (primary) hypertension
+
+ [NAME_6], M.D.
+
+ 
+
+                [DATE_33]      M25.572         Pain in left ankle and joints of
+
+ left foot [NAME_6], 
+
+M.D.
+
+ 
+
+                [DATE_33]      G47.09          Other insomnia  [NAME_6], 
+
+M.D.
+
+ 
+
+                [DATE_33]      Z91.14          Patient's other noncompliance wi
+
+th medication regimen [NAME_9], M.D.
+
+
+
+
+
+
+
+Plan of Treatment
+
+
+
+
+
+No Information Available
+
+
+
+Functional Status
+
+
+
+
+
+                                        Description
+
+ 
+
+                                        No Information Available
+
+
+
+
+
+
+
+Mental Status
+
+
+
+
+
+                                        Description
+
+ 
+
+                                        No Information Available
+
+
+
+
+
+
+
+Referrals
+
+
+
+
+
+                                        Description
+
+ 
+
+                                        No Information Available"
+9760a7ba615086c9632183ca50b6b7f51e3f424f9d8ac97edac50e09283a0a6e,f33bfa753d87b2268ecf99c7acffb67d9b128aecae33cf8e917d44719fdc83d7,7ac1fa6a3398d1338d7781e30634256dba3c9f526bcaf09497dfade4325377d2,"PROCEDURE INFORMATION: 
+
+Exam: XR Chest 
+
+Exam date and time: [DATE_1] 1:31 AM 
+
+Age: [AGE_1] years old 
+
+Clinical indication: Other: Tachycardia 
+
+
+
+TECHNIQUE: 
+
+Imaging protocol: XR of the chest. 
+
+Views: 1 view. 
+
+
+
+COMPARISON: 
+
+CT Chest without contrast [DATE_2] 3:12 PM 
+
+
+
+FINDINGS: 
+
+Lungs: No consolidation. 
+
+Pleural spaces: Unremarkable. No pleural effusion. No pneumothorax. 
+
+Heart/Mediastinum: Cardiac silhouette is magnified by portable technique. 
+
+Vasculature: Elongation of the thoracic aorta. 
+
+Diaphragm: Elevation of the right hemidiaphragm. 
+
+Bones/joints: Osteopenia. There are degenerative changes involving the 
+
+shoulders and spine. 
+
+
+
+IMPRESSION: 
+
+No acute cardiopulmonary process. 
+
+
+
+Electronically signed by: [NAME_1] On [DATE_3]  01:36:24 AM"
+910296d0011b8baeb029be76682fe56de0d5ce94d627def6938a17593adc8634,d806df8042421014aa3c8c4511453280f5076f87d810c92442d14c0d437ceaa3,c0187a26d1316b6884a91d6e3d6deec61b28a56ab09e3dba1fa0b62b578dd580,"EXAMINATION TYPE: FL guided pain mgmt statistic
+
+ 
+
+DATE OF EXAM: [DATE_1]
+
+ 
+
+HISTORY: Fluoroscopy  time
+
+ 
+
+7 seconds of fluoroscopy provided. 
+
+ 
+
+IMPRESSION:
+
+1. Fluoroscopy time."
+490aecf4e53f4c2c649af8cad26e63c55742cfb11fb37bd2bedbae551f1dbdcc,2e67d7f3a5ba2b7a5f23419ac923d72bf5efe78e0e77f14f8821c29b92f4eddb,e62b285b1c14a8aa1828313d9b748bf3090945257fd891e91d2a872c1f63c5b0,"-------------------------------------------------------------------------------
+
+            *** Note undone in EDM - [DATE_1] at 0147 by MEDCPK ***            
+
+-------------------------------------------------------------------------------
+
+PATIENT W C/O [DATE_2] BACK PAIN. PATIENT PROVIDED W HEATPAD AND EXTRA PILLOW FOR 
+RE-POSITIONING AND COMFORT."
+490aecf4e53f4c2c649af8cad26e63c55742cfb11fb37bd2bedbae551f1dbdcc,2e67d7f3a5ba2b7a5f23419ac923d72bf5efe78e0e77f14f8821c29b92f4eddb,e62b285b1c14a8aa1828313d9b748bf3090945257fd891e91d2a872c1f63c5b0,PT SPEAKING WITH DOCTOR ON IPAD TELEPSYCH
+24480f5c8f2ab178b2d0e4f6dadbb276e77affef9972917cf1b4aec3fa6cec46,b82bd3071fd19d34a1bd657ca521746355c07d782b073b172a7556992130e97e,75abd6393bc1d30fc30f51539d027cfdeec396c14aa842573aebd90609a89d6e,"Date of Admission:  [DATE_1]
+
+
+
+Chief Complaint:  Altered mental status.
+
+
+
+History Of Present Illness:  An [AGE_1]-year-old very pleasant female patient, who has had multiple prior 
+hospital admissions related to respiratory failure, recently was admitted to Woodlake Nursing Home.  
+The patient was using her noninvasive ventilator as suggested and her condition started to deteriorat
+e and details were discussed with family regarding her poor prognosis, worsening respiratory failure 
+problem, and options of hospice care were discussed with family and family did decide to put her on h
+ospice care.  The patient was still full code and with her deteriorating condition, she was sent to h
+ospital.  As I understand, family had not made a decision about DNR at nursing home, sent her to hosp
+ital with worsening condition with altered mental status and worsening respiratory failure problem.  
+After the patient arrived to the emergency room, she was placed on BiPAP and ER physician, Dr. [NAME_1]
+on communicated with the patient's son as well as the patient's husband and granddaughter, and he dis
+cussed code status and when he called, informed me that family has decided no intubation, no CPR, no 
+defibrillation and DNR order was written in the chart and the patient was admitted to the hospital.  
+I have communicated with the patient's granddaughter, who is contact family percent locally here as t
+he patient's son, lives out of town in Virginia.
+
+
+
+Allergies:  NO KNOWN ALLERGIES.
+
+
+
+Medications:  List reviewed.
+
+
+
+Review of Systems:
+
+Respiratory:  As mentioned above. 
+
+CNS:  As mentioned above.  All other systems unable to review as the patient is not able to answer an
+y questions at this point because of her current condition.
+
+
+
+Past Medical History:  Significant for COPD, TIA, type 2 diabetes mellitus, hypertension, hyperlipide
+mia, osteoarthritis at multiple sites, chronic respiratory failure with hypercapnia and hypoxia, usin
+g noninvasive ventilator, gastroesophageal reflux disease, chronic anemia, chronic constipation.
+
+
+
+Past Surgical History:  Cholecystectomy and hiatal hernia surgery.
+
+
+
+Family History:  Father had rheumatoid arthritis, unknown type of cancer.  Mother had coronary artery
+ disease and diabetes.  Brother had coronary artery disease and myocardial infarction.  Sister; hyper
+tension, diabetes, and coronary artery disease.
+
+
+
+Social History:  Prior history of smoking, not at present time.  Use of alcohol negative.
+
+
+
+Physical Examination:
+
+Vital Signs:  Temperature 97.3 this morning with pulse 58, respiratory rate 20, blood pressure was 88
+/43.  Height 5 feet 6 inches, weight 145 pounds. 
+
+General:  The patient is lying in bed, on BiPAP, not arousable to verbal or painful stimuli. 
+
+HEENT:  Head atraumatic, normocephalic.  Conjunctivae nonerythematous.  Sclerae white.  Mouth, no thr
+ush or edema noted.  Ears/Nose, no mass, lesion, discharge noted. 
+
+Neck:  Supple. No JVD, lymph nodes, bruit, thyromegaly noted. 
+
+Lungs:  Bilateral good equal air entry. Clear to auscultation. No rhonchi.  No rales. 
+
+Heart:  Normal heart sounds, no murmur or gallop. 
+
+Abdomen:  Soft, bowel sounds normal. No guarding, rigidity, tenderness, mass, hepatosplenomegaly, dis
+tention, or bruit noted. 
+
+Extremities:  No leg edema.  No calf tenderness. 
+
+Skin:  No rash, ulcer, cellulitis. 
+
+Lymphatics:  No lymph node enlargement in neck, supraclavicular, infraclavicular region. 
+
+Neuro:  No focal neurological deficit. 
+
+Chest:  Unremarkable. 
+
+External Genitalia:  Deferred. 
+
+Rectal:  Deferred. 
+
+CNS Exam:  The patient's detailed CNS exam not possible.  The patient is not responding to painful st
+imuli or verbal stimuli.
+
+
+
+Laboratory Data:  Yesterday; white count 14.1, hemoglobin 9.8, platelets 298.  This morning; white co
+unt 8.7, hemoglobin 8.3, platelets 266.  Yesterday chemistry; sodium 141, potassium 4.2, chloride 102
+, bicarb 38, BUN 23, creatinine 1.06, glucose 230.  Liver function tests unremarkable.  Troponin less
+ than 0.02.  ProBNP 1379.  This morning; sodium 140, potassium 5.5, chloride 101, bicarb 35, BUN 36, 
+creatinine 1.89, glucose 327.  ProBNP 2713.  Initial blood gas; pH 7.02, pCO2 162, pO2 77, saturation
+ 88% on 40% FiO2.  Repeat blood gas in the ER; pH 7.0, pCO2 170, pO2 81.3 on 45% FiO2.  INR 1.09.  Ur
+inalysis; 1+ protein, otherwise negative, trace leukocyte esterase.  COVID-19 test negative.  Chest x
+-ray, mild bilateral pulmonary opacities.
+
+
+
+Impression:  
+
+1.Chronic respiratory failure with hypoxia and hypercapnia, with acute exacerbation.
+
+2.Chronic diastolic heart failure.
+
+3.Chronic obstructive pulmonary disease.
+
+4.Anemia, chronic, unspecified.
+
+5.Hypertension.
+
+6.Type 2 diabetes mellitus.
+
+7.Hyperlipidemia.
+
+8.Rheumatoid arthritis.
+
+9.Osteoarthritis, multiple sites.
+
+10.Chronic steroid therapy.
+
+11.Diverticulosis.
+
+12.Gastroesophageal reflux disease.
+
+13.Metabolic encephalopathy.
+
+14.Acute kidney injury.
+
+15.Hyperkalemia.
+
+
+
+Plan:  We will go ahead and admit the patient to hospital for further evaluation and management of th
+is problem.  The patient was recently admitted to the hospital.  In the hospital, I had a detailed di
+scussion with the patient's granddaughter this morning regarding very poor prognosis.  The patient ha
+s had multiple prior hospital admissions and her condition now has deteriorated to the extent that he
+r life span is very limited in my opinion.  The patient's granddaughter understands that.  She has co
+mmunicated details with the patient's son who is in Virginia and he should be arriving here in town e
+ither today or tomorrow to visit her.  We did discuss about the options of hospice care to be done in
+ the hospital, but that will allow only limited number of days.  After that, we will have to decide d
+isposition whether she will be going back to nursing home with hospice or home with hospice and all t
+hese details, granddaughter will communicate with the patient's son and will have some communication 
+again tomorrow regarding this.  We will continue empiric antibiotic, IV steroid, IV fluid.  Diabetes 
+will be managed with sliding scale. Rhumatoid Artheritis will be managed with methotrexate 25 MG/ML 
+Auto-Injector.  Overall prognosis is poor and the patient is likely to expire in the near future.
+
+
+
+
+
+ACA/MODL
+
+DD:  [DATE_2] 05:28:54Voice ID:  878120"
+33d15aeb1cd3a80c7f79c565090479a3ef68aa3038ebc8c02ef50ce9cd01d80e,7b70da496b2cbb70455fedda7120fb799e4d8b62b2a655629f22dfa42ac10f6b,2947fc603d9ec0d18a0333dc5e3ba53a281f10365f5db155c948e5c7d09ddd18,"Progress Note: A&P    
+Assessment and Plan    
+(1) Cardiac arrest:     
+      Code(s):    
+I46.9 - Cardiac arrest, cause unspecified    
+      Status: Acute    
+      Assessment and Plan:     
+Patient had an asystolic and PEA arrest, no evidence of any torsade or   
+ventricular arrhythmias then or to date.    
+* No evidence of acute MI     
+* Taken off Sotalol, remains on metoprolol 25 mg p.o. q.12 hours.  No evidence   
+  of ventricular arrhythmias or QT prolongation to support Sotalol as etiology.    
+* Has COPD but does not appear to have significant CO2 retention     
+* No evidence of PE    
+* Hemodynamically stable since admission.    
+Continue supportive care.      
+    
+Patient remains critically ill with a poor prognosis.  Continue supportive care.  
+ Neurologic recovery of paramount importance    
+    
+(2) Elevated troponin I level:     
+      Code(s):    
+R77.8 - Other specified abnormalities of plasma proteins    
+      Status: Acute    
+      Assessment and Plan:     
+Type 2 MI secondary to cardiac arrest.  She did have some lateral ST depression   
+on admission but apparently cardiac catheterization in [DATE_INTERVAL_1] did not show any CAD.    
+    
+No changes today.  Off anticoagulation and aspirin due to epistaxis.  H&H stable  
+thus far.  Continue to monitor    
+    
+    
+(3) Paroxysmal atrial fibrillation:     
+      Code(s):    
+I48.0 - Paroxysmal atrial fibrillation    
+      Status: Acute    
+      Assessment and Plan:     
+History of paroxysmal AFib and atrial flutter, taking sotalol, with a AFib   
+ablation in [DATE_INTERVAL_2] in Florida.    
+Records have been requested     
+Currently in sinus rhythm with intermittent SVT off sotalol.    
+    
+    
+    
+    
+(4) Chronic anticoagulation:     
+      Code(s):    
+Z79.01 - Long term (current) use of anticoagulants    
+      Status: Acute    
+      Assessment and Plan:     
+Off Warfarin.    
+INR 1.0. Anticoagulation discontinued due to epistaxis.    
+    
+(5) Chronic kidney disease:     
+      Code(s):    
+N18.9 - Chronic kidney disease, unspecified    
+      Status: Acute    
+      Assessment and Plan:     
+Has history of stage IIIB kidney disease, presumably chronic, stable at present.    
+    
+    
+(6) COPD (chronic obstructive pulmonary disease):     
+      Code(s):    
+J44.9 - Chronic obstructive pulmonary disease, unspecified    
+      Status: Acute    
+      Assessment and Plan:     
+Apparently takes prednisone chronically at home.  May need ongoing steroids.    
+    
+    
+(7) Elevated LFTs:     
+      Code(s):    
+R79.89 - Other specified abnormal findings of blood chemistry    
+      Status: Acute    
+      Assessment and Plan:     
+Secondary to the cardiac arrest    
+    
+    
+(8) Acute respiratory failure with hypoxia:     
+      Code(s):    
+J96.01 - Acute respiratory failure with hypoxia    
+      Status: Acute    
+      Assessment and Plan:     
+On ventilator, FiO2 30%    
+    
+    
+(9) Myoclonic jerking:     
+      Code(s):    
+G25.3 - Myoclonus    
+      Status: Acute    
+      Assessment and Plan:     
+On Keppra.  May have anoxic encephalopathy.    
+Unfortunately no significant neurologic improvement.  Findings concerning for   
+significant anoxic injury.  Family wants to continue with full support at this   
+time.    
+    
+    
+Subjective    
+Date/time seen: Date of service:  [DATE_1]  13:20    
+    
+Interval history: Follow-up for Cardiac arrest, acute respiratory failure,   
+myoclonic jerks, elevated LFTs    
+    
+Date of service [DATE_2]:  Unfortunately, no significant or meaningful   
+improvement to this point.  Not responsive.    
+    
+Date of service [DATE_3]:  No changes.  Not responsive.  No arrhythmia    
+    
+Date of service [DATE_4]:  Still not responsive.  Heart rate and blood   
+pressure will increase with reduction of sedation.    
+    
+Date of service [DATE_5]: No significant changes.  Remains intubated and   
+sedated."
+e89e0c731164bfab07c738ddb88f0ad942024aa1b39c0c7a77ccf6babd0cece7,1fc7b6f196bfa7247318f534337f51dc693e31f0533a3128390c0e6efdabfcc4,92fed25106c01d034ef8d9cd0c35119ab2ddf88338ad3e6b94a344d14464f0b5,"- Therapy Status
+
+
+Vancomycin regimen day #: 3
+
+
+Therapy status: Trough subtherapeutic
+
+
+Basis for treatment: Culture result
+
+
+Treatment indication: 
+
+
+MRSA bacteremia
+
+
+
+
+
+Trough goal: 15-20
+
+
+
+
+
+- AKI Risk
+
+
+Risk level for Acute Kidney Injury: High
+
+
+Acute Kidney Injury risk factors: Goal trough >15, Total daily Vancomycin >4 
+
+grams
+
+
+
+
+
+- Monitoring and Recommendation
+
+
+Clinical response to treatment: 
+
+
+I&O Previous 24 hours
+
+
+
+
+
+
+
+
+
+
+
+ [DATE_1] [DATE_2] [DATE_3]
+
+
+
+
+
+ 23:59 23:59 23:59
+
+
+ 
+
+
+Intake Total 1140 4786.667 1260
+
+
+ 
+
+
+Output Total 201 1501 900
+
+
+ 
+
+
+Balance 939 3285.667 360
+
+
+
+
+
+
+
+
+Lab Results
+
+
+
+
+
+
+
+
+
+
+
+  [DATE_3] [DATE_2] [DATE_1]
+
+
+
+
+
+  06:05 05:58 13:02
+
+
+ 
+
+
+ESR    59 H
+
+
+ 
+
+
+BUN  16  13 
+
+
+ 
+
+
+Creatinine  0.7  0.7 
+
+
+ 
+
+
+Estimated GFR (MDRD)  116  116 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  [DATE_1]
+
+
+
+
+
+  13:02
+
+
+ 
+
+
+ESR 
+
+
+ 
+
+
+BUN  13
+
+
+ 
+
+
+Creatinine  0.8
+
+
+ 
+
+
+Estimated GFR (MDRD)  100
+
+
+
+
+
+
+
+
+Vancomycin Monitoring
+
+
+
+
+
+
+
+
+
+
+
+  [DATE_3]
+
+
+
+
+
+  13:07
+
+
+ 
+
+
+Vancomycin Trough  9.6 L
+
+
+
+
+
+
+
+
+                                                                        Cultures
+
+
+
+
+
+[DATE_1] 13:02   Blood - Right Iv-Start   Blood Culture - Preliminary
+
+
+                            Methicillin Resist S. Aureus
+
+
+[DATE_1] 13:02   Blood - Left Hand   Blood Culture - Preliminary
+
+
+                            Methicillin Resist S. Aureus
+
+
+
+
+
+
+
+
+Monitoring plan: Daily serum creatinine, Suggest ongoing fluid replacement
+
+
+Next trough due prior to maintenance dose #: 6
+
+
+Next trough due (date/time): [DATE_4] @ 1300
+
+
+Areas for additional monitoring: IV to PO when appropriate
+
+
+Pharmacy recommendation: Increase dose (Increasing total daily dose to 1.5 grams
+
+q8h; will schedule trough for next time pharmacy on site when closer to steady 
+
+state.)"
+067c3ed377d1eac5b6794b54cc2d22aa56daafd345cdf95290baec71ab96929d,2e45efd95b345a85a56a015cd25f5d2b94c15ce7f733ac4f2fa8e4f3e8a24ead,327ca1a9fd20fe7402326216be07fd3cb25e5506d8623d1ed2ca85257c283c2c,"CHEST 2 VIEWS 
+
+
+
+INDICATION:  Chest Pain.
+
+
+
+COMPARISON:  [DATE_1]
+
+
+
+FINDINGS:
+
+Support devices: None.
+
+
+
+Heart: Within normal limits. 
+
+Lungs/pleura: No acute air space or interstitial disease.  No pneumothorax.
+
+
+
+Additional findings: None.
+
+
+
+IMPRESSION:
+
+No acute findings.
+
+
+
+Signer Name: [NAME_1], MD 
+
+Signed: [DATE_2] 2:15 PM
+
+Workstation Name: SRGAPACSW03"
+b30c72423764d735f5403a70d1c8c51e78e2c6c34df322c8704c7dce75551cda,a87c519753aa94175c40d672f286fb2a395bb713304fa87d458b72c9947bfbcb,ccf7ad89823499de39eca5cf49a39ed2141b49b4578761ea6b6ca41bc2b07e7c,"TEAM HEALTH PROGRESS NOTE
+
+
+Date of Service
+
+
+DOS:
+
+
+DATE: [DATE_1] 
+
+
+TIME: 13:41
+
+
+
+
+
+Chief Complaint
+
+
+Chief Complaint
+
+
+Abdominal pain
+
+
+
+
+
+History of Present Illness
+
+
+History of Present Illness
+
+
+This patient was sent here for a ventral hernia repair which he underwent on 
+
+[DATE_2].  Patient under the care of general surgery team.  Patient had done
+
+really well after surgery initially she was actually planning to start trialing 
+
+liquids yesterday however she had some worsening in her overall status 
+
+concerning for sepsis.  She was hypotensive and tachycardic up to the 160s.  Her
+
+work-up showed A. fib with RVR requiring a Cardizem drip.  Was evaluated by Dr. 
+
+[NAME_1] who was concerned about her status recommending ICU transfer.  Infectious
+
+Disease and pulmonary were consulted.  Patient started on broad-spectrum 
+
+antibiotics.  Pulmonary following.
+
+
+
+
+
+[DATE_3]
+
+
+Patient evaluated in the ICU today.  Her condition has significantly improved 
+
+since last night.  She is awake alert and oriented able to answer questions says
+
+pain is under control.  Blood pressure holding steady.  Remains on Cardizem 
+
+drip.  Continue antibiotics today.  Suspect she can transfer out of ICU if beds 
+
+are needed.  Requesting to drink if she can, will defer this decision to 
+
+surgery.
+
+
+
+
+
+Vitals/I&O
+
+
+Vitals/I&O:
+
+
+
+
+
+                                   Vital Signs
+
+
+
+
+
+
+
+
+  Date Time  Temp Pulse Resp B/P (MAP) Pulse Ox O2 Delivery O2 Flow Rate FiO2
+
+
+ 
+
+
+[DATE_1] 12:00 97.4 84 21 113/41 (65) 93 Nasal Cannula 3.0 
+
+
+
+
+
+ 97.4       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    I & O   
+
+
+ 
+
+
+ [DATE_4] [DATE_4] [DATE_1]
+
+
+
+
+
+ 15:00 23:00 07:00
+
+
+ 
+
+
+Intake Total 0 ml 0 ml 0 ml
+
+
+ 
+
+
+Output Total 360 ml 60 ml 340 ml
+
+
+ 
+
+
+Balance -360 ml -60 ml -340 ml
+
+
+
+
+
+
+
+
+
+
+
+Physical Exam
+
+
+General:  Alert, Oriented X3, Cooperative, No acute distress
+
+
+Heart:  Other
+
+
+Lungs:  Clear (Tachycardic)
+
+
+Abdomen:  Soft, Other (dressing intact, drains serosang)
+
+
+Extremities:  No clubbing, No cyanosis
+
+
+Skin:  No rashes, No breakdown
+
+
+
+
+
+Labs
+
+
+Labs:
+
+
+
+
+
+Laboratory Tests
+
+
+
+
+
+
+
+
+Test
+
+
+ [DATE_4]
+
+
+20:09 [DATE_4]
+
+
+22:13 [DATE_1]
+
+
+07:40
+
+
+ 
+
+
+O2 Saturation 93 % (92-99)   
+
+
+ 
+
+
+Arterial Blood pH
+
+
+ 7.39
+
+
+(7.35-7.45) 
+
+
+ 
+
+
+
+
+
+ 
+
+
+Arterial Blood pCO2 at
+
+
+Patient Temp 26 mmHg
+
+
+(35-46) 
+
+
+ 
+
+
+
+
+
+ 
+
+
+Arterial Blood pO2 at Patient
+
+
+Temp 68 mmHg
+
+
+(65-108) 
+
+
+ 
+
+
+
+
+
+ 
+
+
+Arterial Blood HCO3
+
+
+ 15 mmol/L
+
+
+(21-28) 
+
+
+ 
+
+
+
+
+
+ 
+
+
+Arterial Blood Base Excess
+
+
+ -8 mmol/L
+
+
+(-3-3) 
+
+
+ 
+
+
+
+
+
+ 
+
+
+FiO2 32   
+
+
+ 
+
+
+Glucose (Fingerstick)
+
+
+ 
+
+
+ 99 mg/dL
+
+
+(70-99) 
+
+
+
+
+
+ 
+
+
+White Blood Count
+
+
+ 
+
+
+ 
+
+
+ 14.3 x10^3/uL
+
+
+(4.0-11.0)
+
+
+ 
+
+
+Red Blood Count
+
+
+ 
+
+
+ 
+
+
+ 3.29 x10^6/uL
+
+
+(3.50-5.40)
+
+
+ 
+
+
+Hemoglobin
+
+
+ 
+
+
+ 
+
+
+ 9.8 g/dL
+
+
+(12.0-15.5)
+
+
+ 
+
+
+Hematocrit
+
+
+ 
+
+
+ 
+
+
+ 29.5 %
+
+
+(36.0-47.0)
+
+
+ 
+
+
+Mean Corpuscular Volume   90 fL (79-100) 
+
+
+ 
+
+
+Mean Corpuscular Hemoglobin   30 pg (25-35) 
+
+
+ 
+
+
+Mean Corpuscular Hemoglobin
+
+
+Concent 
+
+
+ 
+
+
+ 33 g/dL
+
+
+(31-37)
+
+
+ 
+
+
+Red Cell Distribution Width
+
+
+ 
+
+
+ 
+
+
+ 15.3 %
+
+
+(11.5-14.5)
+
+
+ 
+
+
+Platelet Count
+
+
+ 
+
+
+ 
+
+
+ 224 x10^3/uL
+
+
+(140-400)
+
+
+ 
+
+
+Neutrophils (%) (Auto)   80 % (31-73) 
+
+
+ 
+
+
+Lymphocytes (%) (Auto)   8 % (24-48) 
+
+
+ 
+
+
+Monocytes (%) (Auto)   12 % (0-9) 
+
+
+ 
+
+
+Eosinophils (%) (Auto)   0 % (0-3) 
+
+
+ 
+
+
+Basophils (%) (Auto)   0 % (0-3) 
+
+
+ 
+
+
+Neutrophils # (Auto)
+
+
+ 
+
+
+ 
+
+
+ 11.4 x10^3/uL
+
+
+(1.8-7.7)
+
+
+ 
+
+
+Lymphocytes # (Auto)
+
+
+ 
+
+
+ 
+
+
+ 1.2 x10^3/uL
+
+
+(1.0-4.8)
+
+
+ 
+
+
+Monocytes # (Auto)
+
+
+ 
+
+
+ 
+
+
+ 1.6 x10^3/uL
+
+
+(0.0-1.1)
+
+
+ 
+
+
+Eosinophils # (Auto)
+
+
+ 
+
+
+ 
+
+
+ 0.0 x10^3/uL
+
+
+(0.0-0.7)
+
+
+ 
+
+
+Basophils # (Auto)
+
+
+ 
+
+
+ 
+
+
+ 0.0 x10^3/uL
+
+
+(0.0-0.2)
+
+
+ 
+
+
+Sodium Level
+
+
+ 
+
+
+ 
+
+
+ 132 mmol/L
+
+
+(136-145)
+
+
+ 
+
+
+Potassium Level
+
+
+ 
+
+
+ 
+
+
+ 3.5 mmol/L
+
+
+(3.5-5.1)
+
+
+ 
+
+
+Chloride Level
+
+
+ 
+
+
+ 
+
+
+ 100 mmol/L
+
+
+(98-107)
+
+
+ 
+
+
+Carbon Dioxide Level
+
+
+ 
+
+
+ 
+
+
+ 18 mmol/L
+
+
+(21-32)
+
+
+ 
+
+
+Anion Gap   14 (6-14) 
+
+
+ 
+
+
+Blood Urea Nitrogen
+
+
+ 
+
+
+ 
+
+
+ 31 mg/dL
+
+
+(7-20)
+
+
+ 
+
+
+Creatinine
+
+
+ 
+
+
+ 
+
+
+ 0.8 mg/dL
+
+
+(0.6-1.0)
+
+
+ 
+
+
+Estimated GFR
+
+
+(Cockcroft-Gault) 
+
+
+ 
+
+
+ 69.6 
+
+
+
+
+
+ 
+
+
+BUN/Creatinine Ratio   39 (6-20) 
+
+
+ 
+
+
+Glucose Level
+
+
+ 
+
+
+ 
+
+
+ 85 mg/dL
+
+
+(70-99)
+
+
+ 
+
+
+Lactic Acid Level
+
+
+ 
+
+
+ 
+
+
+ 1.2 mmol/L
+
+
+(0.4-2.0)
+
+
+ 
+
+
+Calcium Level
+
+
+ 
+
+
+ 
+
+
+ 6.7 mg/dL
+
+
+(8.5-10.1)
+
+
+ 
+
+
+Phosphorus Level
+
+
+ 
+
+
+ 
+
+
+ 2.1 mg/dL
+
+
+(2.6-4.7)
+
+
+ 
+
+
+Magnesium Level
+
+
+ 
+
+
+ 
+
+
+ 2.1 mg/dL
+
+
+(1.8-2.4)
+
+
+ 
+
+
+Total Bilirubin
+
+
+ 
+
+
+ 
+
+
+ 0.6 mg/dL
+
+
+(0.2-1.0)
+
+
+ 
+
+
+Aspartate Amino Transf
+
+
+(AST/SGOT) 
+
+
+ 
+
+
+ 35 U/L (15-37) 
+
+
+
+
+
+ 
+
+
+Alanine Aminotransferase
+
+
+(ALT/SGPT) 
+
+
+ 
+
+
+ 19 U/L (14-59) 
+
+
+
+
+
+ 
+
+
+Alkaline Phosphatase
+
+
+ 
+
+
+ 
+
+
+ 57 U/L
+
+
+(46-116)
+
+
+ 
+
+
+NT-Pro-B-Type Natriuretic
+
+
+Peptide 
+
+
+ 
+
+
+ 6407 pg/mL
+
+
+(0-449)
+
+
+ 
+
+
+Total Protein
+
+
+ 
+
+
+ 
+
+
+ 5.9 g/dL
+
+
+(6.4-8.2)
+
+
+ 
+
+
+Albumin
+
+
+ 
+
+
+ 
+
+
+ 1.8 g/dL
+
+
+(3.4-5.0)
+
+
+ 
+
+
+Albumin/Globulin Ratio   0.4 (1.0-1.7) 
+
+
+
+
+
+
+
+
+
+
+
+Assessment and Plan
+
+
+Assessmemt and Plan
+
+
+Sepsis status post large ventral hernia repair on [DATE_5], acute hypoxic 
+
+respiratory failure, interstitial lung disease, possible CHF
+
+
+
+
+
+-Patient notably improved from overnight
+
+
+-Continue antibiotics per infectious disease
+
+
+-Pulmonary following
+
+
+-General surgery primary team
+
+
+-Chest x-ray showing some fluid overload, cardiology already consulted for Afib 
+
+RVR overnight, may need gentle dose of Lasix
+
+
+-Can transfer out of ICU to CVC
+
+
+
+
+
+Comment
+
+
+Review of Relevant
+
+
+I have reviewed the following items mark (where applicable) has been applied.
+
+
+Medications:
+
+
+
+
+
+Current Medications
+
+
+
+
+
+
+
+
+ Medications
+
+
+  (Trade)  Dose
+
+
+ Ordered  Sig/Sch
+
+
+ Route
+
+
+ PRN Reason  Start Time
+
+
+ Stop Time Status Last Admin
+
+
+Dose Admin
+
+
+ 
+
+
+ Metoprolol
+
+
+ Tartrate
+
+
+  (Lopressor Vial)  5 mg  PRN Q5MIN  PRN
+
+
+ IVP
+
+
+ T[NAME_2]  [DATE_4] 20:15
+
+
+    [DATE_4] 20:46
+
+
+
+
+
+ 
+
+
+ Acetaminophen
+
+
+  (Tylenol)  1,000 mg  1X  ONCE
+
+
+ PO
+
+
+   [DATE_4] 20:15
+
+
+ [DATE_4] 20:16 DC [DATE_4] 20:24
+
+
+
+
+
+ 
+
+
+ Ipratropium
+
+
+ Bromide
+
+
+  (Atrovent)  0.5 mg  RTQID
+
+
+ NEB
+
+
+   [DATE_1] 08:00
+
+
+    [DATE_1] 11:00
+
+
+
+
+
+ 
+
+
+ Vancomycin HCl
+
+
+  (Vanco Per
+
+
+ Pharmacy)  1 each  PRN DAILY  PRN
+
+
+ MC
+
+
+ SEE COMMENTS  [DATE_4] 21:30
+
+
+ [DATE_1] 11:17 DC [DATE_1] 03:40
+
+
+
+
+
+ 
+
+
+ Cefepime HCl
+
+
+  (Maxipime)  1 gm  Q24H
+
+
+ IVP
+
+
+   [DATE_4] 22:00
+
+
+ [DATE_1] 11:18 DC [DATE_4] 23:10
+
+
+
+
+
+ 
+
+
+ Metronidazole  100 ml @ 
+
+
+ 100 mls/hr  Q12HR
+
+
+ IV
+
+
+   [DATE_4] 22:00
+
+
+    [DATE_1] 09:00
+
+
+
+
+
+ 
+
+
+ Diltiazem HCl 125
+
+
+ mg/Sodium Chloride  125 ml @ 5
+
+
+ mls/hr  CONT  PRN
+
+
+ IV
+
+
+ SEE I/O RECORD  [DATE_4] 21:30
+
+
+    [DATE_1] 01:00
+
+
+
+
+
+ 
+
+
+ Vancomycin HCl
+
+
+ 1.75 gm/Sodium
+
+
+ Chloride  500 ml @ 
+
+
+ 250 mls/hr  1X  ONCE
+
+
+ IV
+
+
+   [DATE_4] 22:00
+
+
+ [DATE_4] 23:59 DC [DATE_4] 23:00
+
+
+
+
+
+ 
+
+
+ Methylprednisolone
+
+
+ Sodium Succinate
+
+
+  (SOLU-Medrol
+
+
+ 40MG VIAL)  30 mg  DAILY
+
+
+ IV
+
+
+   [DATE_1] 09:00
+
+
+    [DATE_1] 09:30
+
+
+
+
+
+ 
+
+
+ Cefepime HCl
+
+
+  (Maxipime)  2 gm  Q12HR
+
+
+ IVP
+
+
+   [DATE_1] 12:00
+
+
+    [DATE_1] 12:21
+
+
+
+
+
+ 
+
+
+ Linezolid/Dextrose  300 ml @ 
+
+
+ 300 mls/hr  Q12HR
+
+
+ IV
+
+
+   [DATE_1] 12:00
+
+
+    [DATE_1] 12:22
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Justifications for Admission
+
+
+Other Justification
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[NAME_3] MD         [DATE_6] 13:56"
+63372bd1104c251e70ddd5fdcf7c51cb5b5966469b1ead4c1ca28414609fb40c,fe2e93508a3ae6e7f3820dd380c206550cd18f1fe09db46855cd359e322b94a2,265709ed9f6dfcbdea3e6922215fa73a7811f563f0abdfbc3ae0aa1d50e9ce09,"Indication: Status post fall.
+
+
+
+Multiple contiguous axial images obtained through the lumbar spine.  Sagittal
+
+and coronal reformatted images obtained.
+
+
+
+Impression: None
+
+
+
+Osseous structures demineralized consistent with patient's age.  Axial images
+
+negative for acute fracture, suspicious bony lesions, or spinal canal
+
+stenosis.  Minimal broad-based L2-L5 degenerative disc bulge and mild
+
+bilateral L5-S1 degenerative facet hypertrophy.  Sagittal and coronal
+
+reformatted images demonstrates normal alignment with vertebral body
+
+heights/disc spaces maintained.  No acute compression fracture or subluxation.
+
+
+
+Visualized noncontrasted soft tissues demonstrates mild aortoiliac
+
+calcifications and sigmoid diverticulosis.
+
+
+
+Impression:
+
+1.  Negative acute fracture/subluxation.
+
+2.  Osteopenia and multilevel degenerative changes.
+
+3.  Incidental arteriosclerotic calcifications and sigmoid diverticulosis."
+24480f5c8f2ab178b2d0e4f6dadbb276e77affef9972917cf1b4aec3fa6cec46,7338d6d6ce5e4dc3de329e11d382dadf744a724d537b27109901b6e2737d342d,bbfd1dba6591463c65d39a7b0ac425d86a0d5414193b94883f18c67002ee614c,"EXAM DESCRIPTION:  MRI - Abdomen Wo Cont - [DATE_1] 6:58 pm
+
+ 
+
+CLINICAL HISTORY:  Liver Lesion (see CT)
+
+ 
+
+COMPARISON:  No comparisons
+
+ 
+
+FINDINGS:  The lesion along segment 4 noted on the same-day CT is again identified and measures appro
+ximately 15 millimeters. There is loss of signal on the out of phase T1 consistent with intrahepatic 
+fat. The lesion is intermediate T2 hyperintensity. No contrast administered to evaluate for enhanceme
+nt. The vessels course through the lesion without appreciable mass effect which is more typical of a 
+benign process.
+
+ 
+
+Left-sided hydronephrosis again noted. Tiny right renal cyst. No pancreatic lesions identified. The s
+pleen is unremarkable. Visualized bowel is unremarkable.
+
+ 
+
+IMPRESSION:  Lesion along segment 4 of the liver with predominantly benign imaging features favored t
+o represent focal nodular steatosis. The mild T2 hyperintense signal and interval appearance since th
+e prior CTs, however, are suspicious enough that a 3 month follow-up CT or MRI is recommended."
+ec9618466657716b07a35dfedbe40915b4c5f80675bc7752d111fe4df9ed8fcf,43291553e584da7a5900728bec29c7e022bdcddf79a025516aeef57088f87de9,97802717feea4dea6943de4bf53f150cd7c616e9ad651854ddecdc2d72868647,"[NAME_1] was present during conversation with patient about suicide/hurting
+herself."
+2cb794e5c076688d6149b863441099ec43c905acc856fccd89b6fce0b387f620,b62e59e855ff5679d6ac3e03ef5dde2363252641a97f95b23a4b16c4fcbe0777,545b6e594071bc5a7242f561b4031fcb45e04f22569a5d731d1763834a7c1d9e,"REPORT GIVEN TO [NAME_1], RN."
+b30c72423764d735f5403a70d1c8c51e78e2c6c34df322c8704c7dce75551cda,5a22685d5bc587e87617efd83903c395322098512d22188f9a9b0e7d14690482,ee3defa34de42c00ea7769919711bb1ba96695a007bd4317dd72eab3cec41d1e,"TEAM HEALTH PROGRESS NOTE
+
+
+Date of Service
+
+
+DOS:
+
+
+DATE: [DATE_1] 
+
+
+TIME: 13:01
+
+
+
+
+
+Chief Complaint
+
+
+Chief Complaint
+
+
+Foot pain
+
+
+
+
+
+History of Present Illness
+
+
+History of Present Illness
+
+
+Patient is a [AGE_1]-year-old female with past medical history CHF, DM2, CAD, asthma,
+
+TIA, neuropathy, OSA, GERD, who presents to the ED presents from Delaware 
+
+Nursing Home for evaluation of ongoing left foot pain.  She initially presented 
+
+to the ED on [DATE_2] after a fall and found to have minimally displaced fractures 
+
+of the second, third, fourth, fifth metatarsals.  She was subsequently 
+
+discharged to her nursing home facility with pain medications and podiatry 
+
+referral.  She presents again last night for progressively worsening pain, not 
+
+controlled by her pain medication.  She also notes that she been having dif
+
+ficulty transferring from her wheelchair to her scooter.  Labs on admission 
+
+showed hemoglobin 11.6, hematocrit 35.0, albumin 3.0.  She was treated with 
+
+morphine in the ED.  Will admit patient for further medical management.
+
+
+
+
+
+[DATE_3]
+
+
+Patient with ongoing pain.  Otherwise no complaints.  Continue pain medication. 
+
+Pending podiatry evaluation.
+
+
+
+
+
+Vitals/I&O
+
+
+Vitals/I&O:
+
+
+
+
+
+                                   Vital Signs
+
+
+
+
+
+
+
+
+  Date Time  Temp Pulse Resp B/P (MAP) Pulse Ox O2 Delivery O2 Flow Rate FiO2
+
+
+ 
+
+
+[DATE_1] 10:54 98.4 74 20 120/63 (82) 94 Room Air  
+
+
+
+
+
+ 98.4       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    I & O   
+
+
+ 
+
+
+ [DATE_4] [DATE_4] [DATE_1]
+
+
+
+
+
+ 15:00 23:00 07:00
+
+
+ 
+
+
+Intake Total  1230 ml 
+
+
+ 
+
+
+Output Total  600 ml 750 ml
+
+
+ 
+
+
+Balance  630 ml -750 ml
+
+
+
+
+
+
+
+
+
+
+
+Physical Exam
+
+
+General:  Alert, Oriented X3, Cooperative
+
+
+Heart:  Regular rate, Normal S1, Normal S2
+
+
+Lungs:  Clear
+
+
+Abdomen:  Normal bowel sounds
+
+
+Extremities:  No edema, Normal pulses
+
+
+Skin:  No significant lesion
+
+
+
+
+
+Labs
+
+
+Labs:
+
+
+
+
+
+Laboratory Tests
+
+
+
+
+
+
+
+
+Test
+
+
+ [DATE_1]
+
+
+07:10 [DATE_1]
+
+
+11:05
+
+
+ 
+
+
+White Blood Count
+
+
+ 6.2 x10^3/uL
+
+
+(4.0-11.0) 
+
+
+
+
+
+ 
+
+
+Red Blood Count
+
+
+ 3.83 x10^6/uL
+
+
+(3.50-5.40) 
+
+
+
+
+
+ 
+
+
+Hemoglobin
+
+
+ 12.0 g/dL
+
+
+(12.0-15.5) 
+
+
+
+
+
+ 
+
+
+Hematocrit
+
+
+ 37.3 %
+
+
+(36.0-47.0) 
+
+
+
+
+
+ 
+
+
+Mean Corpuscular Volume 97 fL (79-100)  
+
+
+ 
+
+
+Mean Corpuscular Hemoglobin 31 pg (25-35)  
+
+
+ 
+
+
+Mean Corpuscular Hemoglobin
+
+
+Concent 32 g/dL
+
+
+(31-37) 
+
+
+
+
+
+ 
+
+
+Red Cell Distribution Width
+
+
+ 13.5 %
+
+
+(11.5-14.5) 
+
+
+
+
+
+ 
+
+
+Platelet Count
+
+
+ 195 x10^3/uL
+
+
+(140-400) 
+
+
+
+
+
+ 
+
+
+Neutrophils (%) (Auto) 45 % (31-73)  
+
+
+ 
+
+
+Lymphocytes (%) (Auto) 41 % (24-48)  
+
+
+ 
+
+
+Monocytes (%) (Auto) 11 % (0-9)  
+
+
+ 
+
+
+Eosinophils (%) (Auto) 3 % (0-3)  
+
+
+ 
+
+
+Basophils (%) (Auto) 1 % (0-3)  
+
+
+ 
+
+
+Neutrophils # (Auto)
+
+
+ 2.8 x10^3/uL
+
+
+(1.8-7.7) 
+
+
+
+
+
+ 
+
+
+Lymphocytes # (Auto)
+
+
+ 2.6 x10^3/uL
+
+
+(1.0-4.8) 
+
+
+
+
+
+ 
+
+
+Monocytes # (Auto)
+
+
+ 0.6 x10^3/uL
+
+
+(0.0-1.1) 
+
+
+
+
+
+ 
+
+
+Eosinophils # (Auto)
+
+
+ 0.2 x10^3/uL
+
+
+(0.0-0.7) 
+
+
+
+
+
+ 
+
+
+Basophils # (Auto)
+
+
+ 0.1 x10^3/uL
+
+
+(0.0-0.2) 
+
+
+
+
+
+ 
+
+
+Sodium Level
+
+
+ 138 mmol/L
+
+
+(136-145) 
+
+
+
+
+
+ 
+
+
+Potassium Level
+
+
+ 4.3 mmol/L
+
+
+(3.5-5.1) 
+
+
+
+
+
+ 
+
+
+Chloride Level
+
+
+ 104 mmol/L
+
+
+(98-107) 
+
+
+
+
+
+ 
+
+
+Carbon Dioxide Level
+
+
+ 25 mmol/L
+
+
+(21-32) 
+
+
+
+
+
+ 
+
+
+Anion Gap 9 (6-14)  
+
+
+ 
+
+
+Blood Urea Nitrogen
+
+
+ 15 mg/dL
+
+
+(7-20) 
+
+
+
+
+
+ 
+
+
+Creatinine
+
+
+ 1.0 mg/dL
+
+
+(0.6-1.0) 
+
+
+
+
+
+ 
+
+
+Estimated GFR
+
+
+(Cockcroft-Gault) 65.2 
+
+
+ 
+
+
+
+
+
+ 
+
+
+BUN/Creatinine Ratio 15 (6-20)  
+
+
+ 
+
+
+Glucose Level
+
+
+ 120 mg/dL
+
+
+(70-99) 
+
+
+
+
+
+ 
+
+
+Calcium Level
+
+
+ 9.8 mg/dL
+
+
+(8.5-10.1) 
+
+
+
+
+
+ 
+
+
+Total Bilirubin
+
+
+ 0.4 mg/dL
+
+
+(0.2-1.0) 
+
+
+
+
+
+ 
+
+
+Aspartate Amino Transf
+
+
+(AST/SGOT) 14 U/L (15-37) 
+
+
+ 
+
+
+
+
+
+ 
+
+
+Alanine Aminotransferase
+
+
+(ALT/SGPT) 14 U/L (14-59) 
+
+
+ 
+
+
+
+
+
+ 
+
+
+Alkaline Phosphatase
+
+
+ 71 U/L
+
+
+(46-116) 
+
+
+
+
+
+ 
+
+
+Total Protein
+
+
+ 6.9 g/dL
+
+
+(6.4-8.2) 
+
+
+
+
+
+ 
+
+
+Albumin
+
+
+ 2.8 g/dL
+
+
+(3.4-5.0) 
+
+
+
+
+
+ 
+
+
+Albumin/Globulin Ratio 0.7 (1.0-1.7)  
+
+
+ 
+
+
+SARS-CoV-2 Antigen (Rapid)
+
+
+ 
+
+
+ Negative
+
+
+(NEGATIVE)
+
+
+
+
+
+
+
+
+
+
+
+Assessment and Plan
+
+
+Assessmemt and Plan
+
+
+Problems
+
+
+Medical Problems:
+
+
+(1) Metatarsal fracture
+
+
+Status: Acute  
+
+
+
+
+
+(2) Metatarsal stress fracture of left foot
+
+
+Status: Acute  
+
+
+
+
+
+Assessment/Plan
+
+
+Intractable pain
+
+
+Minimally displaced fractures of the second, third, fourth, fifth metatarsals
+
+
+Normocytic anemia
+
+
+DM2
+
+
+CAD
+
+
+CHF
+
+
+Physical debility
+
+
+Morbid obesity
+
+
+Mild malnutrition
+
+
+
+
+
+Plan:
+
+
+Consultations has been placed to podiatry
+
+
+Provide pain management
+
+
+PT/OT
+
+
+Resume home medications
+
+
+FEN - Cardiac diet
+
+
+PPX  - Lovenox
+
+
+FULL CODE
+
+
+Dispo - inpatient for above
+
+
+Patient names her daughter ([NAME_1]) as surrogate decision-maker
+
+
+
+
+
+Comment
+
+
+Review of Relevant
+
+
+I have reviewed the following items mark (where applicable) has been applied.
+
+
+
+
+
+Justifications for Admission
+
+
+General Conditions
+
+
+Other justification for admit:  
+
+
+Intractable pain, left foot fracture
+
+
+
+
+
+Other Justification
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[NAME_2] MD         [DATE_5] 13:03"
+c611c6e2d7f99e445d002f9faad2591467e8b2a66e75a76a3ef01c61a2cc17db,a7575429421767f1042b18df3b78b12619ad42e16ad0a2d77c9b7fc3d8447be2,f5d9028c35c573c2f64786348b331c494550e98b91a76339cec8b83dc30823be,"Pt expired at 0143 on [DATE_1]. pt was on epi, levo, and vaso per md orders.
+requiring ventilator support and passed without progressing to comfort care
+with family at the bed side.  at begining of shift pt was just on levo and
+progressed quickly to needing more circulatory support. md notified and
+responded to the bed side. lines and draines dc'd. pt cleaned and prepped for
+mortuary affairs to transfer pt. no other cares needed at this time."
+910296d0011b8baeb029be76682fe56de0d5ce94d627def6938a17593adc8634,6dc278311c10348b7737a21effb4b209853ec8f81777e49881bb46465cc16e51,0d47acba7820057da636dc800c87c9c7cee68d6eb0503c7ccaea82ffe61d3fb2,"EXAMINATION TYPE: XR chest 1V portable
+
+ 
+
+DATE OF EXAM: [DATE_1]
+
+ 
+
+Comparison: [DATE_2]
+
+ 
+
+Clinical History: [AGE_1]-year-old male COVID
+
+ 
+
+Findings:
+
+Heart normal size. Diffuse interstitial density.  Airspace opacity in the periphery of the bilateral 
+lungs. Overall relatively unchanged. No sizable effusion.
+
+ 
+
+ 
+
+Impression:
+
+Continued bilateral peripheral COVID pneumonia."
+a157ccfd7c20009546af7ffaf5bd0a7dbd294c2d518e9e221948e98186170a5e,ad6193c232b74a802946ea52f35da937edd062a3fa844c77e206519c795fea3b,401e3e0a71538b6390961efe3e30004c23e8fad0fe2b923b8c291c755c34590c,"""Subjective    
+Subjective    
+Patient seen erythema involving both lower extremities less intense than the day  
+prior.  WBC count still remains elevated    
+    
+Objective Data    
+Objective Data    
+Vital Signs: Vital Signs    
+    
+    
+    
+Temp Pulse Resp BP Pulse Ox    
+     
+ 97.5 F L  119 H  20 H  126/64 H  99     
+     
+ [DATE_1] 03:24  [DATE_1] 07:35  [DATE_1] 03:24  [DATE_1] 03:24  [DATE_1] 03:24    
+    
+    
+    
+    
+Oxygen Flow Rate (L/min)         2                                                
+       
+Oxygen Delivery Method           Nasal Cannula                                    
+       
+Weight:                          180.5 kg                                         
+       
+Body Mass Index (BMI)            64.2                                             
+       
+    
+    
+Intake & Output:       Intake and Output for Last 24 Hours    
+    
+    
+    
+ [DATE_2] [DATE_3] [DATE_1]    
+    
+ 23:59 23:59 23:59    
+     
+Intake Total  5250.42 / 5250.42 1308.33 / 1308.33    
+     
+Output Total  1000 / 1000     
+     
+Balance  4250.42 / 4250.42 1308.33 / 1308.33    
+    
+    
+    
+Lab / Micro Data    
+    
+Result Diagrams:     
+                                                        [DATE_1] 06:50              
+    
+                                                        [DATE_1] 06:50              
+    
+Labs:                    Laboratory Results - last 24 hr    
+    
+[DATE_1] 06:50: WBC 13.9 H, RBC 3.63 L, Hgb 8.7 L, Hct 29.9 L, MCV 82.4, MCH   
+24.0 L, MCHC 29.1 L, RDW Std Deviation 52.1 H, RDW Coeff of Var 17.2 H, Plt   
+Count 219, MPV 9.8, Immature Gran % (Auto) 1.300 H, Neut % (Auto) 83.8 H, Lymph   
+% (Auto) 6.9 L, Mono % (Auto) 5.7, Eos % (Auto) 2.0, Baso % (Auto) 0.3, Absolute  
+Neuts (auto) 11.7 H, Absolute Lymphs (auto) 0.96, Nucleated RBC % 0.2    
+[DATE_1] 06:50: Sodium 135 L, Potassium 3.4 L, Chloride 99, Carbon Dioxide 32.0,  
+Anion Gap 4 L, BUN 12, Creatinine 0.59, Estim Creat Clear Calc 115.10, Est GFR   
+(MDRD) Af Amer 144, Est GFR (MDRD) Non-Af 119, BUN/Creatinine Ratio 20.5 H,   
+Glucose 112 H, Calcium 8.0 L, Magnesium 1.8    
+    
+    
+Micro:                            Microbiology    
+    
+[DATE_3] 08:45   Mucosa - Nasopharyngeal   Respiratory Panel (PCR) - Final    
+[DATE_2] 23:43   Nasal Secretion   SARS-CoV-2 Antigen (Rapid) - Final    
+    
+    
+Radiography    
+Diagnostic Testing:           Radiology Impression    
+    
+Venous Doppler Study  [DATE_3] 14:58    
+Interpretation Summary    
+No evidence for acute deep venous thrombosis bilateral lower extremities with   
+patent and    
+compressible bilateral great saphenous veins. This was noted to be a technically  
+difficult study    
+secondary to body habitus. Images are difficult to interpret.    
+Bilateral peroneal veins not visualized.    
+     
+     
+     
+________________  
+________________________________________________________________________________    
+_____    
+     
+     
+Ordering Physician: [NAME_1]    
+Referring Physician: [NAME_2]    
+Performed By: [NAME_3], RDCS, RVT    
+Electronically signed by: [NAME_4], MD on [DATE_4] 04:23 PM    
+    
+    
+    
+    
+Physical Exam    
+Narrative    
+GENERAL: Patient appears ill looking    
+HEENT: Atraumatic;    
+EYES; Anicteric, Normal Conjunctiva    
+NECK; supple, normal thyroid,    
+RESPIRATORY: Diminished to auscultation    
+CARDIOVASCULAR:  Regular S1 S2, tachycardic    
+GI:  soft, normoactive bowel sounds,    
+GU: No Renal angle tenderness;    
+EXTREMITIES:  No edema, no clubbing,    
+MUSCULOSKELETAL:  no muscle waisting    
+NEURO:  Awake;  no lateralizing signs.    
+SKIN: erythema and warmth  both lower extremities left worse than right    
+PSYCH; Flat  affect    
+    
+Assessment & Plan    
+Assessment/Plan    
+(1) Cellulitis of left leg:     
+PLAN:       Patient is a [AGE_1]-year-old lady with history of previous admission for  
+cellulitis invo
+360036|V00003620479|[DATE_5] 15:45:00|[DATE_5] 15:45:00|PN.ID_ITS|DR.[NAME_5]|Medical Records Department|0923-00512|""Physical Exam"
+33d15aeb1cd3a80c7f79c565090479a3ef68aa3038ebc8c02ef50ce9cd01d80e,bffe475b7c64d2fd400a13717899d4c1d7081aa1d7ec0d8aa2119e6e731e82b6,59b766132f230a348145ce50eb165a52a95876a79d8beda22ef2db5ded6e57a4,"History and Physical Update    
+Update    
+Date/Time: [DATE_1]  07:19    
+    
+    
+History and Physical has been reviewed, including an updated exam of the   
+patient. There are NO changes in the patient's condition.    
+Risks, benefits, and alternatives have been discussed and questions answered.   
+Patient agrees to proceed with procedure."
+7c273abc49e9041879fcf7f21bdc4653dc53dfa1a82f52459eee013d611b31d5,963079654bdbe14fd760de5b4cd3231e7a3e9827be2e8fd299486293bccd4c6e,c33df9ecfd749614d2bb2a1a96f9704eb704d7c6b934682669d79b4e5e7664b3,"- General Info
+
+
+Date of Service: [DATE_1]
+
+
+Admission Dx/Problem (Free Text): 
+
+
+                           Admission Diagnosis/Problem
+
+
+
+
+
+Admission Diagnosis/Problem      Respiratory failure with hypoxia and 
+
+hypercapnia
+
+
+
+
+
+
+
+
+
+
+
+- Patient Data
+
+
+Vitals - Most Recent: 
+
+
+                                Last Vital Signs
+
+
+
+
+
+
+
+
+
+
+
+Temp  98.2 F   [DATE_1] 04:36
+
+
+ 
+
+
+Pulse  86   [DATE_1] 04:36
+
+
+ 
+
+
+Resp  16   [DATE_1] 04:36
+
+
+ 
+
+
+BP  159/89 H  [DATE_1] 04:38
+
+
+ 
+
+
+Pulse Ox  92 L  [DATE_1] 04:36
+
+
+
+
+
+
+
+
+
+
+
+Weight - Most Recent: 200 lb 6.4 oz
+
+
+I&O - Last 24 Hours: 
+
+
+                                 Intake & Output
+
+
+
+
+
+
+
+
+
+
+
+ [DATE_2] [DATE_1] [DATE_1]
+
+
+
+
+
+ 22:59 06:59 14:59
+
+
+ 
+
+
+Intake Total 620 600 
+
+
+ 
+
+
+Output Total 600 600 
+
+
+ 
+
+
+Balance 20 0 
+
+
+
+
+
+
+
+
+
+
+
+Lab Results Last 24 Hours: 
+
+
+                         Laboratory Results - last 24 hr
+
+
+
+
+
+
+
+
+
+
+
+  [DATE_2] [DATE_2] [DATE_2] Range/Units
+
+
+
+
+
+  11:37 17:04 22:09 
+
+
+ 
+
+
+WBC     (3.98-10.04)  K/mm3
+
+
+ 
+
+
+RBC     (3.98-5.22)  M/mm3
+
+
+ 
+
+
+Hgb     (11.2-15.7)  gm/dl
+
+
+ 
+
+
+Hct     (34.1-44.9)  %
+
+
+ 
+
+
+MCV     (79.4-94.8)  fl
+
+
+ 
+
+
+MCH     (25.6-32.2)  pg
+
+
+ 
+
+
+MCHC     (32.2-35.5)  g/dl
+
+
+ 
+
+
+RDW Std Deviation     (36.4-46.3)  fL
+
+
+ 
+
+
+Plt Count     (182-369)  K/mm3
+
+
+ 
+
+
+MPV     (9.4-12.3)  fl
+
+
+ 
+
+
+Neut % (Auto)     (34.0-71.1)  %
+
+
+ 
+
+
+Lymph % (Auto)     (19.3-51.7)  %
+
+
+ 
+
+
+Mono % (Auto)     (4.7-12.5)  %
+
+
+ 
+
+
+Eos % (Auto)     (0.7-5.8)  
+
+
+ 
+
+
+Baso % (Auto)     (0.1-1.2)  %
+
+
+ 
+
+
+Neut # (Auto)     (1.56-6.13)  K/mm3
+
+
+ 
+
+
+Lymph # (Auto)     (1.18-3.74)  K/mm3
+
+
+ 
+
+
+Mono # (Auto)     (0.24-0.36)  K/mm3
+
+
+ 
+
+
+Eos # (Auto)     (0.04-0.36)  K/mm3
+
+
+ 
+
+
+Baso # (Auto)     (0.01-0.08)  K/mm3
+
+
+ 
+
+
+Sodium     (136-145)  mEq/L
+
+
+ 
+
+
+Potassium     (3.5-5.1)  mEq/L
+
+
+ 
+
+
+Chloride     (98-107)  mEq/L
+
+
+ 
+
+
+Carbon Dioxide     (21-32)  mEq/L
+
+
+ 
+
+
+Anion Gap     (5-15)  
+
+
+ 
+
+
+BUN     (7-18)  mg/dL
+
+
+ 
+
+
+Creatinine     (0.55-1.02)  mg/dL
+
+
+ 
+
+
+Est Cr Clr Drug Dosing     mL/min
+
+
+ 
+
+
+Estimated GFR (MDRD)     (>60)  mL/min
+
+
+ 
+
+
+BUN/Creatinine Ratio     (14-18)  
+
+
+ 
+
+
+Glucose     (70-99)  mg/dL
+
+
+ 
+
+
+POC Glucose  190 H  140 H  165 H  (70-99)  mg/dL
+
+
+ 
+
+
+Calcium     (8.5-10.1)  mg/dL
+
+
+ 
+
+
+Total Bilirubin     (0.2-1.0)  mg/dL
+
+
+ 
+
+
+AST     (15-37)  U/L
+
+
+ 
+
+
+ALT     (14-59)  U/L
+
+
+ 
+
+
+Alkaline Phosphatase     (46-116)  U/L
+
+
+ 
+
+
+Total Protein     (6.4-8.2)  g/dl
+
+
+ 
+
+
+Albumin     (3.4-5.0)  g/dl
+
+
+ 
+
+
+Globulin     gm/dL
+
+
+ 
+
+
+Albumin/Globulin Ratio     (1-2)  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  [DATE_1] [DATE_1] [DATE_1] Range/Units
+
+
+
+
+
+  06:07 06:08 06:08 
+
+
+ 
+
+
+WBC   10.30 H   (3.98-10.04)  K/mm3
+
+
+ 
+
+
+RBC   5.15   (3.98-5.22)  M/mm3
+
+
+ 
+
+
+Hgb   16.1 H   (11.2-15.7)  gm/dl
+
+
+ 
+
+
+Hct   51.7 H   (34.1-44.9)  %
+
+
+ 
+
+
+MCV   100.4 H   (79.4-94.8)  fl
+
+
+ 
+
+
+MCH   31.3   (25.6-32.2)  pg
+
+
+ 
+
+
+MCHC   31.1 L   (32.2-35.5)  g/dl
+
+
+ 
+
+
+RDW Std Deviation   50.3 H   (36.4-46.3)  fL
+
+
+ 
+
+
+Plt Count   131 L   (182-369)  K/mm3
+
+
+ 
+
+
+MPV   13.2 H   (9.4-12.3)  fl
+
+
+ 
+
+
+Neut % (Auto)   79.5 H   (34.0-71.1)  %
+
+
+ 
+
+
+Lymph % (Auto)   14.7 L   (19.3-51.7)  %
+
+
+ 
+
+
+Mono % (Auto)   5.6   (4.7-12.5)  %
+
+
+ 
+
+
+Eos % (Auto)   0 L   (0.7-5.8)  
+
+
+ 
+
+
+Baso % (Auto)   0.0 L   (0.1-1.2)  %
+
+
+ 
+
+
+Neut # (Auto)   8.19 H   (1.56-6.13)  K/mm3
+
+
+ 
+
+
+Lymph # (Auto)   1.51   (1.18-3.74)  K/mm3
+
+
+ 
+
+
+Mono # (Auto)   0.58 H   (0.24-0.36)  K/mm3
+
+
+ 
+
+
+Eos # (Auto)   0.00 L   (0.04-0.36)  K/mm3
+
+
+ 
+
+
+Baso # (Auto)   0.00 L   (0.01-0.08)  K/mm3
+
+
+ 
+
+
+Sodium    143  (136-145)  mEq/L
+
+
+ 
+
+
+Potassium    4.2  (3.5-5.1)  mEq/L
+
+
+ 
+
+
+Chloride    101  (98-107)  mEq/L
+
+
+ 
+
+
+Carbon Dioxide    38 H  (21-32)  mEq/L
+
+
+ 
+
+
+Anion Gap    8.2  (5-15)  
+
+
+ 
+
+
+BUN    26 H  (7-18)  mg/dL
+
+
+ 
+
+
+Creatinine    0.7  (0.55-1.02)  mg/dL
+
+
+ 
+
+
+Est Cr Clr Drug Dosing    46.76  mL/min
+
+
+ 
+
+
+Estimated GFR (MDRD)    > 60  (>60)  mL/min
+
+
+ 
+
+
+BUN/Creatinine Ratio    37.1 H  (14-18)  
+
+
+ 
+
+
+Glucose    169 H  (70-99)  mg/dL
+
+
+ 
+
+
+POC Glucose  172 H    (70-99)  mg/dL
+
+
+ 
+
+
+Calcium    9.1  (8.5-10.1)  mg/dL
+
+
+ 
+
+
+Total Bilirubin    0.8  (0.2-1.0)  mg/dL
+
+
+ 
+
+
+AST    35  (15-37)  U/L
+
+
+ 
+
+
+ALT    48  (14-59)  U/L
+
+
+ 
+
+
+Alkaline Phosphatase    122 H  (46-116)  U/L
+
+
+ 
+
+
+Total Protein    6.0 L  (6.4-8.2)  g/dl
+
+
+ 
+
+
+Albumin    3.0 L  (3.4-5.0)  g/dl
+
+
+ 
+
+
+Globulin    3.0  gm/dL
+
+
+ 
+
+
+Albumin/Globulin Ratio    1.0  (1-2)  
+
+
+
+
+
+
+
+
+
+
+
+Med Orders - Current: 
+
+
+                               Current Medications
+
+
+
+
+
+Acetaminophen (Acetaminophen 325 Mg Tab)  650 mg PO Q6H PRN
+
+
+   PRN Reason: Pain (Mild 1-3)/fever
+
+
+   Last Admin: [DATE_2] 21:01 Dose:  650 mg
+
+
+   Documented by: 
+
+
+Albuterol/Ipratropium (Albuterol/Ipratropium 3.0-0.5 Mg/3 Ml Neb Soln)  3 ml NEB
+
+Q4H PRN
+
+
+   PRN Reason: Shortness Of Breath/wheezing
+
+
+   Last Admin: [DATE_3] 14:54 Dose:  3 ml
+
+
+   Documented by: 
+
+
+Amlodipine Besylate (Amlodipine 2.5 Mg Tab)  2.5 mg PO DAILY SCH
+
+
+   Last Admin: [DATE_2] 08:59 Dose:  2.5 mg
+
+
+   Documented by: 
+
+
+Apixaban (Apixaban 5 Mg Tab)  5 mg PO BID SCH
+
+
+   Last Admin: [DATE_2] 21:00 Dose:  5 mg
+
+
+   Documented by: 
+
+
+Artificial Tears (Carboxymethylcellulose Sodium 1% Ophth Gel 15 Ml Bottle)  0 ml
+
+EYEBOTH BID SCH
+
+
+   Last Admin: [DATE_2] 20:58 Dose:  14 drop
+
+
+   Documented by: 
+
+
+Budesonide (Budesonide 0.5 Mg/2 Ml Neb Susp)  0.5 mg NEB BIDRT PRN
+
+
+   PRN Reason: Shortness of Breath
+
+
+Cholecalciferol (Cholecalciferol (Vitamin D3) 25 Mcg Tab)  50 mcg PO DAILY SCH
+
+
+   Last Admin: [DATE_2] 09:03 Dose:  50 mcg
+
+
+   Documented by: 
+
+
+Cyclobenzaprine HCl (Cyclobenzaprine 10 Mg Tab)  5 - 10 mg PO BEDTIME PRN
+
+
+   PRN Reason: Muscle Spasm - Painful
+
+
+Docusate Sodium (Docusate Sodium 100 Mg Cap)  100 mg PO BID SCH
+
+
+   Last Admin: [DATE_2] 21:00 Dose:  100 mg
+
+
+   Documented by: 
+
+
+Famotidine (Famotidine 20 Mg Tab)  20 mg PO DAILY SCH
+
+
+   Last Admin: [DATE_2] 09:01 Dose:  20 mg
+
+
+   Documented by: 
+
+
+Furosemide (Furosemide 20 Mg/2 Ml Vial)  20 mg IVPUSH DAILY SCH
+
+
+   Last Admin: [DATE_2] 08:58 Dose:  20 mg
+
+
+   Documented by: 
+
+
+Glipizide (Glipizide 2.5 Mg Tab.Er)  2.5 mg PO WITHBREAKFAST SCH
+
+
+   Last Admin: [DATE_1] 06:33 Dose:  2.5 mg
+
+
+   Documented by: 
+
+
+Hydralazine HCl (Hydralazine 20 Mg/Ml Sdv)  10 mg IVPUSH Q4H PRN
+
+
+   PRN Reason: Hypertension
+
+
+Promethazine HCl 12.5 mg/ (Sodium Chloride)  50.5 mls @ 100 mls/hr IV Q6H PRN
+
+
+   PRN Reason: Nausea/Vomiting
+
+
+Doxycycline Hyclate 100 mg/ (Sodium Chloride)  100 mls @ 100 mls/hr IV Q12HR SCH
+
+
+   Last Admin: [DATE_2] 21:12 Dose:  100 mls/hr
+
+
+   Documented by: 
+
+
+Insulin Human Lispro (Insulin Lispro 100 Unit/Ml 10 Ml Vial)  0 unit SUBCUT 
+
+QIDACANDBED SCH; Protocol
+
+
+   Last Admin: [DATE_1] 07:40 Dose:  2 units
+
+
+   Documented by: 
+
+
+Latanoprost (Latanoprost 0.005% Ophth Soln 2.5 Ml Bottle)  0 ml EYEBOTH BEDTIME 
+
+SCH
+
+
+   Last Admin: [DATE_2] 21:33 Dose:  1 drop
+
+
+   Documented by: 
+
+
+Methylprednisolone Sodium Succinate (Methylprednisolone Sodium Succinate 40 Mg/1
+
+Ml Sdv)  40 mg IVPUSH Q8H SCH
+
+
+   Last Admin: [DATE_1] 06:33 Dose:  40 mg
+
+
+   Documented by: 
+
+
+Nystatin (Nystatin Topical Powder 15 Gm Bottle)  1 gm TOP TID SCH
+
+
+   Last Admin: [DATE_2] 21:32 Dose:  1 appful
+
+
+   Documented by: 
+
+
+Potassium Chloride (Potassium Chloride 10 Meq Tab.Er)  10 meq PO BID SCH
+
+
+   Last Admin: [DATE_2] 20:59 Dose:  10 meq
+
+
+   Documented by: 
+
+
+Pregabalin (Pregabalin 75 Mg Cap)  75 mg PO BID SCH
+
+
+   Last Admin: [DATE_2] 21:00 Dose:  75 mg
+
+
+   Documented by: 
+
+
+Pyridoxine HCl (Vitamin B6-Pyridoxine 50 Mg Tab)  100 mg PO DAILY SCH
+
+
+   Last Admin: [DATE_2] 09:14 Dose:  100 mg
+
+
+   Documented by: 
+
+
+Rosuvastatin Calcium (Rosuvastatin 10 Mg Tab)  5 mg PO Tu@0900 SCH
+
+
+Sertraline HCl (Sertraline 50 Mg Tab)  100 mg PO DAILY SCH
+
+
+   Last Admin: [DATE_2] 09:02 Dose:  100 mg
+
+
+   Documented by: 
+
+
+Simethicone (Simethicone 80 Mg Tab.Chew)  80 mg PO Q6H PRN
+
+
+   PRN Reason: Gas
+
+
+   Last Admin: [DATE_2] 06:05 Dose:  80 mg
+
+
+   Documented by: 
+
+
+Timolol Maleate (Timolol Maleate 0.5% Ophth Soln 5 Ml Bottle)  0 ml EYEBOTH 
+
+DAILY SCH
+
+
+   Last Admin: [DATE_2] 09:12 Dose:  1 drop
+
+
+   Documented by: 
+
+
+Tiotropium Bromide (Tiotropium Bromide 4 Gm Inhalation Spray (2.5mcg/1 Dose; 10 
+
+Doses))  0 gm INH DAILY SCH
+
+
+   Last Admin: [DATE_2] 09:20 Dose:  2 puff
+
+
+   Documented by: 
+
+
+Tramadol HCl (Tramadol 50 Mg Tab)  25 mg PO Q6H PRN
+
+
+   PRN Reason: Pain (moderate 4-6)
+
+
+   Last Admin: [DATE_2] 15:54 Dose:  25 mg
+
+
+   Documented by: 
+
+
+Triamcinolone Acetonide (Triamcinolone Acetonide 0.1% Crm 15 Gm Tube)  0 gm TOP 
+
+DAILY PRN
+
+
+   PRN Reason: Itching
+
+
+
+
+
+Discontinued Medications
+
+
+
+
+
+Cyclobenzaprine HCl (Cyclobenzaprine 10 Mg Tab)  10 mg PO BEDTIME PRN
+
+
+   PRN Reason: Muscle Spasm - Painful
+
+
+Docusate Sodium (Docusate Sodium 100 Mg Cap)  100 mg PO BID PRN
+
+
+   PRN Reason: Constipation
+
+
+Enoxaparin Sodium (Enoxaparin 40 Mg/0.4 Ml Syringe)  40 mg SUBCUT DAILY SCH
+
+
+Furosemide (Furosemide 20 Mg Tab)  20 mg PO DAILY SCH
+
+
+   Last Admin: [DATE_3] 11:43 Dose:  Not Given
+
+
+   Documented by: 
+
+
+Oxycodone HCl (Oxycodone 5 Mg Tab)  5 mg PO Q6H PRN
+
+
+   PRN Reason: Pain (moderate 4-6)
+
+
+Tramadol HCl (Tramadol 50 Mg Tab)  50 mg PO QID PRN
+
+
+   PRN Reason: Pain
+
+
+
+
+
+
+
+
+
+
+
+- Patient Data
+
+
+Lab Results Last 24 hrs: 
+
+
+                         Laboratory Results - last 24 hr
+
+
+
+
+
+
+
+
+
+
+
+  [DATE_2] [DATE_2] [DATE_2] Range/Units
+
+
+
+
+
+  11:37 17:04 22:09 
+
+
+ 
+
+
+WBC     (3.98-10.04)  K/mm3
+
+
+ 
+
+
+RBC     (3.98-5.22)  M/mm3
+
+
+ 
+
+
+Hgb     (11.2-15.7)  gm/dl
+
+
+ 
+
+
+Hct     (34.1-44.9)  %
+
+
+ 
+
+
+MCV     (79.4-94.8)  fl
+
+
+ 
+
+
+MCH     (25.6-32.2)  pg
+
+
+ 
+
+
+MCHC     (32.2-35.5)  g/dl
+
+
+ 
+
+
+RDW Std Deviation     (36.4-46.3)  fL
+
+
+ 
+
+
+Plt Count     (182-369)  K/mm3
+
+
+ 
+
+
+MPV     (9.4-12.3)  fl
+
+
+ 
+
+
+Neut % (Auto)     (34.0-71.1)  %
+
+
+ 
+
+
+Lymph % (Auto)     (19.3-51.7)  %
+
+
+ 
+
+
+Mono % (Auto)     (4.7-12.5)  %
+
+
+ 
+
+
+Eos % (Auto)     (0.7-5.8)  
+
+
+ 
+
+
+Baso % (Auto)     (0.1-1.2)  %
+
+
+ 
+
+
+Neut # (Auto)     (1.56-6.13)  K/mm3
+
+
+ 
+
+
+Lymph # (Auto)     (1.18-3.74)  K/mm3
+
+
+ 
+
+
+Mono # (Auto)     (0.24-0.36)  K/mm3
+
+
+ 
+
+
+Eos # (Auto)     (0.04-0.36)  K/mm3
+
+
+ 
+
+
+Baso # (Auto)     (0.01-0.08)  K/mm3
+
+
+ 
+
+
+Sodium     (136-145)  mEq/L
+
+
+ 
+
+
+Potassium     (3.5-5.1)  mEq/L
+
+
+ 
+
+
+Chloride     (98-107)  mEq/L
+
+
+ 
+
+
+Carbon Dioxide     (21-32)  mEq/L
+
+
+ 
+
+
+Anion Gap     (5-15)  
+
+
+ 
+
+
+BUN     (7-18)  mg/dL
+
+
+ 
+
+
+Creatinine     (0.55-1.02)  mg/dL
+
+
+ 
+
+
+Est Cr Clr Drug Dosing     mL/min
+
+
+ 
+
+
+Estimated GFR (MDRD)     (>60)  mL/min
+
+
+ 
+
+
+BUN/Creatinine Ratio     (14-18)  
+
+
+ 
+
+
+Glucose     (70-99)  mg/dL
+
+
+ 
+
+
+POC Glucose  190 H  140 H  165 H  (70-99)  mg/dL
+
+
+ 
+
+
+Calcium     (8.5-10.1)  mg/dL
+
+
+ 
+
+
+Total Bilirubin     (0.2-1.0)  mg/dL
+
+
+ 
+
+
+AST     (15-37)  U/L
+
+
+ 
+
+
+ALT     (14-59)  U/L
+
+
+ 
+
+
+Alkaline Phosphatase     (46-116)  U/L
+
+
+ 
+
+
+Total Protein     (6.4-8.2)  g/dl
+
+
+ 
+
+
+Albumin     (3.4-5.0)  g/dl
+
+
+ 
+
+
+Globulin     gm/dL
+
+
+ 
+
+
+Albumin/Globulin Ratio     (1-2)  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  [DATE_1] [DATE_1] [DATE_1] Range/Units
+
+
+
+
+
+  06:07 06:08 06:08 
+
+
+ 
+
+
+WBC   10.30 H   (3.98-10.04)  K/mm3
+
+
+ 
+
+
+RBC   5.15   (3.98-5.22)  M/mm3
+
+
+ 
+
+
+Hgb   16.1 H   (11.2-15.7)  gm/dl
+
+
+ 
+
+
+Hct   51.7 H   (34.1-44.9)  %
+
+
+ 
+
+
+MCV   100.4 H   (79.4-94.8)  fl
+
+
+ 
+
+
+MCH   31.3   (25.6-32.2)  pg
+
+
+ 
+
+
+MCHC   31.1 L   (32.2-35.5)  g/dl
+
+
+ 
+
+
+RDW Std Deviation   50.3 H   (36.4-46.3)  fL
+
+
+ 
+
+
+Plt Count   131 L   (182-369)  K/mm3
+
+
+ 
+
+
+MPV   13.2 H   (9.4-12.3)  fl
+
+
+ 
+
+
+Neut % (Auto)   79.5 H   (34.0-71.1)  %
+
+
+ 
+
+
+Lymph % (Auto)   14.7 L   (19.3-51.7)  %
+
+
+ 
+
+
+Mono % (Auto)   5.6   (4.7-12.5)  %
+
+
+ 
+
+
+Eos % (Auto)   0 L   (0.7-5.8)  
+
+
+ 
+
+
+Baso % (Auto)   0.0 L   (0.1-1.2)  %
+
+
+ 
+
+
+Neut # (Auto)   8.19 H   (1.56-6.13)  K/mm3
+
+
+ 
+
+
+Lymph # (Auto)   1.51   (1.18-3.74)  K/mm3
+
+
+ 
+
+
+Mono # (Auto)   0.58 H   (0.24-0.36)  K/mm3
+
+
+ 
+
+
+Eos # (Auto)   0.00 L   (0.04-0.36)  K/mm3
+
+
+ 
+
+
+Baso # (Auto)   0.00 L   (0.01-0.08)  K/mm3
+
+
+ 
+
+
+Sodium    143  (136-145)  mEq/L
+
+
+ 
+
+
+Potassium    4.2  (3.5-5.1)  mEq/L
+
+
+ 
+
+
+Chloride    101  (98-107)  mEq/L
+
+
+ 
+
+
+Carbon Dioxide    38 H  (21-32)  mEq/L
+
+
+ 
+
+
+Anion Gap    8.2  (5-15)  
+
+
+ 
+
+
+BUN    26 H  (7-18)  mg/dL
+
+
+ 
+
+
+Creatinine    0.7  (0.55-1.02)  mg/dL
+
+
+ 
+
+
+Est Cr Clr Drug Dosing    46.76  mL/min
+
+
+ 
+
+
+Estimated GFR (MDRD)    > 60  (>60)  mL/min
+
+
+ 
+
+
+BUN/Creatinine Ratio    37.1 H  (14-18)  
+
+
+ 
+
+
+Glucose    169 H  (70-99)  mg/dL
+
+
+ 
+
+
+POC Glucose  172 H    (70-99)  mg/dL
+
+
+ 
+
+
+Calcium    9.1  (8.5-10.1)  mg/dL
+
+
+ 
+
+
+Total Bilirubin    0.8  (0.2-1.0)  mg/dL
+
+
+ 
+
+
+AST    35  (15-37)  U/L
+
+
+ 
+
+
+ALT    48  (14-59)  U/L
+
+
+ 
+
+
+Alkaline Phosphatase    122 H  (46-116)  U/L
+
+
+ 
+
+
+Total Protein    6.0 L  (6.4-8.2)  g/dl
+
+
+ 
+
+
+Albumin    3.0 L  (3.4-5.0)  g/dl
+
+
+ 
+
+
+Globulin    3.0  gm/dL
+
+
+ 
+
+
+Albumin/Globulin Ratio    1.0  (1-2)  
+
+
+
+
+
+
+
+
+
+
+
+Result Diagrams: 
+
+
+                                 [DATE_1] 06:08
+
+
+
+
+
+                                 [DATE_1] 06:08
+
+
+
+
+
+Sepsis Event Note
+
+
+
+
+
+- Evaluation
+
+
+Sepsis Screening Result: No Definite Risk
+
+
+
+
+
+- Focused Exam
+
+
+Vital Signs: 
+
+
+                                   Vital Signs
+
+
+
+
+
+
+
+
+
+
+
+  Temp Pulse Resp BP Pulse Ox
+
+
+ 
+
+
+ [DATE_1] 04:38     159/89 H 
+
+
+ 
+
+
+ [DATE_1] 04:36  98.2 F  86  16   92 L
+
+
+ 
+
+
+ [DATE_2] 21:51  98.4 F  85  16  140/79  98
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- Plan
+
+
+Plan:: 
+
+
+
+
+
+Patient is an [AGE_1]-year-old female with a history of COPD, hypertension, and sleep
+
+apnea noncompliant with CPAP, who was brought to the ER from her assisted living
+
+facility due to AMS.  In the ER, she was found to have a severe CO2 retention.
+
+
+
+
+
+AMS
+
+
+Most likely due to CO2 retention/respiratory acidosis, delirium
+
+
+CT of head - no acute change
+
+
+Closely monitor
+
+
+
+
+
+Acute on chronic hypoxic and hypercapnic respiratory failure
+
+
+Respiratory acidosis
+
+
+Chronic CO2 retention
+
+
+She is normally on 2L at home
+
+
+decreased her home tramadol to 25mg QID from 50mg QID
+
+
+ABG pH 7.24, PCO2 110.8, PO2 60.0, oxygen saturation 85.3.  Repeat ABG after use
+
+of BiPAP pH 7.30, PCO2 95.3, PO2 72.0, oxygen saturation 93.3
+
+
+Patient has a sleep apnea but not compliant with CPAP in the setting of end 
+
+stage of COPD. Furthermore, she possibly has obesity hypoventilation syndrome. 
+
+
+ABG today pH 7.48, PCO2 55.6, PO2 64.0, oxygen saturation 94.5
+
+
+Pulse ox
+
+
+She is now on 2 L. Continue oxygen therapy, BiPAP as needed to keep her PCO2 
+
+less than 50 and SPO2 greater than 80%
+
+
+
+
+
+COPD exacerbation
+
+
+CXR - no acute change
+
+
+End-stage renal of lung disease
+
+
+Doxycycline 100 mg twice daily
+
+
+Solu-Medrol 40 mg every 8 hours
+
+
+Inhalers
+
+
+
+
+
+Sleep apnea
+
+
+
+
+
+Continue BiPAP
+
+
+Will educate her to be compliant with CPAP when she is discharged
+
+
+
+
+
+DM type 2
+
+
+Diabetic diet
+
+
+glipizide 2.5mg daily
+
+
+Insulin sliding scale
+
+
+Adjust insulin based on sugar levels.
+
+
+
+
+
+HTN
+
+
+Is not well controlled
+
+
+Added amlodipine 2.5 mg daily
+
+
+Hydralazine as needed
+
+
+
+
+
+Obesity
+
+
+BMI 38.6
+
+
+Lifestyle modification
+
+
+Follow with PCP
+
+
+
+
+
+Thrombocytopenia
+
+
+124 on admission
+
+
+No evidence of bleeding
+
+
+Repeat CBC in morning
+
+
+
+
+
+DVT prophylaxis: Eliquis 5 mg twice daily (do not know why patient is on 
+
+Eliquis)
+
+
+
+
+
+CODE STATUS: DNR/DNI
+
+
+Both ER physician Dr. [NAME_1] and I discussed that with her son who would like 
+
+to do DNR/DNI.  Her daughter is in agreement with the decision.
+
+
+
+
+
+Disposition: 1 or 2 more days
+
+
+
+
+
+
+
+
+[DATE_4]
+
+
+
+
+
+The patient is an [AGE_1]-year-old lady who will be retained in hospitalization.  For
+
+the patient's COPD she will be continued on the doxycycline and Solu-Medrol.  
+
+The patient also has been noted to be requiring less oxygen and her CO2 has 
+
+fallen although it still elevated.  The patient does have CO2 retention.  The 
+
+patient will also have oxygen titrated to keep her saturations around 90 to 92%.
+
+ She is also on BiPAP and CPAP device as needed.  The patient will have her 
+
+antihypertensive medications adjusted as necessary.  The patient will have 
+
+repeat laboratory studies for the morning.  She also be continued on her 
+
+diabetic diet and insulin sliding scale.  The patient will also be appropriate 
+
+for discharge in 1 to 2 days.
+
+
+
+
+
+[DATE_5]
+
+
+
+
+
+The patient is an [AGE_1]-year-old lady who will remain in hospitalization currently 
+
+awaiting placement.  Oxygen support will be continued for the patient to 
+
+maintain her saturations around 92%.  I have also ordered testing for C. 
+
+difficile colitis.  The patient is currently on doxycycline and this will be 
+
+continued for her.  The patient does not need DVT prophylaxis as she is 
+
+currently on apixaban.  Patient will continue on her diabetic diet as tolerated.
+
+ She will have insulin as needed.  The patient will also have repeat laboratory 
+
+studies ordered.
+
+
+
+
+
+[DATE_6]
+
+
+
+
+
+The patient is an [AGE_1]-year-old lady who is much more awake and alert.  She is 
+
+currently pending placement.  The patient's oxygen support will continue to keep
+
+her saturations around 92%.  The patient's bicarb had almost improved to normal.
+
+ I suspect that the patient's hypercapnic state is chronic in nature and likely 
+
+leading to her increased falling.  Regardless the patient will need to have 
+
+skilled nursing facility placement in order to safely transition to home.  The 
+
+patient's antibiotics were continued.  She has been treated for exacerbation of 
+
+her COPD.  The patient is currently on apixaban likely secondary to atrial 
+
+fibrillation.  She is diabetic and will have diabetic diet as tolerated.  She is
+
+also have insulin sliding scale.  Repeat laboratory studies have been ordered."
+2cb794e5c076688d6149b863441099ec43c905acc856fccd89b6fce0b387f620,02e5d49fb7c0afabcaadbd0cc3e12f88d673a53277e59477c12b9d60394e30f0,d1f1cee6bfef7f0ce8d915a38799d7c4a9932993e7383f1253ed22cd8292ffcf,"Social Worker spoke with [NAME_1], RN at the Cancer Center who advised
+patient's scan can be delayed until after discharge from IPR. SW notified IPR
+Director, [NAME_2].
+ 
+Discharge Plan: IPR, second preference (MLH) can also accept"
+2cb794e5c076688d6149b863441099ec43c905acc856fccd89b6fce0b387f620,02e5d49fb7c0afabcaadbd0cc3e12f88d673a53277e59477c12b9d60394e30f0,d1f1cee6bfef7f0ce8d915a38799d7c4a9932993e7383f1253ed22cd8292ffcf,"Social worker met with [NAME_1] to talk about SNF vs 24hr care per PT/OT
+recommendations. Patient resting at this time. SW discussed options or IPR vs
+MLH vs HH PT/OT. Discussed how 24/7 care would be private pay. Biggest concern
+is the patient's cancer tx and if she would be able to take it during SNF
+period.Patient is taking Inlyta 1mg tablets x6 per day, however is to stop
+taking it over this next week to give her body a rest- per Dr. [NAME_2].
+Reported that this is a ""grant funded"" chemo treatment and that MCR does not
+cover it's cost. In addition to IPR, [NAME_3] at MLH contacted and referral
+faxed. [NAME_3] is going to look into the parameters surrounding this situation
+and get back to me (patient has approx. 3 months supply on hand).  Message has
+been left with Dr. [NAME_2]'s office to see if pausing the medication is an
+option.
+ 
+Discharge plan: *possible SNF placement pending chemo parameters*"
+24480f5c8f2ab178b2d0e4f6dadbb276e77affef9972917cf1b4aec3fa6cec46,fcf0e04b738296c10bf0fbf719596347e67dd944b870477550e651561ecb38d3,ab512446350c33600c30af1ea32d4de9f3972d3b07ba5d0a0fd4af214ac0221f,"EXAM DESCRIPTION:  RADChest Single View[DATE_1] 8:28 pm
+
+ 
+
+CLINICAL HISTORY:  Swelling, fatigue/malaise
+
+ 
+
+COMPARISON:  [DATE_INTERVAL_1]
+
+ 
+
+FINDINGS:   The lungs appear clear of acute infiltrate. The heart is mildly to moderately enlarged
+
+ 
+
+IMPRESSION:  No acute abnormalities displayed"
+8e349939a9fd085f246ae1976b6b8d91eddd1a44246d1ce500ffa35b515e8967,55a35def354fa1b4fad2be047cae96aa3e4c05ac56e2a87357698fdc6068c59c,3ddf64b871c7e06a2f64b4d39260d0a4037c8a1475cbe7310cf8e756c03d57fe,"PT REQUESTED TO WEAR HER COMPRESSION SOCKS, PT PROVIDED TED HOSE COMPRESSION
+SOCKS, PLACED AT THIS TIME."
+490aecf4e53f4c2c649af8cad26e63c55742cfb11fb37bd2bedbae551f1dbdcc,1439c6fd2ff92d8a375899a8f7f6a404284c0b51c52c7acb62957690b0379e0d,4b9c56b4be17b46755e0c39363ace8265a31668220763a56f8633b6fcf475f79,Pt seen and evaluated by ERMD
+490aecf4e53f4c2c649af8cad26e63c55742cfb11fb37bd2bedbae551f1dbdcc,65f0f0b529eecb67fc05c27bb2e6299c37b6bad6b001cdca38ddb3b3a886665b,1bb31cb338a9619228d6ce5820d2fdabfca695a89c956ce55757bcc0f82ef54e,[NAME_1] AT BEDSIDE FOR EVALUATION
+8e349939a9fd085f246ae1976b6b8d91eddd1a44246d1ce500ffa35b515e8967,a87d0ade904ca3f454a8a84fb604aef914d9bf114ae5d119da7acf03fdd91f3d,83de0d1df512e9ca259775b08782eaa91b8a93557e9b3ca6c0d84aa1dd04f9cb,"Bladder scanned patient because of BORDERLINE low
+output today. PT had 35 ML ON BLADDER
+SCANNER."
+a157ccfd7c20009546af7ffaf5bd0a7dbd294c2d518e9e221948e98186170a5e,bd36fd035a12b19bf2a81eebc65ff2c7bd4135e0b0aa6245d84be81b750848cd,cc1c9ea3b825aa160fe3b7e8656529956e4b75c0bfa66cde014f34f5ea630245,"STUDY:   X-RAY - LEFT ELBOW  
+  
+REASON FOR EXAM:   Male, [AGE_1] years old.  Pain following injury.  
+  
+TECHNIQUE: view(s) of the elbow.  
+  
+COMPARISON:   None.  
+  
+FINDINGS:  
+Degenerative spur formation of the olecranon process of the proximal ulna.  
+Normal radiocapitellar and ulnotrochlear articulations.  
+  
+The soft tissue structures are unremarkable.  
+___________________________________  
+  
+ORDER #: 0505-0022 RAD/Elbow min 3 Views  
+IMPRESSION:  
+Degenerative spur formation of the olecranon process of the proximal ulna.  
+ 
+  
+Electronically Signed:  
+[NAME_1], MD  
+[DATE_1] at 8:47 EDT  
+Reading Location ID and State: 603 / OH  
+Tel [PHONE_NUMBER_1], Service support  [PHONE_NUMBER_2], Fax [PHONE_NUMBER_3]"
+df83f26878e525ee7b1c4e7934082ef3e0d52c0e7c4fd2a5aaf9ddf77cd473d4,163f2577cb96165b7400287923a715c2ffe97fb0af5524d218fbd1b8c3ef730b,7879ed0e4baa7d7a5fad86fecb3bde5c50a8f0f22790c77283cffde8a8121ee0,"PROCEDURE:  CT HEAD/BRAIN WO CON 
+  
+INDICATIONS:  syncope vs other (+ intermittent leg weakness 
+  
+TECHNIQUE:   
+Noncontrast 4.5 mm thick angled axial sections acquired from the foramen magnum to the  
+vertex, with coronal and sagittal reformats.  For radiation dose reduction, the following  
+was used:  automated exposure control, adjustment of mA and/or kV according to patient  
+size.   
+  
+COMPARISON:  None. 
+  
+FINDINGS:   
+Image quality:  Excellent.   
+  
+CSF spaces:  Basal cisterns are patent.  No extra-axial fluid collections.  The  
+ventricles are symmetric in size and shape.   
+  
+Brain:  No intracranial bleeds or masses.  There is cerebral volume loss for age, with  
+resultant ventricular and sulcal prominence.  There are moderate periventricular and deep  
+white matter chronic small vessel ischemic changes.  There is intracranial internal  
+carotid artery atherosclerosis.   
+  
+Skull and face:  Calvarium and visualized facial bones appear intact, without suspicious  
+lesions.   
+  
+Sinuses:  Patchy bilateral ethmoid opacification.  Mastoids are clear. 
+  
+IMPRESSION:   
+  
+1. Age-related volume loss and moderate small vessel ischemic change. 
+  
+2. No evidence acute intracranial abnormality. 
+  
+3. Chronic ethmoid disease.   
+  
+  
+Dictated by: [NAME_1], M.D. on [DATE_1] at 15:13      
+Approved by: [NAME_1], M.D. on [DATE_1] at 15:14"
+e89e0c731164bfab07c738ddb88f0ad942024aa1b39c0c7a77ccf6babd0cece7,5f305568e646444afd8df2f7fa6db61aaa3fa0db82dfa1e5ff8909c30db254d6,9e1685007683165a6ac43749ea22815e1e3c2705c167e1019fa9c74c389f7904,"PROCEDURE:  Duplex Ext Veins Left
+
+ 
+
+INDICATIONS:  HEMATOMA LEFT LOWER LEG
+
+ 
+
+TECHNIQUE:  
+
+Real-time imaging, as well as color and pulse Doppler interrogation, were performed of the lower extr
+emity deep veins from the inguinal ligament to the popliteal fossa.  
+
+ 
+
+COMPARISON:  None.
+
+ 
+
+FINDINGS:  The deep veins are normally compressible, and free of intraluminal thrombus.  Color and pu
+lse Doppler demonstrate normal phasic intraluminal flow.  There is normal augmentation response to di
+stal compression maneuver.  
+
+ 
+
+Complex fluid collection in posterior mid calf soft tissue measures 14.9 x 2.9 x 6.1 cm in size witho
+ut internal vascularity
+
+ 
+
+IMPRESSION:  
+
+1. No evidence of DVT in visualized left lower extremity veins.
+
+2. Likely organizing hematoma in left calf soft tissue as above.
+
+ 
+
+Reviewed by: [NAME_1], MD on [DATE_1] 11:31 AM PDT
+
+Approved by: [NAME_1], MD on [DATE_1] 11:31 AM PDT
+
+ 
+
+ 
+
+Station ID:  IN-CVH1"
+33d15aeb1cd3a80c7f79c565090479a3ef68aa3038ebc8c02ef50ce9cd01d80e,5039baed6c6b6e8f46a56c3f067eace6fef5b221b8592cdbf96ecd47892ebfb2,9810735a4c5d9467233de668df2c824ec7b928e1fa55325bece3c8c281c1aef9,"HPI - Ear Problem
+General
+Chief complaint: Ear
+Stated complaint: Drainage and pain in both ears
+Time Seen by Provider: [DATE_1] 16:57
+Source: family (Mother) and RN notes reviewed
+Mode of arrival: ambulatory
+Limitations: no limitations
+History of Present Illness
+HPI Narrative: 
+Mother presents patient today complaining of drainage from the right ear x2 days with left ear pain that started today.  Patient has also had some rhinorrhea for the last couple of days.  Denies fever, cough, congestion.  Eating and drinking 
+normally.  Voiding and stooling normally.  She has given no over-the-counter treatment prior to arrival.  No history of tubes.  Patient was on Augmentin in [DATE_INTERVAL_1] and cefdinir in [DATE_INTERVAL_2] for otitis media.
+Related Data
+Allergies
+
+Allergy/AdvReac Type Severity Reaction Status Date / Time
+No Known Allergies Allergy   Verified [DATE_2] 17:29
+
+
+
+Review of Systems
+Review of Systems:   
+GENERAL: Denies fever, chills, or decreased activity.
+EYES: Denies any eye discharge or redness. 
+ENT: Denies sore throat, congestion.+ rhinorrhea, bilateral ear pain
+RESP: Denies any cough, wheezing, or difficulty breathing.
+CARDIOVASCULAR: Denies any rapid heart rate or cool extremities.
+ABDOMINAL: Denies any constipation, vomiting, diarrhea, or decreased food intake.
+GU: Denies any hematuria, foul smelling urine, or decreased urine frequency.
+SKIN: Denies any lesions, rashes, bruises.
+MUSCULOSKELETAL: Denies any pain or swelling.
+NEURO: Denies any lethargy, irritability, or seizures.
+PSYCH: Denies abnormal interaction with family and friends.
+
+ 
+
+PMFSH
+Comments
+At time of signature, I have reviewed and agree with nursing past medical, surgical, social  and family history unless otherwise noted.  Please see nursing chart for further information.  There is no relevant family history pertinent to the 
+presenting complaint
+
+Exam
+Narrative:   
+GENERAL: Well nourished, well developed, no acute distress.  Well appearing, non-toxic.
+EYES: PERRL, EOMs normal, conjunctivae normal.
+ENT: Head normocephalic and atraumatic. Nose normal without drainage.  Right TM and canal normal.  No drainage noted.  Left TM bulging with purulent material.  Pharynx without erythema or edema.  Uvula midline.  Neck supple. No lymphadenopathy.  
+Full ROM of neck.  Mucous membranes moist.
+RESP:   No sign of respiratory distress. Clear to auscultation bilaterally.
+CARDIOVASCULAR: Regular rate and rhythm.  No murmurs, rubs, or gallops appreciated.
+MUSC/SKEL: Good strength, good range of movement. Moves all extremities equally.
+NEURO: Alert.  Good coordination.
+SKIN: Warm, dry, no rash, normal cap refill.  Skin turgor normal.
+PSYCH: Affect and mood appropriate.
+
+ 
+
+Course
+Course
+Level of Care: Express Care Visit
+Vital Signs
+Vital signs: 
+
+Vital Signs
+
+Temperature  99.4 F   [DATE_1] 16:48
+Pulse Rate  102   [DATE_1] 16:48
+Respiratory Rate  22   [DATE_1] 16:48
+Pulse Oximetry  99   [DATE_1] 16:48
+Oxygen Delivery  Room Air   [DATE_1] 16:48
+
+
+
+Temperature  99.4 F   [DATE_1] 16:48
+Pulse Rate  102   [DATE_1] 16:48
+Respiratory Rate  22   [DATE_1] 16:48
+Pulse Oximetry  99   [DATE_1] 16:48
+Oxygen Delivery  Room Air   [DATE_1] 16:48
+
+
+Reviewed
+
+Medical Decision Making
+MDM Narrative
+Medical decision making narrative: 
+Exam consistent with left otitis media.  Will treat with amoxicillin.  Anticipatory guidance given.
+Differential Diagnosis
+Differential Diagnosis: 
+Otitis media, otitis externa, ruptured TM, serous otitis
+Vital Signs
+Vital Signs: 
+
+Vital Signs
+
+Temperature  99.4 F   [DATE_1] 16:48
+Pulse Rate  102   [DATE_1] 16:48
+Respiratory Rate  22   [DATE_1] 16:48
+Pulse Oximetry  99   [DATE_1] 16:48
+Oxygen Delivery  Room Air   [DATE_1] 16:48
+
+
+
+Temperature  99.4 F   [DATE_1] 16:48
+Pulse Rate  102   [DATE_1] 16:48
+Respiratory Rate  22   [DATE_1] 16:48
+Pulse Oximetry  99   [DATE_1] 16:48
+Oxygen Delivery  Room Air   [DATE_1] 16:48
+
+
+
+
+Critical Care Time
+Critical Care Time
+Critical"
+b1c33fad3a4455072c76e894e82fd7d65bde339d7fc4f3b0c8496dc1ac35ae82,b11ef370ce2d935848701d5ce2694e256edbbf6ac4bb60cff6f22cb5c843ef13,4b76c347059305a7a814f58d085bc793f9d59a57d09982a0ae9702e3389762ca,"MOTHER STATES WHILE SHE WAS IN THE ROOM WITH HER TWO BOYS THE FATHER CAME IN 
+AND THAT THE FATHER GRABBED [NAME_1] BY BOTH ANKLES THEN PUNCHED HIM IN THE 
+STOMACH TWICE. MOTHER STATES THAT WHEN SHE WENT TO GRAB [NAME_1] FROM HIS FATHER 
+THAT HE TRIED TO HEADBUT HER WHEN SHE MOVED AWAY HE GRABBED HER R ARM."
+8e349939a9fd085f246ae1976b6b8d91eddd1a44246d1ce500ffa35b515e8967,a87d0ade904ca3f454a8a84fb604aef914d9bf114ae5d119da7acf03fdd91f3d,83de0d1df512e9ca259775b08782eaa91b8a93557e9b3ca6c0d84aa1dd04f9cb,"PT ROUNDING. PT AWAKE. STATES THAT HE HAS NOT SLEPT MUCH OVERNIGHT. REPORTS
+THAT HE SLEEPS AROUND 5 HOURS AT BASELINE, BUT SINCE BEING HOSPITALIZED HE HAS
+BEEN SLEEPING EVEN LESS DESPITE BEING TIRED. PT ASSISTED TO READJUST PILLOWS
+BEHIND HIS BACK. DENIES FURTHER NEEDS AT THIS TIME. CALL [PHONE_NUMBER_1]."
+8e349939a9fd085f246ae1976b6b8d91eddd1a44246d1ce500ffa35b515e8967,a87d0ade904ca3f454a8a84fb604aef914d9bf114ae5d119da7acf03fdd91f3d,83de0d1df512e9ca259775b08782eaa91b8a93557e9b3ca6c0d84aa1dd04f9cb,"pt RESTING IN BED, LIGHTS OFF IN ROOM. NGT TO LOW INT SUCTION, NO DISTRESS
+NOTED."
+33d15aeb1cd3a80c7f79c565090479a3ef68aa3038ebc8c02ef50ce9cd01d80e,26d136999687807cc9779e2adfa6caa59d1509cacf46129a7b6b5f1c3fc019c7,5d4a684342cfa86d5192e868274440cf35b6e882f6153f053b175b5f22ce76da,"EXAMINATION: XR chest 2V 
+ 
+DATE: [DATE_1] 09:27 
+ 
+INDICATION: Cough. 
+ 
+TECHNIQUE: Frontal and lateral views of the chest were obtained. 
+ 
+COMPARISON: Chest 2 views [DATE_2] 
+ 
+FINDINGS: The chest demonstrates clear lungs without pneumonia, pleural effusion, or pneumothorax. Th
+e heart size is normal. There are surgical clips in left abdomen. There is a suture anchor in left hu
+meral head. 
+ 
+IMPRESSION: 
+1. No acute cardiopulmonary disease. 
+ 
+__________________________________________________ 
+Reviewed, dictated and finalized at location A. 
+Electronically signed by [NAME_1], M.D. on [DATE_3] 12:33 CDT 
+IMPRESSION:  
+1. No acute cardiopulmonary disease."
+2cb794e5c076688d6149b863441099ec43c905acc856fccd89b6fce0b387f620,edbbf8945433bf69900311aed5534483d6cb0be83bdfffa253dc1a13a3ff78f0,f343c34318eb189c260c29d59b0267651e0442d955eeaa747093e53c379faec4,INT SITE DISCONTINUED PER DISCHARGE FROM SURGICAL UNIT TO IPR UNIT.
+435c8be94cc6ab42ff5fd9bf5cc46ec8c687763e588d4cc4db45189cdcecd025,683683afae856e29806dfafd628bf927b34fd6ce00692fe0cae5f0b331c7d917,22f6ecec86554f317b7d2cad8d3a31a0711f160f59c8f7892d0bcf686834bbc1,DR [NAME_1] AT BEDSIDE TO UPDATE PT
+33d15aeb1cd3a80c7f79c565090479a3ef68aa3038ebc8c02ef50ce9cd01d80e,62892b30968fa4b18478a958a97ff712599adda4e6029c96b52cfdd272d00686,8d9305c8907fb8ff9cdaaf203c2b90a861dd26706ff986dbd35495627c98a78d,"Assessment and note entered by [NAME_1], OTR/L, CHT
+Evaluation Information
+
+Assessment Status              Discharge                                         
+Subjective Information         Patient reports good compliance with wearing      
+                               splints. Reports these have helped with her pain  
+                               and they help with providing support. She returns 
+                               today for last fitting of a splint that needed to 
+                               be exchanged for a different size. All splints now
+                               have a good fit.                                  
+
+
+
+
+Assessment
+
+OT Clinical Summary            Patient referred to outpatient hand therapy with  
+                               bilateral hand numbness and weakness. Patient     
+                               reporting a functional decline with ADLs due to   
+                               persistent pain and muscle spasms with hand use.  
+                               Therapy has been utilizing splinting to help with 
+                               pain reduction to provide support to her wrist and
+                               fingers. With the splints on her fingers she is   
+                               able to pinch the pinch gauge at least 1-2 lbs.   
+                               compared to without the support of the splints the
+                               pinch gauge does not budge. At this time she is   
+                               independent with splints and with gentle grip/    
+                               pinch strengthening HEP. No further skilled OT    
+                               indicated at this time.                           
+
+
+Plan of Care
+
+OT Services Indicated          No"
+490aecf4e53f4c2c649af8cad26e63c55742cfb11fb37bd2bedbae551f1dbdcc,21b1e5d3f7559bd5d55cf8c1b193d837803beb724b5a2c011f477aaf5b6d4b91,538fe2c35a9cb413cdbff4248bb205262983aca81e8bf3c91b7b0c542d3d5a39,"Patient resting in bed, A/Ox4, chest rise and falls symmetrical, no no pain or 
+s/s of disctress, patient on monitor.
+
+-------------------------------------------------------------------------------
+
+Addendum: [DATE_1] at 1945 by MEDAGRN06
+
+-------------------------------------------------------------------------------
+
+Patient resting in bed, A/Ox4, chest rise and falls symmetrical, no s/s of 
+distress, patient on monitor."
+435c8be94cc6ab42ff5fd9bf5cc46ec8c687763e588d4cc4db45189cdcecd025,8e97d3ea59c81ed7c513166e6b6e14a60983f5ffb08e021a57fc3bbdd30e0873,8593c6bf7c7ebfdab942c0932a57d06d02369ec8685454e2565349b4186a20fe,"Subjective    
+*Date: [DATE_1]    
+*Time: 11:05    
+Interval history:     
+POD # 1 s/p PLTCS    
+    
+She is resting comfortably in bedside chair. Pain is controlled. She is formula   
+feeding. Lochia is appropriate. Voiding without difficulty and passing flatus.   
+Tolerating regular diet and ambulating well ad lib. She admits to bilateral   
+lower extremity swelling. No headaches, vision changes or dizziness. Denies   
+fever/chills, chest pain and shortness of breath.    
+    
+    
+Medical Exam    
+Vital signs and Labs for Last 24 Hours:     
+                                   Vital Signs    
+    
+    
+    
+  Temp Pulse Resp BP Pulse Ox    
+     
+ [DATE_1] 08:33  98.1 F  93 H  18  122/56 L  99    
+     
+ [DATE_2] 19:45  98.6 F  109 H  18  134/76  100    
+     
+ [DATE_1] 04:04  98.4 F  90  17  128/61  98    
+     
+ [DATE_2] 16:00  98.8 F  120 H  18  120/80     
+     
+ [DATE_2] 12:00   118 H  16  141/66 H     
+    
+    
+                                Intake and Output    
+    
+    
+    
+ [DATE_2] [DATE_1] [DATE_1]    
+    
+ 23:59 07:59 15:59    
+     
+Output Total 200 / 200 300 / 300     
+     
+Balance -200 / 2200 -300 / -300     
+     
+Output:       
+     
+  Output, Urine Amount 200 / 200 300 / 300     
+    
+    
+                         Laboratory Results - last 24 hr    
+    
+[DATE_1] 06:45: WBC 14.5 H, RBC 3.69 L, Hgb 9.6 L, Hct 29.5 L, MCV 79.9 L, MCH   
+25.9 L, MCHC 32.4, RDW 16.0, Plt Count 297, MPV 8.8, Neut % (Auto) 82.7 H, Lymph  
+% (Auto) 12.7, Mono % (Auto) 4.3, Eos % (Auto) 0.2, Baso % (Auto) 0.1, Neut #   
+(Auto) 12.0 H, Lymph # (Auto) 1.8, Mono # (Auto) 0.6, Eos # (Auto) 0.0, Baso #   
+(Auto) 0.0    
+    
+    
+I & O for Labs for Last 24 Hours:     
+                                 Intake & Output    
+    
+    
+    
+ [DATE_3] [DATE_4] [DATE_2] [DATE_1]    
+    
+ 23:59 23:59 23:59 23:59    
+     
+Intake Total   2400 / 2400     
+     
+Output Total   200 / 200 300 / 300    
+     
+Balance   2200 / 2200 -300 / -300    
+     
+Weight   245 lb     
+    
+    
+    
+Head: Present atraumatic and normocephalic    
+ENT: Present normal exam    
+Neck: Present normal inspection and full ROM    
+Respiratory: Present CTA bilaterally and normal respiratory effort    
+Cardiac: Present Reg Rate and Rhythm    
+Rectal (female): Present deferred    
+GU (female): Present deferred    
+Extremities: Present full ROM and edema (+1 bilateral lower extremity edema);   
+Absent tenderness or calf tenderness    
+Neuro: Present alert, awake, oriented x 3 and moves all extremities    
+    
+Assessment and Plan    
+*Assessment and plan    
+(1) Pregnancy with 39 completed weeks gestation:     
+      Status: Acute    
+      Category: Medical    
+      Code(s):    
+Z3A.39 - 39 weeks gestation of pregnancy    
+(2) S/P cesarean section:     
+      Status: Acute    
+      Category: Surgical    
+      Code(s):    
+Z98.891 - History of uterine scar from previous surgery    
+(3) Condyloma acuminata of vulva in pregnancy in third trimester:     
+      Status: Acute    
+      Category: Medical    
+      Code(s):    
+O98.313 - Other infections with a predominantly sexual mode of transmission   
+complicating pregnancy, third trimester; A63.0 - Anogenital (venereal) warts    
+(4) Maternal obesity affecting pregnancy, antepartum:     
+      Status: Acute    
+      Category: Medical    
+      Code(s):    
+O99.210 - Obesity complicating pregnancy, unspecified trimester    
+(5) Rubella non-immune status, antepartum:     
+      Status: Acute    
+      Category: Medical    
+      Code(s):    
+O09.899 - Supervision of other high risk pregnancies, unspecified trimester;   
+Z28.39 - Other underimmunization status    
+(6) Anxiety:     
+      Status: Acute    
+      Category: Medical    
+      Code(s):    
+F41.9 - Anxiety disorder, unspecified    
+(7) Acute blood loss anemia:     
+      Status: Acute    
+      Category: Medical    
+      Code(s):"
+8e349939a9fd085f246ae1976b6b8d91eddd1a44246d1ce500ffa35b515e8967,55a35def354fa1b4fad2be047cae96aa3e4c05ac56e2a87357698fdc6068c59c,3ddf64b871c7e06a2f64b4d39260d0a4037c8a1475cbe7310cf8e756c03d57fe,"PT CALL LIGHT ON. PT REPORTS SHE IS ""HAVING TROUBLE BREATHING."" OXGYEN
+SATURATION REMAINS AT 90% ON 8L O2 BY NC. HEART RATE IN THE 110'S. WORK OF
+BREATHING UNCHNAGED. RR OF 20-24. LUNG SOUNDS REMAIN COURSE THROUGHOUT,
+UNCHANGED. RESPIRATORY THERAPY CALLED AND STATES RN TO TO GIVE PRN NEBULIER
+TX. O2 INCREASED TO 10L O2 BY NC WITH OXGYEN SATUATIONS REMANING 88-92%. HEART
+RATE 90'S. PT REPORTS FEELINGS OF SHORTNESS OF BREATH IMPROVE AFTER NEBLIZER
+TX. NO ADDITIONAL REQUESTS OR COMPLAINTS. CALL LIGHT WITHIN REACH."
+8e349939a9fd085f246ae1976b6b8d91eddd1a44246d1ce500ffa35b515e8967,55a35def354fa1b4fad2be047cae96aa3e4c05ac56e2a87357698fdc6068c59c,3ddf64b871c7e06a2f64b4d39260d0a4037c8a1475cbe7310cf8e756c03d57fe,"[NAME_1]. IN PT ROOM FOR NEB TX, PT SITTING UP AT BEDSIDE NOW, SHE IS REPOSITIONING
+IN BED AND UP TO BEDSIDE, AND STANDING AT BEDSIDE EVERY 5-15MIN. SHE IS
+RESTLESS/ANXIOUS/AGITATED."
+33d15aeb1cd3a80c7f79c565090479a3ef68aa3038ebc8c02ef50ce9cd01d80e,e36a89919ed9c860a0c065200135da17e34d6cae95a8c277f9652a16eb27c17c,ded60475f27e78361663c5ae3e033160d197c36c7a7314ec63e0cf6fd15437a3,"H&P: HPI    
+History of Present Illness    
+Date/Time:     
+[DATE_1]  22:13    
+    
+Chief Complaint:     
+ altered mental status    
+Narrative:     
+ this is a [AGE_1]-year-old male patient who has a history of Alzheimer's dementia.    
+He lives with his wife.  The patient was recently admitted to Saint Joseph   
+hospital in Highland for cellulitis of the lower extremity.  The patient is   
+currently orientated to himself.  The patient was not orientated to place   
+initially but the patient is now where that he is at Anderson Hospital.  The   
+patient was discharged from Anderson Hospital yesterday.  EMS was called this   
+morning for the patient to be evaluated since he has increased weakness.  When   
+EMS came to the residence the patient was very somnolent and was sitting in a   
+chair.  His blood sugar was 123.  No fever chills noted.  No nausea vomiting or   
+diarrhea.  The patient was answering questions for me without difficulty.    
+Patient has some leg swelling and venous Doppler was negative.  Head CT was read  
+as no acute intracranial abnormality.  Chronic age-related findings.  Chest x-  
+ray was read as no acute cardiopulmonary disease.  The patient was given IV   
+fluids, Haldol and Benadryl in the emergency room.  The patient is being   
+admitted to observation status on the date of service of [DATE_2] peer    
+    
+Review of Systems    
+    
+    
+Review of Systems:   All systems reviewed & are unremarkable except as noted in   
+HPI and below      
+     
+Constitutional:   Constitutional: Reports as per HPI and Reports no additional   
+constitutional complaints      
+     
+Eyes:   Eyes: Reports as per HPI and Reports no additional eye complaints      
+     
+ENT:   Reports system reviewed and no additional complaints, except as   
+documented and Reports Normal hearing present      
+     
+Cardiovascular:   Cardiovascular: Reports no additional cardiovascular compla  
+ints      
+     
+Respiratory:   Respiratory: Reports no additional respiratory complaints and   
+Reports no additional respiratory complaints      
+     
+Gastrointestinal:   Gastrointestinal: Reports as per HPI and Reports no   
+additional gastrointestinal complaints      
+     
+Musculoskeletal:   Musculoskeletal: Reports no additional musculoskeletal   
+complaints      
+     
+Integumentary/Breasts:   Skin/Breast: Reports system reviewed and no additional   
+complaints, except as docu and Reports as per HPI      
+     
+Neurologic:   Reports system reviewed and no additional complaints, except as   
+documented, Reports as per HPI and Reports Normal hearing present      
+     
+Psychiatric:   Psychiatric: Reports no additional psychiatric complaints and   
+Reports as per HPI      
+     
+Endocrine:   Endocrine: Reports no additional endocrine complaints      
+     
+Hematologic/Lymphatic:   Hematologic/Lymphatic: Reports no additional   
+hematologic/lymphatic complaints      
+     
+Allergic/Immunologic:   Allergic/Immunologic: Reports no additional   
+allergic/immunologic complaints      
+    
+    
+PMFSH    
+Past Medical History    
+Medical History (Updated [DATE_1] @ 23:58 by [NAME_1], NP)    
+    
+Alzheimer's dementia    
+Anxiety    
+Cellulitis    
+    
+    
+Surgical History    
+Surgical History (Updated [DATE_1] @ 23:49 by [NAME_1], NP)    
+    
+Surgical history unknown    
+    
+    
+Family History    
+Family History (Updated [DATE_1] @ 23:49 by [NAME_1], NP)    
+Unknown      No problems noted.    
+    
+    
+    
+Social History    
+Social History (Updated [DATE_1] @ 23:52 by [NAME_1], NP)    
+Social History:  the patient lives with his wife.  He tells me that he used to   
+be a farmer  and worked as a machinist.  The patient stated that he had 2   
+children.     
+     
+  Code status full code     
+Smoking status:  Former smoker     
+Alcohol intake:  current     
+Drinks per week:  2     
+Substance use:  never     
+Spiritual"
+24480f5c8f2ab178b2d0e4f6dadbb276e77affef9972917cf1b4aec3fa6cec46,78bbfb643eb9e65390ac63de10b429893a7b5e4bef0871dd6388ded5b60758f3,c30942844e2d1de9afe02211287d0df071b550590f988d76c4f650ce65ec8cd5,"Ms. [NAME_1] came in with the non-STEMI, underwent a heart catheterization yesterday and had a stent o
+f her proximal RCA and mid RCA.  She did very well during the procedure.  Following the procedure, be
+came slightly hypotensive.  Was observed in the ICU overnight, placed on the Levophed temporarily.  T
+his morning, she has no problem.  She had no complaint.  She is in sinus rhythm.  Normal blood pressu
+re.  Her groin entry site is adequate without any hematoma.  She should go home today on her home med
+ications plus Brilinta.  We will see her in the office in the next 2 weeks.
+
+
+
+
+
+NB/MODL
+
+DD:  [DATE_1] 11:13:28Voice ID:  263747
+
+DT:  [DATE_1] 11:29:40Report ID:  993209836"
+8e349939a9fd085f246ae1976b6b8d91eddd1a44246d1ce500ffa35b515e8967,a87d0ade904ca3f454a8a84fb604aef914d9bf114ae5d119da7acf03fdd91f3d,83de0d1df512e9ca259775b08782eaa91b8a93557e9b3ca6c0d84aa1dd04f9cb,"DR. [NAME_1] UPDATED ON PT ASSESMENT THIS AM. MD AWARE OF NGT OUTPUT
+COLOR/CONSISTANCY."
+e66759aa3a6fa4c1931ea7e16726203477d9d6a8978c7ead3ad994dd79ad8160,6f4d4c5b559521477c38234fe0d837e9ebc4aa23c9a895402e57bcccb928de8a,a7f9105c61a7c6792b96b419b5a9a9822d830d426f0b66f532ee0b8f0778ea48,"Subjective
+
+
+Date Seen by a Provider:  [DATE_1]
+
+
+Time Seen by a Provider:  08:35
+
+
+Subjective/Events-last exam
+
+
+Fwup acute renal failure/AKI, dehydration, UTI, dyspepsia, N/V, Hypotension, Hx 
+
+of A fib, COPD, chronic CHF.  Sitting up in chair. C/O constipation.  Feels a 
+
+little better but understands she can't go home due to her weakness/fall risk.
+
+
+
+
+
+Objective
+
+
+Exam
+
+
+
+
+
+Vital Signs
+
+
+
+
+
+
+
+
+  Date Time  Temp Pulse Resp B/P (MAP) Pulse Ox O2 Delivery O2 Flow Rate FiO2
+
+
+ 
+
+
+[DATE_2] 11:14 36.7 80 16 124/75 (91) 99 Nasal Cannula 2.00 
+
+
+ 
+
+
+[DATE_2] 08:00      Nasal Cannula 2.00 
+
+
+ 
+
+
+[DATE_2] 07:53 36.7 80 18 124/70 (88) 98 Nasal Cannula 2.00 
+
+
+ 
+
+
+[DATE_2] 07:49  80      
+
+
+ 
+
+
+[DATE_2] 07:37      Nasal Cannula 2.00 
+
+
+ 
+
+
+[DATE_2] 03:46 36.4 69 16 132/69 (90) 98 Nasal Cannula 2.00 
+
+
+ 
+
+
+[DATE_2] 01:00  80      
+
+
+ 
+
+
+[DATE_2] 00:00 36.2 79 16 109/66 (80) 97 Nasal Cannula 2.00 
+
+
+ 
+
+
+[DATE_3] 20:50      Nasal Cannula 2.00 
+
+
+ 
+
+
+[DATE_3] 19:03 36.1 80 17 119/78 (92) 98 Nasal Cannula 2.00 
+
+
+ 
+
+
+[DATE_3] 19:00  81      
+
+
+ 
+
+
+[DATE_3] 15:08 36.6 80 17 121/73 (89) 99 Nasal Cannula 2.00 
+
+
+ 
+
+
+[DATE_3] 13:29  67      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+I & O 
+
+
+ 
+
+
+ [DATE_2]
+
+
+
+
+
+ 07:00
+
+
+ 
+
+
+Intake Total 1175 ml
+
+
+ 
+
+
+Balance 1175 ml
+
+
+
+
+
+Capillary Refill : Less Than 3 Seconds
+
+
+General Appearance:  Mild Distress
+
+
+Respiratory:  Lungs Clear, Decreased Breath Sounds
+
+
+Cardiovascular:  Regular Rate, Rhythm, Systolic Murmur, Gallop/S4
+
+
+Gastrointestinal:  normal bowel sounds, non tender, soft, distended (mild 
+
+fullness)
+
+
+Extremity:  Non Tender, No Calf Tenderness, No Pedal Edema
+
+
+Neurologic/Psychiatric:  Alert, Oriented x3
+
+
+
+
+
+Results
+
+
+Lab
+
+
+Laboratory Tests
+
+
+[DATE_2] 05:31: 
+
+
+White Blood Count 6.4, Red Blood Count 3.41L, Hemoglobin 10.4L, Hematocrit 33L, 
+
+Mean Corpuscular Volume 95, Mean Corpuscular Hemoglobin 31, Mean Corpuscular 
+
+Hemoglobin Concent 32, Red Cell Distribution Width 15.3H, Platelet Count 175, 
+
+Mean Platelet Volume 10.6, Sodium Level 143, Potassium Level 3.4L, Chloride Le
+
+vel 110H, Carbon Dioxide Level 24, Anion Gap 9, Blood Urea Nitrogen 18, 
+
+Creatinine 1.02, Estimat Glomerular Filtration Rate 54, BUN/Creatinine Ratio 18,
+
+Glucose Level 103, Calcium Level 8.5
+
+
+
+
+
+Microbiology
+
+
+[DATE_4] Urine Culture - Final, Complete
+
+
+          Serratia marcescens
+
+
+
+
+
+Assessment/Plan
+
+
+Assessment/Plan
+
+
+Assess & Plan/Chief Complaint
+
+
+1.  Acute Renal Failure/AKI due to dehydration/UTI--BUN/Cr back to normal
+
+
+2.  Acute UTI--on rocephin
+
+
+3.  Dyspepsia/Intractable N/V--resolved--on protonix with zofran prn
+
+
+4.  COPD--stable--has not been using inhalers at home
+
+
+5.  History of Atrial Fibrillation--restarted amiodarone and eliquis
+
+
+6.  Hypotension--will continue to hold metoprolol and HCTZ and monitor BP
+
+
+7.  Chronic Combined CHF-gave lasix 20mg yesterday
+
+
+8.  Hypokalemia--increased K dose yesterday but also got lasix yesterday so will
+
+give extra potassium dose today and recheck level in weakness
+
+
+9.  Debility/Weakness/Fall Risk--continue  PT/OT, she either needs NH/SNF or 
+
+24hr in-home care for discharge due to weakness/fall risk/safety
+
+
+
+
+
+Clinical Quality Measures
+
+
+Admission Status
+
+
+Admission Dx
+
+
+1.  Acute Renal Failure/Acute Kidney Injury due to Dehydration/UTI--hydrate and 
+
+monitor BUN/Cr
+
+
+2.  Acute UTI--on rocephin
+
+
+3.  Hypotension--BP meds on hold
+
+
+4.  Debility/Weakness/Fall Risk--not doing well at home--will need 24hr care or 
+
+back to NH, will start PT/OT tomorrow
+
+
+5.  History of PAF--eliquis on hold due to age/renal failure-will consider 
+
+restarting tomorrow
+
+
+6.  COPD--resume inhalers
+
+
+
+
+
+
+
+
+
+
+
+[NAME_1] DO        [DATE_1] 12:57"
+490aecf4e53f4c2c649af8cad26e63c55742cfb11fb37bd2bedbae551f1dbdcc,c328d9f91f05cef9ecda5e8ceb2637c78cba77dccf5ef3b007c4c7c8f555b581,7310143b22dbe85a50473c84ff38539df64302c2ad81f6aaf533cd6c55b7e128,"ASSUMED CONTINUITY OF CARE. INITIAL ASSESSMENT DONE. KEEP COMFORTABLE ON BED. EXPLAINED USE 
+OF CALL LIGHT/BED/TV/BATHROOM. VERBALIZED UNDERSTANDING. CALL LIGHT WITHIN REACH."
