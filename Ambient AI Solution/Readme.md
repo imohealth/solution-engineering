@@ -166,7 +166,7 @@ Before starting, ensure you have the following:
 ## Installation
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/<your-org>/Ambient-AI-Solution.git
+   git clone https://github.com/imohealth/solution-engineering.git
    cd Ambient-AI-Solution/PythonNotebook
    ```
 2. **Create and activate a virtual environment (recommended)**
