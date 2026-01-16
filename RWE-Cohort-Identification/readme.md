@@ -36,35 +36,34 @@ This solution supports three workflows. Choose the one that fits your inputs and
   - Ingestion, normalization, enrichment and curation at scale
   - Produces curated datasets for analytics and cohorting
 
-### Data Flow Diagram
+### Data Flow Diagrams
+
+#### using-OMOP (Notes → OMOP → Cohort)
 
 ```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                     RWD COHORT IDENTIFICATION PIPELINE                      │
-└─────────────────────────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                                              RWD COHORT IDENTIFICATION (using-OMOP)                                                            │
+└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
 
-┌──────────────────────┐       ┌──────────────────────┐       ┌──────────────────────┐
-│  Notes (CSV input)   │       │   IMO NLP API        │       │  patient_output.xlsx │
-│  upload_ihm/*.csv    │  ───▶ │  Entity Extraction   │  ───▶ │  (structured results)│
-└─────────┬────────────┘       └──────────┬───────────┘       └─────────┬────────────┘
-       │                                 │                              │
-       │                                 ▼                              ▼
-       │                    ┌──────────────────────────┐    ┌──────────────────────┐
-       │                    │   OMOP Conversion        │    │  OMOP CSV Tables     │
-       │                    │  (vocabularies/*.csv)    │    │  Output/OMOP_CSV/*   │
-       │                    └──────────┬───────────────┘    └─────────┬────────────┘
-       │                                 │                              │
-       │                                 ▼                              ▼
-       │                    ┌──────────────────────────┐    ┌──────────────────────┐
-       │                    │  Cohort Criteria Apply  │    │  Cohort Results      │
-       │                    │  (IMO FHIR ValueSets)   │    │  (reports/exports)   │
-       │                    └──────────────────────────┘    └──────────────────────┘
-       │
-       ▼
-┌──────────────────────┐  Alternative Path
-│ HL7 messages         │  uploads/hl7_data/*  ▶  HL7 Parse ▶ Matching
-└──────────────────────┘
+┌──────────────────────┐  ───▶  ┌──────────────────────┐  ───▶  ┌──────────────────────┐  ───▶  ┌──────────────────────────┐  ───▶  ┌──────────────────────┐  ───▶  ┌──────────────────────────┐  ───▶  ┌──────────────────────┐
+│  Notes (CSV input)   │        │   IMO NLP API        │        │  patient_output.xlsx │        │   OMOP Conversion        │        │  OMOP CSV Tables     │        │  Cohort Criteria Apply   │        │  Cohort Results      │
+│  upload_ihm/*.csv    │        │  Entity Extraction   │        │  (structured results)│        │  (vocabularies/*.csv)    │        │  Output/OMOP_CSV/*   │        │  (IMO FHIR ValueSets)    │        │  (reports/exports)   │
+└──────────────────────┘        └──────────────────────┘        └──────────────────────┘        └──────────────────────────┘        └──────────────────────┘        └──────────────────────────┘        └──────────────────────┘
+```
 
+#### using-HL7 (HL7 → Codes → Cohort)
+
+```
+┌──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                                              RWD COHORT IDENTIFICATION (using-HL7)                                                            │
+└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+┌──────────────────────┐  ───▶  ┌──────────────────────────┐  ───▶  ┌────────────────────────────┐  ───▶  ┌──────────────────────────┐  ───▶  ┌────────────────────────────┐  ───▶  ┌──────────────────────────┐  ───▶  ┌──────────────────────┐
+│  HL7 messages        │        │  HL7 Parse & Extraction  │        │  trial_patient_dict        │        │  Code Normalization      │        │  Normalized Patient Codes  │        │  Cohort Criteria Apply   │        │  Cohort Results      │
+│  uploads_hl7/hl7_data│        │  (ICD10CM/CPT/LOINC/SCT) │        │  (codes per patient)       │        │  (IMO Precision API)     │        │  (filled/corrected codes)  │        │  (IMO FHIR ValueSets)    │        │  (reports/exports)   │
+└──────────────────────┘        └──────────────────────────┘        └────────────────────────────┘        └──────────────────────────┘        └────────────────────────────┘        └──────────────────────────┘        └──────────────────────┘
+```
+```
 Legend:
 ┌────┐ Step    │  Data ▶▶▶ Flow
 └────┘ Object
@@ -81,18 +80,16 @@ Legend:
 
 1. Navigate to this folder:
   ```bash
-  cd "SolutionAccelertors/RWD-Cohort-Identification/PythonNotebook"
+  cd "solution-engineering/RWE-Cohort-Identification"
   ```
 
-2. Create and activate a virtual environment, then install dependencies.
+2. Create and activate a virtual environment.
 
   Windows (PowerShell):
   ```powershell
   python -m venv .venv
   .\.venv\Scripts\Activate.ps1
   pip install --upgrade pip
-  pip install pandas numpy requests xlsxwriter openpyxl hl7apy boto3 nbformat nbconvert ipykernel jupyter
-  python -m ipykernel install --user --name rwd-cohort-notebooks --display-name "Python (rwd-cohort)"
   ```
 
   macOS/Linux (bash):
@@ -100,7 +97,17 @@ Legend:
   python3 -m venv .venv
   source .venv/bin/activate
   pip install --upgrade pip
-  pip install pandas numpy requests xlsxwriter openpyxl hl7apy boto3 nbformat nbconvert ipykernel jupyter
+  ```
+
+3. Install the required packages (from requirements.txt):
+
+  ```bash
+  pip install -r requirements.txt
+  ```
+
+4. (Optional) Register the kernel for Jupyter/VS Code:
+
+  ```bash
   python -m ipykernel install --user --name rwd-cohort-notebooks --display-name "Python (rwd-cohort)"
   ```
 
@@ -130,13 +137,13 @@ Prerequisites:
 - OMOP vocabularies in `vocabularies/`: `CONCEPT.csv`, `CONCEPT_RELATIONSHIP.csv` (tab-delimited from OHDSI Athena)
 
 Run Order:
-1. `SolutionAccelerator_RWE_Extraction_From_Notes_To_Patient_Data.ipynb`
+1. `SolutionAccelerator_RWE_Extraction_From_Notes_To_Patient_Data.ipynb` (in `using-OMOP/`) 
   - Input: `upload_ihm/*.csv`
   - Output: `Output/patient_output.xlsx`
-2. `SolutionAccelerator_RWE_Patient_Data_to_OMOP_Converter.ipynb`
+2. `SolutionAccelerator_RWE_Patient_Data_to_OMOP_Converter.ipynb` (in `using-OMOP/`) 
   - Input: `Output/patient_output.xlsx`, `vocabularies/*`
   - Output: `Output/OMOP_CSV/*.csv`
-3. `SolutionAccelerator_RWE_Applying_Cohort_Criteria.ipynb`
+3. `SolutionAccelerator_RWE_Applying_Cohort_Criteria.ipynb` (in `using-OMOP/`) 
   - Input: `Output/OMOP_CSV/*.csv`
   - Action: Fetch ValueSets via IMO FHIR; apply inclusion criteria; export results
 
@@ -146,12 +153,11 @@ Prerequisites:
 - HL7 messages under project-level `uploads/hl7_data/`
 
 Run Order:
-1. `SolutionAccelerator_for_RWE_Cohort_identification_withHL7.ipynb`
+1. `SolutionAccelerator_for_RWE_Cohort_identification_withHL7.ipynb` (in `using-HL7/`)
   - Input: `uploads/hl7_data/*`
   - Action: Parse HL7 with `hl7apy`, extract codes, optional normalization via IMO APIs
   - Note: If running from this folder, adjust path to `../uploads/hl7_data/` or start Jupyter from project root
 
-2. (Optional) Apply cohort criteria within the HL7 notebook or use the OMOP criteria notebook if you convert to OMOP downstream.
 
 ### Data Lake Workflow (Medallion)
 
