@@ -166,7 +166,7 @@ Prerequisites:
 
 Run Order (example):
 1. `Medallion_DataLake_Patient_Pipeline.ipynb` (in `using-DataLake-Architecture/`)
-  - Input: `DQA_TargetRWE_Input.csv` and source datasets
+  - Input: `DQA_Input.csv` and source datasets
   - Action: Ingest → Normalize/Enrich → Curate (bronze/silver/gold)
   - Output: Curated tables for analytics/cohorting
 
