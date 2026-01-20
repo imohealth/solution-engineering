@@ -1,3 +1,7 @@
+<img src="./PythonNotebooks/static/imo_health.png" alt="IMO Health Logo" width="300"/>
+
+---
+
 # Ambient AI Solution - PythonNotebook
 
 This repository contains Jupyter notebooks and supporting files for the Ambient AI Solution Accelerator. It demonstrates a complete medical AI pipeline for transforming clinical transcripts into structured, coded documentation using AWS and IMO Health APIs.
@@ -13,10 +17,10 @@ This repository contains Jupyter notebooks and supporting files for the Ambient 
 - [Output Files](#output-files)
 - [Troubleshooting](#troubleshooting)
 - [Best Practices](#best-practices)
-- [Production Deployment](#production-deployment)
 - [Resources](#resources)
 - [Contributing](#contributing)
-- [License](#license)
+- [Support](#support)
+
 
 ## Overview
 The Ambient AI Solution transforms medical transcripts from ambient listening into structured, coded clinical documentation through a 4-step workflow:
@@ -202,17 +206,15 @@ Before starting, ensure you have the following:
    Edit the `config.py` file in the PythonNotebook directory:
    
    ```python 
-   # IMO Health API Credentials
-   # Option 1: AWS SSM Parameter Store
-   # Store credentials in AWS SSM and they'll be fetched automatically
-   IMO_CLIENT_ID_PARAM = "/ambient-ai-solution/imo_client_id"
-   IMO_CLIENT_SECRET_PARAM = "/ambient-ai-solution/imo_client_secret"
    
-   # Option 2: Direct credentials
-   _default_imo_client_id = "YOUR_IMO_CLIENT_ID"
-   _default_imo_client_secret = "YOUR_IMO_CLIENT_SECRET"
-   _default_imo_diag_client_id = "YOUR_IMO_DIAGNOSTIC_CLIENT_ID"
-   _default_imo_diag_client_secret = "YOUR_IMO_DIAGNOSTIC_CLIENT_SECRET"   
+   
+   imo_entity_extraction_client_id = "YOUR_IMO_ENTITY_EXTRACTION_API_CLIENT_ID"
+   imo_entity_extraction_client_secret = "YOUR_IMO_ENTITY_EXTRACTION_API_CLIENT_SECRET"
+   imo_normalize_enrichment_api_client_id = "YOUR_IMO_ENRICHMENT_API_CLIENT_ID"
+   imo_normalize_enrichment_api_client_secret = "YOUR_IMO_ENRICHMENT_API_CLIENT_SECRET"
+   imo_diagnostic_workflow_client_id = "YOUR_IMO_DIAGNOSTIC_WORKFLOW_API_CLIENT_ID"	
+   imo_diagnostic_workflow_client_secret = "YOUR_IMO_DIAGNOSTIC_WORKFLOW_API_CLIENT_SECRET"
+      
    ```
    
    > ⚠️ **Security Warning**: Never commit `config.py` with actual credentials to version control. 
@@ -260,15 +262,9 @@ Sample medical transcripts are provided in `sample_data/`. You can use your own 
 - Be mindful of API rate limits
 - Follow HIPAA guidelines for PHI
 
-## Production Deployment
-- Convert notebooks to Python scripts
-- Add robust error handling, logging, and monitoring
-- Build a web UI (see `../app.py`)
-- Integrate with EHR systems
-- Add quality assurance workflows
 
 ## Resources
-- [IMO Health Documentation](https://docs.imohealth.com)
+- [IMO Health Documentation](https://developer.imohealth.com/)
 - [Amazon Bedrock Guide](https://docs.aws.amazon.com/bedrock/)
 - [ICD-10-CM Codes](https://www.cms.gov/medicare/coding-billing/icd-10-codes)
 - [SNOMED CT](https://www.snomed.org/)
@@ -280,12 +276,10 @@ Improvements welcome! Please:
 - Test with sample data
 - Follow existing code style
 
-## License
-See main project LICENSE file.
+## Support
 
----
-**Last Updated**: 2024
-**Version**: 1.0
-**Maintainer**: Solution Engineering Team
+For questions or issues, contact:
+- IMO API Support: support@imohealth.com
+
 
 

@@ -1,4 +1,4 @@
-<img src="./PythonNotebook/static/imo_health.png" alt="IMO Health Logo" width="300"/>
+<img src="./PythonNotebooks/static/imo_health.png" alt="IMO Health Logo" width="300"/>
 
 ---
 # RWD Cohort Identification (Python Notebooks)
@@ -263,16 +263,9 @@ Output/
    └── PROCEDURE_OCCURRENCE.csv
 ```
 
-## Architecture
 
-
-
-## License
-
-[Include your license information here]
 
 ## Support
 
 For questions or issues, contact:
-- IMO API Support: [support contact]
-- Internal Team: [team contact]
+- IMO API Support: support@imohealth.com
