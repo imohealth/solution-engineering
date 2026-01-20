@@ -1,3 +1,7 @@
+<img src="./PythonNotebooks/static/imo_health.png" alt="IMO Health Logo" width="300"/>
+
+---
+
 # Ambient AI Solution - PythonNotebook
 
 This repository contains Jupyter notebooks and supporting files for the Ambient AI Solution Accelerator. It demonstrates a complete medical AI pipeline for transforming clinical transcripts into structured, coded documentation using AWS and IMO Health APIs.
@@ -280,12 +284,10 @@ Improvements welcome! Please:
 - Test with sample data
 - Follow existing code style
 
-## License
-See main project LICENSE file.
+## Support
 
----
-**Last Updated**: 2024
-**Version**: 1.0
-**Maintainer**: Solution Engineering Team
+For questions or issues, contact:
+- IMO API Support: support@imohealth.com
+
 
 
