@@ -206,17 +206,15 @@ Before starting, ensure you have the following:
    Edit the `config.py` file in the PythonNotebook directory:
    
    ```python 
-   # IMO Health API Credentials
-   # Option 1: AWS SSM Parameter Store
-   # Store credentials in AWS SSM and they'll be fetched automatically
-   IMO_CLIENT_ID_PARAM = "/ambient-ai-solution/imo_client_id"
-   IMO_CLIENT_SECRET_PARAM = "/ambient-ai-solution/imo_client_secret"
    
-   # Option 2: Direct credentials
-   _default_imo_client_id = "YOUR_IMO_CLIENT_ID"
-   _default_imo_client_secret = "YOUR_IMO_CLIENT_SECRET"
-   _default_imo_diag_client_id = "YOUR_IMO_DIAGNOSTIC_CLIENT_ID"
-   _default_imo_diag_client_secret = "YOUR_IMO_DIAGNOSTIC_CLIENT_SECRET"   
+   
+   imo_entity_extraction_client_id = "YOUR_IMO_ENTITY_EXTRACTION_API_CLIENT_ID"
+   imo_entity_extraction_client_secret = "YOUR_IMO_ENTITY_EXTRACTION_API_CLIENT_SECRET"
+   imo_normalize_enrichment_api_client_id = "YOUR_IMO_ENRICHMENT_API_CLIENT_ID"
+   imo_normalize_enrichment_api_client_secret = "YOUR_IMO_ENRICHMENT_API_CLIENT_SECRET"
+   imo_diagnostic_workflow_client_id = "YOUR_IMO_DIAGNOSTIC_WORKFLOW_API_CLIENT_ID"	
+   imo_diagnostic_workflow_client_secret = "YOUR_IMO_DIAGNOSTIC_WORKFLOW_API_CLIENT_SECRET"
+      
    ```
    
    > ⚠️ **Security Warning**: Never commit `config.py` with actual credentials to version control. 
