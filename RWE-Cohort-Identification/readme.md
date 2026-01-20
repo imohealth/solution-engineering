@@ -1,4 +1,4 @@
-<img src="./static/imo_health.png" alt="IMO Health Logo" width="300"/>
+<img src="./PythonNotebook/static/imo_health.png" alt="IMO Health Logo" width="300"/>
 
 ---
 # RWD Cohort Identification (Python Notebooks)
