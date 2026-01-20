@@ -1,3 +1,6 @@
+<img src="./static/imo_health.png" alt="IMO Health Logo" width="300"/>
+
+---
 # RWD Cohort Identification (Python Notebooks)
 
 A complete, notebook-driven pipeline to extract structured patient data from clinical notes or HL7, convert results to OMOP CDM, and apply cohort eligibility criteria using IMO APIs.
