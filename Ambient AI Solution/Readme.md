@@ -17,10 +17,10 @@ This repository contains Jupyter notebooks and supporting files for the Ambient 
 - [Output Files](#output-files)
 - [Troubleshooting](#troubleshooting)
 - [Best Practices](#best-practices)
-- [Production Deployment](#production-deployment)
 - [Resources](#resources)
 - [Contributing](#contributing)
-- [License](#license)
+- [Support](#support)
+
 
 ## Overview
 The Ambient AI Solution transforms medical transcripts from ambient listening into structured, coded clinical documentation through a 4-step workflow:
@@ -262,15 +262,9 @@ Sample medical transcripts are provided in `sample_data/`. You can use your own 
 - Be mindful of API rate limits
 - Follow HIPAA guidelines for PHI
 
-## Production Deployment
-- Convert notebooks to Python scripts
-- Add robust error handling, logging, and monitoring
-- Build a web UI (see `../app.py`)
-- Integrate with EHR systems
-- Add quality assurance workflows
 
 ## Resources
-- [IMO Health Documentation](https://docs.imohealth.com)
+- [IMO Health Documentation](https://developer.imohealth.com/)
 - [Amazon Bedrock Guide](https://docs.aws.amazon.com/bedrock/)
 - [ICD-10-CM Codes](https://www.cms.gov/medicare/coding-billing/icd-10-codes)
 - [SNOMED CT](https://www.snomed.org/)
