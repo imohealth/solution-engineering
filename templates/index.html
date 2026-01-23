@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinical Entity Extraction Pipeline</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        header {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            color: #2d3748;
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #718096;
+            font-size: 16px;
+        }
+
+        /* Pipeline Steps */
+        .pipeline-steps {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+
+        .step {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            min-width: 140px;
+        }
+
+        .step-icon {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: #e2e8f0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 10px;
+            transition: all 0.3s;
+            color: #a0aec0;
+        }
+
+        .step.active .step-icon {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .step-label {
+            font-size: 14px;
+            font-weight: 600;
+            color: #718096;
+        }
+
+        .step.active .step-label {
+            color: #667eea;
+        }
+
+        .progress-connector {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            padding: 0 10px;
+            min-width: 80px;
+        }
+
+        .progress-bar-container {
+            width: 100%;
+            height: 6px;
+            background: #e2e8f0;
+            border-radius: 3px;
+        }
+
+        .progress-bar-fill {
+            height: 100%;
+            width: 0%;
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            transition: width 0.5s ease;
+            border-radius: 3px;
+        }
+
+        .progress-connector.active .progress-bar-fill {
+            width: 100%;
+        }
+
+        /* Section Styling */
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+
+        .section-icon {
+            font-size: 32px;
+        }
+
+        .section-title {
+            font-size: 24px;
+            font-weight: 700;
+            color: #2d3748;
+        }
+
+        .section-subtitle {
+            color: #718096;
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+
+        .main-content {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        /* Textarea */
+        textarea {
+            width: 100%;
+            min-height: 520px;
+            padding: 18px;
+            border: 2px solid #e2e8f0;
+            border-radius: 8px;
+            font-size: 15px;
+            line-height: 1.6;
+            font-family: inherit;
+            resize: vertical;
+            transition: border-color 0.3s;
+        }
+
+        textarea:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        textarea::placeholder {
+            color: #a0aec0;
+        }
+
+        /* Buttons */
+        .button-group {
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        button {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn-secondary {
+            background: #f7fafc;
+            color: #4a5568;
+            border: 2px solid #e2e8f0;
+        }
+
+        .btn-secondary:hover {
+            background: #edf2f7;
+        }
+
+        button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        /* Character Count */
+        .char-count {
+            text-align: right;
+            color: #718096;
+            font-size: 12px;
+            margin-top: 5px;
+        }
+
+        /* Entity Display */
+        .entity-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .entity-card {
+            background: #f7fafc;
+            border-radius: 8px;
+            padding: 15px;
+            border-left: 4px solid #667eea;
+        }
+
+        .entity-card.problem {
+            border-left-color: #f56565;
+        }
+
+        .entity-card.procedure {
+            border-left-color: #48bb78;
+        }
+
+        .entity-card.medication {
+            border-left-color: #ed8936;
+        }
+
+        .entity-card.lab {
+            border-left-color: #4299e1;
+        }
+
+        .entity-category {
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #718096;
+            margin-bottom: 5px;
+            letter-spacing: 0.5px;
+        }
+
+        .entity-text {
+            font-size: 15px;
+            font-weight: 600;
+            color: #2d3748;
+            margin-bottom: 8px;
+        }
+
+        .entity-code {
+            font-size: 13px;
+            color: #2d3748;
+            background: white;
+            padding: 8px 12px;
+            border-radius: 6px;
+            border: 1px solid #e2e8f0;
+        }
+        
+        .entity-code strong {
+            font-weight: 700;
+            color: #1a202c;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Stats Display */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .stat-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+
+        .stat-label {
+            font-size: 13px;
+            opacity: 0.9;
+        }
+
+        /* Loading Spinner */
+        .loading {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid rgba(255,255,255,.3);
+            border-radius: 50%;
+            border-top-color: white;
+            animation: spin 1s ease-in-out infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        /* Hidden Class */
+        .hidden {
+            display: none !important;
+        }
+
+        /* Alert Messages */
+        .alert {
+            padding: 15px 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+
+        .alert-success {
+            background: #d1fae5;
+            color: #065f46;
+            border-left: 4px solid #10b981;
+        }
+
+        .alert-error {
+            background: #fee2e2;
+            color: #991b1b;
+            border-left: 4px solid #ef4444;
+        }
+
+        .alert-info {
+            background: #dbeafe;
+            color: #1e40af;
+            border-left: 4px solid #3b82f6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <h1>The IMO Clinical Comprehensive Pipeline (CCP) Demo</h1>
+            <p class="subtitle">Standardizing Clinical Data to Drive Better Healthcare Insights</p>
+        </header>
+
+        <!-- Pipeline Steps -->
+        <div class="pipeline-steps">
+            <div class="step active" id="step1">
+                <div class="step-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path><path d="M14 2v4a2 2 0 0 0 2 2h4"></path><path d="M10 9H8"></path><path d="M16 13H8"></path><path d="M16 17H8"></path></svg>
+                </div>
+                <div class="step-label">Upload SOAP Note</div>
+            </div>
+            
+            <div class="progress-connector" id="progress1">
+                <div class="progress-bar-container">
+                    <div class="progress-bar-fill"></div>
+                </div>
+            </div>
+            
+            <div class="step" id="step2">
+                <div class="step-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 5h8"></path><path d="M13 12h8"></path><path d="M13 19h8"></path><path d="m3 17 2 2 4-4"></path><path d="m3 7 2 2 4-4"></path></svg>
+                </div>
+                <div class="step-label">Entity Extraction</div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Step 1: SOAP Note Input -->
+            <div id="soapNoteInputSection">
+                <div class="section-header">
+                    <span class="section-icon">📋</span>
+                    <h2 class="section-title">SOAP Note Input</h2>
+                </div>
+                <p class="section-subtitle">Enter or paste your SOAP note for clinical entity extraction</p>
+                
+                <textarea id="soapNoteInput" placeholder="Paste your SOAP note here...
+
+Example:
+SUBJECTIVE:
+Patient reports chest pain and shortness of breath...
+
+OBJECTIVE:
+BP 140/90, HR 88, Temp 98.6F...
+
+ASSESSMENT:
+1. Hypertension
+2. Type 2 Diabetes Mellitus
+
+PLAN:
+1. Start Lisinopril 10mg daily
+2. Continue Metformin 500mg BID
+3. Order lipid panel and HbA1c
+..."></textarea>
+                <div class="char-count"><span id="charCount">0</span> characters</div>
+                
+                <div class="button-group">
+                    <button class="btn-primary" id="extractEntitiesBtn">
+                        <span id="extractBtnText">Extract Clinical Entities</span>
+                    </button>
+                    <button class="btn-secondary" id="loadSampleBtn">
+                        📥 Load Sample SOAP Note
+                    </button>
+                    <button class="btn-secondary" id="clearBtn">
+                        🗑️ Clear
+                    </button>
+                </div>
+            </div>
+
+            <!-- Step 2: Entity Extraction Results -->
+            <div id="entitiesSection" class="hidden">
+                <div class="section-header">
+                    <span class="section-icon">🔍</span>
+                    <h2 class="section-title">Extracted Clinical Entities</h2>
+                </div>
+                
+                <div class="button-group" style="margin-bottom: 20px;">
+                    <button class="btn-secondary" id="backBtn">
+                        ← Back to SOAP Note
+                    </button>
+                    <button class="btn-secondary" id="newSoapBtn">
+                        📝 New SOAP Note
+                    </button>
+                </div>
+                
+                <!-- Stats -->
+                <div class="stats-grid" id="entityStats"></div>
+                
+                <!-- Entities by Category -->
+                <div id="entitiesDisplay"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Global state
+        let currentStep = 1;
+        let pipelineData = {
+            entities: null
+        };
+
+        // DOM Elements
+        const soapNoteInput = document.getElementById('soapNoteInput');
+        const charCount = document.getElementById('charCount');
+        const extractEntitiesBtn = document.getElementById('extractEntitiesBtn');
+        const loadSampleBtn = document.getElementById('loadSampleBtn');
+        const clearBtn = document.getElementById('clearBtn');
+        const backBtn = document.getElementById('backBtn');
+        const newSoapBtn = document.getElementById('newSoapBtn');
+
+        // Character count
+        soapNoteInput.addEventListener('input', () => {
+            charCount.textContent = soapNoteInput.value.length;
+        });
+
+        // Clear button
+        clearBtn.addEventListener('click', () => {
+            soapNoteInput.value = '';
+            charCount.textContent = '0';
+        });
+
+        // Back button - return to SOAP note input
+        backBtn.addEventListener('click', () => {
+            updateStep(1);
+        });
+
+        // New SOAP Note button - clear and return to input
+        newSoapBtn.addEventListener('click', () => {
+            soapNoteInput.value = '';
+            charCount.textContent = '0';
+            pipelineData.entities = null;
+            updateStep(1);
+        });
+
+        // Load Sample SOAP Note
+        loadSampleBtn.addEventListener('click', () => {
+            const sampleSoapNote = `SUBJECTIVE:
+Patient reports feeling extremely tired, thirsty, and experiencing blurred vision. Blood sugar levels have been consistently over 400 mg/dL for the past few days. Patient has been monitoring blood sugar at home. Reports frequent urination and increased hunger. Patient has been under significant stress lately but has not changed diet or medications.
+
+OBJECTIVE:
+Physical exam conducted. Blood sugar readings over 400 mg/dL. No immediate signs of severe complications observed during physical examination.
+
+ASSESSMENT:
+1. Uncontrolled Type 2 Diabetes Mellitus with hyperglycemia
+2. Risk of diabetic ketoacidosis
+3. Possible diabetic complications requiring evaluation
+
+PLAN:
+1. Administer insulin to bring blood sugar levels down
+2. Monitor blood sugar closely and adjust insulin dosage as needed
+3. Order blood tests:
+   - HbA1c
+   - Ketone levels
+   - Electrolytes
+4. Review diet with dietitian
+5. Possibly adjust oral diabetes medications
+6. Keep patient under close monitoring in hospital until blood sugar levels stabilize
+7. Develop detailed diabetes management plan for home care including:
+   - Regular blood sugar monitoring
+   - Diet modifications
+   - Exercise program
+   - Medication adherence
+8. Schedule follow-up appointments to ensure blood sugar remains within healthy range`;
+            
+            soapNoteInput.value = sampleSoapNote;
+            charCount.textContent = sampleSoapNote.length;
+        });
+
+        // Extract Entities
+        extractEntitiesBtn.addEventListener('click', async () => {
+            const soapNoteText = soapNoteInput.value.trim();
+            
+            if (!soapNoteText) {
+                alert('Please enter a SOAP note');
+                return;
+            }
+
+            try {
+                setLoading(extractEntitiesBtn, 'extractBtnText', true);
+                
+                const response = await fetch('/extract_entities', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ soap_note_text: soapNoteText })
+                });
+
+                const result = await response.json();
+                
+                if (result.success) {
+                    pipelineData.entities = result.entities;
+                    displayEntities(result.entities, result.entity_counts);
+                    updateStep(2);
+                } else {
+                    alert('Error: ' + result.error);
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                alert('Error extracting entities');
+            } finally {
+                setLoading(extractEntitiesBtn, 'extractBtnText', false);
+            }
+        });
+
+        // Update pipeline step
+        function updateStep(step) {
+            currentStep = step;
+            
+            // Update step indicators
+            document.querySelectorAll('.step').forEach((el, index) => {
+                if (index < step) {
+                    el.classList.add('active');
+                } else {
+                    el.classList.remove('active');
+                }
+            });
+            
+            // Update progress bars
+            document.querySelectorAll('.progress-connector').forEach((el, index) => {
+                if (index < step - 1) {
+                    el.classList.add('active');
+                } else {
+                    el.classList.remove('active');
+                }
+            });
+            
+            // Show/hide sections
+            if (step === 1) {
+                document.getElementById('soapNoteInputSection').classList.remove('hidden');
+                document.getElementById('entitiesSection').classList.add('hidden');
+            } else if (step === 2) {
+                document.getElementById('soapNoteInputSection').classList.add('hidden');
+                document.getElementById('entitiesSection').classList.remove('hidden');
+            }
+        }
+
+        // Display entities
+        function displayEntities(entities, entityCounts) {
+            // Display stats
+            const statsHtml = `
+                <div class="stat-card">
+                    <div class="stat-value">${entityCounts.problems || 0}</div>
+                    <div class="stat-label">Problems</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">${entityCounts.procedures || 0}</div>
+                    <div class="stat-label">Procedures</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">${entityCounts.medications || 0}</div>
+                    <div class="stat-label">Medications</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">${entityCounts.labs || 0}</div>
+                    <div class="stat-label">Labs</div>
+                </div>
+            `;
+            document.getElementById('entityStats').innerHTML = statsHtml;
+            
+            // Display entities by category
+            let entitiesHtml = '';
+            
+            const categories = [
+                { key: 'problems', label: 'Problems', icon: '🩺' },
+                { key: 'procedures', label: 'Procedures', icon: '⚕️' },
+                { key: 'medications', label: 'Medications', icon: '💊' },
+                { key: 'labs', label: 'Laboratory Tests', icon: '🔬' }
+            ];
+            
+            categories.forEach(category => {
+                const categoryEntities = entities[category.key] || [];
+                if (categoryEntities.length > 0) {
+                    entitiesHtml += `
+                        <div style="margin-bottom: 30px;">
+                            <h3 style="font-size: 18px; font-weight: 600; color: #2d3748; margin-bottom: 15px;">
+                                ${category.icon} ${category.label} (${categoryEntities.length})
+                            </h3>
+                            <div class="entity-grid">
+                    `;
+                    
+                    categoryEntities.forEach(entity => {
+                        let codesHtml = '';
+                        
+                        // Debug log for procedures
+                        if (category.key === 'procedures') {
+                            console.log('Procedure entity:', entity);
+                        }
+                        
+                        // For problems, show IMO, ICD-10 and SNOMED codes
+                        if (category.key === 'problems') {
+                            if (entity.code) {
+                                codesHtml += `<div class="entity-code" style="margin-top: 8px;">
+                                    <strong>IMO:</strong> <span style="font-weight: 600; color: #1a202c;">${entity.code}</span>
+                                    ${entity.description ? `<br><span style="font-size: 12px; color: #718096; margin-top: 4px; display: block;">${entity.description}</span>` : ''}
+                                </div>`;
+                            }
+                            if (entity.icd10_code) {
+                                codesHtml += `<div class="entity-code" style="margin-top: 6px;">
+                                    <strong>ICD-10:</strong> <span style="font-weight: 600; color: #1a202c;">${entity.icd10_code}</span>
+                                    ${entity.icd10_description ? `<br><span style="font-size: 12px; color: #718096; margin-top: 4px; display: block;">${entity.icd10_description}</span>` : ''}
+                                </div>`;
+                            }
+                            if (entity.snomed_code) {
+                                codesHtml += `<div class="entity-code" style="margin-top: 6px;">
+                                    <strong>SNOMED:</strong> <span style="font-weight: 600; color: #1a202c;">${entity.snomed_code}</span>
+                                    ${entity.snomed_description ? `<br><span style="font-size: 12px; color: #718096; margin-top: 4px; display: block;">${entity.snomed_description}</span>` : ''}
+                                </div>`;
+                            }
+                        } else if (category.key === 'procedures') {
+                            // For procedures, show IMO, CPT and ICD-10-PCS codes
+                            if (entity.code) {
+                                codesHtml += `<div class="entity-code" style="margin-top: 8px;">
+                                    <strong>IMO:</strong> <span style="font-weight: 600; color: #1a202c;">${entity.code}</span>
+                                    ${entity.description ? `<br><span style="font-size: 12px; color: #718096; margin-top: 4px; display: block;">${entity.description}</span>` : ''}
+                                </div>`;
+                            }
+                            if (entity.cpt_code) {
+                                codesHtml += `<div class="entity-code" style="margin-top: 6px;">
+                                    <strong>CPT:</strong> <span style="font-weight: 600; color: #1a202c;">${entity.cpt_code}</span>
+                                    ${entity.cpt_description ? `<br><span style="font-size: 12px; color: #718096; margin-top: 4px; display: block;">${entity.cpt_description}</span>` : ''}
+                                </div>`;
+                            }
+                            if (entity.icd10pcs_code) {
+                                codesHtml += `<div class="entity-code" style="margin-top: 6px;">
+                                    <strong>ICD-10-PCS:</strong> <span style="font-weight: 600; color: #1a202c;">${entity.icd10pcs_code}</span>
+                                    ${entity.icd10pcs_description ? `<br><span style="font-size: 12px; color: #718096; margin-top: 4px; display: block;">${entity.icd10pcs_description}</span>` : ''}
+                                </div>`;
+                            }
+                        } else if (category.key === 'medications') {
+                            // For medications, show IMO and RxNorm codes
+                            if (entity.code) {
+                                codesHtml += `<div class="entity-code" style="margin-top: 8px;">
+                                    <strong>IMO:</strong> <span style="font-weight: 600; color: #1a202c;">${entity.code}</span>
+                                    ${entity.description ? `<br><span style="font-size: 12px; color: #718096; margin-top: 4px; display: block;">${entity.description}</span>` : ''}
+                                </div>`;
+                            }
+                            if (entity.rxnorm_code) {
+                                codesHtml += `<div class="entity-code" style="margin-top: 6px;">
+                                    <strong>RxNorm:</strong> <span style="font-weight: 600; color: #1a202c;">${entity.rxnorm_code}</span>
+                                    ${entity.rxnorm_description ? `<br><span style="font-size: 12px; color: #718096; margin-top: 4px; display: block;">${entity.rxnorm_description}</span>` : ''}
+                                </div>`;
+                            }
+                        } else if (category.key === 'labs') {
+                            // For labs, show IMO and LOINC codes
+                            if (entity.code) {
+                                codesHtml += `<div class="entity-code" style="margin-top: 8px;">
+                                    <strong>IMO:</strong> <span style="font-weight: 600; color: #1a202c;">${entity.code}</span>
+                                    ${entity.description ? `<br><span style="font-size: 12px; color: #718096; margin-top: 4px; display: block;">${entity.description}</span>` : ''}
+                                </div>`;
+                            }
+                            if (entity.loinc_code) {
+                                codesHtml += `<div class="entity-code" style="margin-top: 6px;">
+                                    <strong>LOINC:</strong> <span style="font-weight: 600; color: #1a202c;">${entity.loinc_code}</span>
+                                    ${entity.loinc_description ? `<br><span style="font-size: 12px; color: #718096; margin-top: 4px; display: block;">${entity.loinc_description}</span>` : ''}
+                                </div>`;
+                            }
+                        } else if (entity.code) {
+                            codesHtml = `<div class="entity-code">${entity.code}</div>`;
+                        }
+                        
+                        entitiesHtml += `
+                            <div class="entity-card ${category.key}">
+                                <div class="entity-category">${category.label}</div>
+                                <div class="entity-text">${entity.text}</div>
+                                ${codesHtml}
+                            </div>
+                        `;
+                    });
+                    
+                    entitiesHtml += `
+                            </div>
+                        </div>
+                    `;
+                }
+            });
+            
+            if (!entitiesHtml) {
+                entitiesHtml = '<div class="alert alert-info">No clinical entities found in the SOAP note.</div>';
+            }
+            
+            document.getElementById('entitiesDisplay').innerHTML = entitiesHtml;
+        }
+
+        // Loading state helper
+        function setLoading(button, textElementId, isLoading) {
+            const textElement = document.getElementById(textElementId);
+            if (isLoading) {
+                button.disabled = true;
+                textElement.innerHTML = '<span class="loading"></span>';
+            } else {
+                button.disabled = false;
+                textElement.textContent = textElement.getAttribute('data-original-text') || button.textContent;
+            }
+        }
+
+        // Store original button text
+        document.addEventListener('DOMContentLoaded', () => {
+            document.getElementById('extractBtnText').setAttribute('data-original-text', 'Extract Clinical Entities');
+        });
+    </script>
+</body>
+</html>

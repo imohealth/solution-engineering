@@ -1,0 +1,1538 @@
+openapi: 3.0.0
+info:
+  title: IMO® Precision Normalize API
+  description: >-
+    <p>IMO® Precision Normalize provides normalization capabilities enabling standardization of inconsistent clinical data from diverse health information systems to a common, clinically validated terminology to ensure that problems, procedures, and medications have clean, enriched, and consistent meanings. This API normalizes input terms or codes to IMO identifiers.</p> <p>The information provided is confidential and proprietary. Any use of this outside an agreement or engagement with IMO Health® is prohibited.</p>
+  contact:
+    name: IMO Health®
+    url: 'https://www.imohealth.com'
+    email: customersupport@imohealth.com
+  version: 1.0.45
+tags:
+  - name: Normalize
+    description: Normalize a set of input terms and codes to IMO lexicals
+servers:
+  - url: 'https://api-sandbox.imohealth.com'
+    description: IMO Precision Normalize API
+paths:
+  /precision/normalize/v1:
+    post:
+      operationId: normalize
+      description: 'Normalize a set of input terms and codes to IMO lexicals'
+      summary: 'Normalize a set of input terms and codes to IMO lexicals'
+      tags:
+        - Normalize
+      security:
+        - application:
+            - normalize
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NormalizeResponse'
+              example:
+                {
+                    "request_id": "a140f56f-939e-4456-be74-6ee492a07179",
+                    "client_request_id": "xxx",
+                    "preferences": {
+                        "threshold": 0.5,
+                        "match_field_pref": "input_term"
+                    },
+                    "requests": [
+                        {
+                            "record_id": "10001",
+                            "domain": "Problem",
+                            "input_term": "chest pain",
+                            "input_code": "R07.9",
+                            "input_code_system": "ICD-10-CM",
+                            "context": {
+                              "source_text": ""
+                            },
+                            "response": {
+                                "items": [
+                                    {
+                                        "lexical_code": "85191",
+                                        "lexical_title": "Chest pain",
+                                        "default_lexical_code": "85191",
+                                        "default_lexical_title": "Chest pain",
+                                        "metadata": {
+                                            "mappings": {
+                                                "icd9cm": {
+                                                    "codes": [
+                                                        {
+                                                            "code": "786.50",
+                                                            "title": "Chest pain, unspecified",
+                                                            "map_type": "Preferred primary"
+                                                        }
+                                                    ]
+                                                },
+                                                "icd10cm": {
+                                                    "codes": [
+                                                        {
+                                                            "code": "R07.9",
+                                                            "title": "Chest pain, unspecified",
+                                                            "map_type": "Preferred primary",
+                                                            "relationship_type": "Same as",
+                                                            "code_metadata": {
+                                                              "ccsr": [
+                                                                {
+                                                                  "ccsr_category": "CIR012",
+                                                                  "ccsr_description": "Nonspecific chest pain"
+                                                                }
+                                                              ],
+                                                              "hcc": []
+                                                            }
+                                                        }
+                                                    ]
+                                                },
+                                                "icdo": {
+                                                    "codes": [
+                                                        {
+                                                            "relationship_group": "0",
+                                                            "topog_code": "C42.1",
+                                                            "topog_desc": "Chest Pain",
+                                                            "morph_code": "9835/3",
+                                                            "morph_desc": "Chest Pain",
+                                                            "hist_grad_code": "",
+                                                            "hist_grad_desc": "",
+                                                            "immuno_desig_code": "9",
+                                                            "immuno_desig_desc": "Cell type not determined, not stated or not applicable"
+                                                        }
+                                                    ]
+                                                },
+                                                "snomedInternational": {
+                                                    "codes": [
+                                                        {
+                                                            "code": "29857009",
+                                                            "title": "Chest pain (finding)",
+                                                            "map_type": "Preferred primary",
+                                                            "mesh_code": "D002637",
+                                                            "relationship_type": "Same as"
+                                                        }
+                                                    ]
+                                                },
+                                                "umls": {
+                                                  "codes": [
+                                                    {
+                                                      "code": "C0008031",
+                                                      "title": "Chest Pain"
+                                                    }
+                                                  ]
+                                                },
+                                                "uscdi": {
+                                                  "profiles": [
+                                                    {
+                                                      "associated_codes": [
+                                                        {
+                                                          "code_system": "icd10cm",
+                                                          "code": "R007.9"
+                                                        }
+                                                      ],
+                                                      "data_class": "Conditions and Problems",
+                                                      "data_element": "Condition/Problem",
+                                                      "hrsn_domain": "Food Insecurity",
+                                                      "valueset_oid": "2.16.840.1.113883.6.96"
+
+                                                    }
+                                                  ]
+                                                },
+                                                "dsm5tr": {
+                                                    "codes": [
+                                                        {
+                                                            "dsm_icd_10_cm_code": "R07.9",
+                                                            "dsm_title": "Chest pain",
+                                                            "map_type": "Preferred primary"
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            "flags": {
+                                                "is_icd10cm_refinable": true
+                                            }
+                                        },
+                                        "score": 1.0,
+                                        "certainty": "",
+                                        "match_field": "input_term",
+                                        "domain": "Problem"
+                                    }
+                                ],
+                                "explanation": "The input term 'chest pain' was matched to the IMO lexical 'Chest pain' with a score of 1.0.",
+                            }
+                        }
+                    ],
+                    "response_time": 74
+                }
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '403':
+          $ref: '#/components/responses/Forbidden'
+        '413':
+          $ref: '#/components/responses/PayloadTooLarge'
+        '429':
+          $ref: '#/components/responses/TooManyRequests'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+        '503':
+          $ref: '#/components/responses/ServiceUnavailable'
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/NormalizeRequest'
+            example:
+              {
+                "client_request_id": "xxx",
+                "preferences": {
+                    "threshold": 0.5,
+                    "match_field_pref": "input_term"
+                },
+                "requests": [{
+                    "record_id": "10001",
+                    "domain": "Problem",
+                    "input_term": "chest pain",
+                    "input_code": "R07.9",
+                    "input_code_system": "ICD-10-CM",
+                    "context": {
+                      "source_text": ""
+                    }
+                }]
+              }
+  /precision/normalize/session:
+    get: 
+      operationId: session
+      description: 'Create a session identifier for feedback correlation'
+      summary: 'Create a session service to issue session IDs that tie Normalize and Enrichment activity to customer feedback'
+      tags:
+        - Session
+      security:
+        - application:
+            - normalize
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SessionResponse'
+              example:
+                {
+                  "session_id": "a140f56f-939e-4456-be74-6ee492a07179",
+                }
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '403':
+          $ref: '#/components/responses/Forbidden'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+        '503':
+          $ref: '#/components/responses/ServiceUnavailable'
+  /precision/normalize/event/selection:
+    post:
+      operationId: eventSelection
+      description: 'Log customer result selections linked to a session'
+      summary: 'Log customer result selections linked to a session to enable continuous improvement and usage tracking'
+      tags:
+        - Events
+      security:
+        - application:
+            - normalize
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/EventSelectionRequest'
+            example:
+              {
+                "session_id": "00000000-0000-0000-0000-000000000000",
+                "result_selected": [
+                    {
+                    "record_id": "1234",
+                    "imo_lexical_code": "4567"
+                    }
+                  ]
+                }
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+               type: object
+               description: Acknowledgement of event selection logging
+              example: {}
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '403':
+          $ref: '#/components/responses/Forbidden'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+        '503':
+          $ref: '#/components/responses/ServiceUnavailable'
+  /precision/normalize/enrichment:
+    post:
+      operationId: enrichment
+      description: 'Normalize a set of input terms to IMO lexicals for Ambient workflows'
+      summary: 'Normalize a set of input terms to IMO lexicals for Ambient workflows'
+      tags:
+        - Normalize
+      security:
+        - application:
+            - normalize
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NormalizeResponse'
+              example:
+                {
+                  "request_id": "a140f56f-939e-4456-be74-6ee492a07179",
+                  "client_request_id": "xxx",
+                  "preferences": {
+                    "threshold": 0.5,
+                    "match_field_pref": "input_term"
+                  },
+                  "requests": [
+                    {
+                      "record_id": "10001",
+                      "domain": "Problem",
+                      "input_term": "chest pain",
+                      "input_code": "R07.9",
+                      "input_code_system": "ICD-10-CM",
+                      "context": {
+                        "source_text": ""
+                      },
+                      "response": {
+                        "items": [
+                          {
+                            "lexical_code": "85191",
+                            "lexical_title": "Chest pain",
+                            "default_lexical_code": "85191",
+                            "default_lexical_title": "Chest pain",
+                            "metadata": {
+                              "mappings": {
+                                "icd9cm": {
+                                  "codes": [
+                                    {
+                                      "code": "786.50",
+                                      "title": "Chest pain, unspecified",
+                                      "map_type": "Preferred primary"
+                                    }
+                                  ]
+                                },
+                                "icd10cm": {
+                                  "codes": [
+                                    {
+                                      "code": "R07.9",
+                                      "title": "Chest pain, unspecified",
+                                      "map_type": "Preferred primary",
+                                      "relationship_type": "Same as",
+                                      "code_metadata": {
+                                        "ccsr": [
+                                          {
+                                            "ccsr_category": "CIR012",
+                                            "ccsr_description": "Nonspecific chest pain"
+                                          }
+                                        ],
+                                        "hcc": []
+                                      }
+                                    }
+                                  ]
+                                },
+                                "icdo": {
+                                  "codes": [
+                                    {
+                                      "relationship_group": "0",
+                                      "topog_code": "C42.1",
+                                      "topog_desc": "Chest Pain",
+                                      "morph_code": "9835/3",
+                                      "morph_desc": "Chest Pain",
+                                      "hist_grad_code": "",
+                                      "hist_grad_desc": "",
+                                      "immuno_desig_code": "9",
+                                      "immuno_desig_desc": "Cell type not determined, not stated or not applicable"
+                                    }
+                                  ]
+                                },
+                                "snomedInternational": {
+                                  "codes": [
+                                    {
+                                      "code": "29857009",
+                                      "title": "Chest pain (finding)",
+                                      "map_type": "Preferred primary",
+                                      "mesh_code": "D002637",
+                                      "relationship_type": "Same as"
+                                    }
+                                  ]
+                                },
+                                "umls": {
+                                  "codes": [
+                                    {
+                                      "code": "C0008031",
+                                      "title": "Chest Pain"
+                                    }
+                                  ]
+                                },
+                                "uscdi": {
+                                  "profiles": [
+                                    {
+                                      "associated_codes": [
+                                        {
+                                          "code_system": "icd10cm",
+                                          "code": "R007.9"
+                                        }
+                                      ],
+                                      "data_class": "Conditions and Problems",
+                                      "data_element": "Condition/Problem",
+                                      "hrsn_domain": "Food Insecurity",
+                                      "valueset_oid": "2.16.840.1.113883.6.96"
+
+                                    }
+                                  ]
+                                },
+                                "dsm5tr": {
+                                  "codes": [
+                                    {
+                                      "dsm_icd_10_cm_code": "R07.9",
+                                      "dsm_title": "Chest pain",
+                                      "map_type": "Preferred primary"
+                                    }
+                                  ]
+                                }
+                              },
+                              "flags": {
+                                "is_icd10cm_refinable": true
+                              }
+                            },
+                            "score": 1.0,
+                            "certainty": "",
+                            "match_field": "input_term",
+                            "domain": "Problem"
+                          }
+                        ],
+                        "explanation": "The input term 'chest pain' was matched to the IMO lexical 'Chest pain' with a score of 1.0.",
+                      }
+                    }
+                  ],
+                  "response_time": 74
+                }
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '403':
+          $ref: '#/components/responses/Forbidden'
+        '413':
+          $ref: '#/components/responses/PayloadTooLarge'
+        '429':
+          $ref: '#/components/responses/TooManyRequests'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+        '503':
+          $ref: '#/components/responses/ServiceUnavailable'
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/NormalizeRequest'
+            example:
+              {
+                "client_request_id": "xxx",
+                "preferences": {
+                  "threshold": 0.5,
+                  "match_field_pref": "input_term"
+                },
+                "requests": [{
+                  "record_id": "10001",
+                  "domain": "Problem",
+                  "input_term": "chest pain",
+                  "context": {
+                    "source_text": "a crushing pressure in the chest that radiates to left arm"
+                  }
+                }]
+              }
+  /oauth/token:
+    post:
+      operationId: token
+      description: 'Retrieve token for authentication using client credentials OAuth flow'
+      summary: 'Retrieve token for authentication using client credentials OAuth flow'
+      tags:
+        - Token
+      responses:
+        "200":
+          description: "successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/TokenResponse"
+        "400":
+          $ref: "#/components/responses/TokenBadRequest"
+        "401":
+          $ref: "#/components/responses/TokenUnauthorized"
+        "403":
+          $ref: "#/components/responses/TokenForbidden"
+        "429":
+          $ref: "#/components/responses/TokenTooManyRequests"
+        "500":
+          $ref: "#/components/responses/TokenInternalServerError"
+        "503":
+          $ref: "#/components/responses/TokenServiceUnavailable"
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TokenRequest'
+components:
+  schemas:
+    NormalizeRequest:
+      type: object
+      required: [client_request_id,requests]
+      properties:
+        client_request_id:
+          type: string
+          description: Unique identifier of the request from the partner application
+        preferences:
+          type: object
+          properties:
+            use_custom_maps:
+              type: boolean
+              description: Indicates term should be considered within custom mapping workflows. Custom maps will be respected in the normalization response and requests will be persisted in storage for future custom mapping activities.
+              default: true
+            threshold:
+              type: number
+              description: The minimum score for the matching. Matching with score lower than the threshold will be dropped.
+              default: 0
+              minimum: 0
+              maximum: 1
+            match_field_pref:
+              type: string
+              description: The input field to match on (input_term, input_code, input_term_first, input_code_first). “input_term_first” will try match on input term first, if the match score is below threshold, it will then try match on the input code. “input_code_first” will try match on input code first, if code is not found, it will try match on the input term.
+              default: input_term_first
+              enum: [input_term,input_code,input_term_first,input_code_first]
+            discrepancy_check:
+              type: boolean
+              description: Check for discrepancies between input_code and input_code_system against the term match result.
+              default: false
+            size:
+              type: number
+              description: Number of match results returned.
+              default: 1
+              minimum: 1
+              maximum: 20
+            distinct_field:
+              type: string
+              description: The desired field to filter by unique results.
+              default: lexical_code
+              enum: [lexical_code,default_lexical_code]
+            transformations:
+              type: array
+              items:
+                type: object
+                properties:
+                  type:
+                    type: string
+                    description: Type of transformation will be applied to the input term. Current support values are "string_replace|multiple_string_replace"
+                  location:
+                    type: string
+                    description: Location of string to be transformed in the input term. Current support values are "beginning|end|*". "*" means any places in the input term.
+                  from:
+                    type: object
+                    description: The original string value in the input term to be replaced. The pattern match is for whole word match only. When transformation type is "multiple_string_replace", the value can be an array of strings.
+                    additionalProperties:
+                        oneOf:
+                          - type: string
+                          - type: array
+                            items: {
+                              type: string
+                            }
+                  to:
+                    type: string
+                    description: The new replacement string.
+                  case_sensitive:
+                    type: boolean
+                    description: Optional, Whether the string replacement should be case sensitive or not. Default is False.
+            filters: 
+              type: array
+              nullable: true
+              description: Array of filter objects to apply to the normalization request. Filters allow you to narrow results based on specific filter criteria.
+              items:
+                type: object
+                properties:
+                  field:
+                    type: string
+                    description: The data field to filter on. Supported fields include uscdi.profiles.valueset_oid, uscdi.profiles.hrsn_domain, uscdi.profiles.data_element, uscdi.profiles.data_class
+                  operator:
+                    type: string
+                    description: The filter operator to apply. Currently only 'eq' (equals) is supported.
+                    enum: [eq]
+                  value:
+                    type: string
+                    description: The value to filter by
+                required: [field, operator, value]
+                additionalProperties: false
+        requests:
+          type: array
+          items:
+            type: object
+            properties:
+              record_id:
+                type: string
+                description: The unique identifier of the record from the partner application
+                maxLength: 300
+              domain:
+                type: string
+                description: IMO content domain, supported values are "Problem|Procedure|Medication|Lab|Allergen|Anatomical Site|Auto". "Auto" is for auto domain resolution, IMO will try to determine which IMO domain the input term or input code belongs to.
+                maxLength: 30
+              input_term:
+                type: string
+                description: The title of the term that will be normalized. If the length of the term is between 500 and 2000 characters, it will not be normalized, and an error message will be returned in the response. If the length exceeds 2000 characters, the API request will fail with a 400 Bad Request error. And the longer term length allows requests that specify input_term_first normalization to fall back to code-based normalization if the appropriate fields are provided.
+                maxLength: 2000
+              input_code:
+                type: string
+                description: The code of the term that will be normalized
+                maxLength: 500
+              input_code_system:
+                type: string
+                description: The code system of the input_code ('ICD-10-CM', 'ICD-9-CM', 'SNOMED CT', 'DSM-5-TR', 'ICD-10-PCS', 'LOINC', 'CPT', 'HCPCS', 'RXNORM', 'NDC', 'CVX', 'UMLS', or 'IMO')
+                maxLength: 100
+              context:
+                type: object
+                description: The context of the request, in key/value pairs.
+                properties:
+                  use_count:
+                    type: number
+                    description: The total number of occurrences of the record within the sending application's data set.
+                    default: null
+                    minimum: 1
+                  unit_of_measure:
+                    type: string
+                    description: For LAB domain only, the unit(s) of measurement used to report quantitative results. Examples include "mg/dL", "mmol/L", "%", and "#/mm3." These units translate to what LOINC calls a "property" (e.g., "mass concentration", "#/volume"). The unit_of_measure helps normalize quantitative lab tests but may not always be known and is not a required field.
+                    maxLength: 500
+                  order_name:
+                    type: string
+                    description: For LAB domain only, the name of the lab order that produced the result. This is sometimes called a "request" and for data in HL7 messages is found in the OBR segment. An order may be a panel that produces many results (e.g., a basic metabolic panel). But there are many cases where a lab order has only one result; for these, the order_name and result are the same. The order_name may also be left blank if unknown.
+                    maxLength: 500
+                  application_id:
+                    type: string
+                    description: Sending application id. This is equivalent to HL7 MSH.3 field.
+                  facility_id:
+                    type: string
+                    description: Sending facility id. This is equivalent to HL7 MSH.4 field.
+                  encounter_id:
+                    type: string
+                    description: The unique identifier of the patient encounter from the partner application.
+                  document_id:
+                    type: string
+                    description: The unique identifier for the document this request is associated with.
+                  reaction:
+                    type: string
+                    description: For ALLERGEN domain only, the reaction associated with the allergen. Examples include "Rash", "Hives", "Anaphylaxis", etc.
+                  severity:
+                    type: string
+                    description: For ALLERGEN domain only, the severity of the allergic reaction. Valid values are "Mild", "Moderate", "Severe", "Unknown".
+                  source_text:
+                    type: string
+                    description: The sentence or surrounding text where the input term was found.
+                    maxLength: 1000
+                additionalProperties: true
+    NormalizeResponse:
+      type: object
+      properties:
+        summary:
+          type: object
+          properties:
+            count:
+              type: number
+              description: Total number of terms in the request
+            error_count:
+              type: number
+              description: Total number of errors in the response
+        client_request_id:
+          type: string
+          description: Unique identifier of the request from the partner application
+        request_id:
+          type: string
+          description: Unique identifier of the request for internal use
+        preferences:
+          type: object
+          properties:
+            threshold:
+              type: number
+              description: The minimum score for the matching. Matching with score lower than the threshold will be dropped.
+            match_field_pref:
+              type: string
+              description: The input field to match on (input_term, input_code, input_term_first, input_code_first).
+            discrepancy_check:
+              type: boolean
+              description: Check for discrepancies between input_code and input_code_system against the term match result.
+            distinct_field:
+              type: string
+              description: The desired field to filter by unique results. Defaults to lexical_code when size > 1. Accepts values lexical_code and default_lexical_code.
+            size:
+              type: number
+              description: Number of match results returned. Optional, default to 1, max value is 20.
+        requests:
+          type: array
+          items:
+            type: object
+            properties:
+              record_id:
+                type: string
+                description: The unique identifier of the record from the partner application
+              domain:
+                type: string
+                description: IMO content domain, supported values are "Problem|Procedure|Medication|Lab|Auto"
+              input_term:
+                type: string
+                description: The title of the term that will be normalized
+              input_code:
+                type: string
+                description: The code of the term that will be normalized
+              input_code_system:
+                type: string
+                description: The code system of the input_code ('ICD-10-CM', 'ICD-9-CM', 'SNOMED CT', 'DSM-5-TR', 'ICD-10-PCS', 'LOINC', 'CPT', 'HCPCS', 'RXNORM', 'NDC', 'CVX', 'UMLS', or 'IMO')
+              context:
+                type: object
+                description: The context of the request, in key/value pairs.
+                properties:
+                  use_count:
+                    type: number
+                    description: The total number of occurrences of the record within the sending application's data set.
+                    default: null
+                    minimum: 1
+                  unit_of_measure:
+                    type: string
+                    description: For LAB domain only, the unit(s) of measurement used to report quantitative results. Examples include "mg/dL", "mmol/L", "%", and "#/mm3." These units translate to what LOINC calls a "property" (e.g., "mass concentration", "#/volume"). The unit_of_measure helps normalize quantitative lab tests but may not always be known and is not a required field.
+                  order_name:
+                    type: string
+                    description:  For LAB domain only, the name of the lab order that produced the result. This is sometimes called a "request" and for data in HL7 messages is found in the OBR segment. An order may be a panel that produces many results (e.g., a basic metabolic panel). But there are many cases where a lab order has only one result; for these, the order_name and result are the same. The order_name may also be left blank if unknown.
+                  application_id:
+                    type: string
+                    description: Sending application id. This is equivalent to HL7 MSH.3 field.
+                  facility_id:
+                    type: string
+                    description: Sending facility id. This is equivalent to HL7 MSH.4 field.
+                  encounter_id:
+                    type: string
+                    description: The unique identifier of the patient encounter from the partner application.
+                  document_id:
+                    type: string
+                    description: The unique identifier for the document this request is associated with.
+                  reaction:
+                    type: string
+                    description: For ALLERGEN domain only, the reaction associated with the allergen. Examples include "Rash", "Hives", "Anaphylaxis", etc.
+                  severity:
+                    type: string
+                    description: For ALLERGEN domain only, the severity of the allergic reaction. Valid values are "Mild", "Moderate", "Severe", "Unknown".
+                  source_text:
+                    type: string
+                    description: The sentence or surrounding text where the input term was found.
+                additionalProperties: true
+              response:
+                type: object
+                properties:
+                  items:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        lexical_code:
+                          type: string
+                          description: IMO Lexical code which the input title matches to
+                        lexical_title:
+                          type: string
+                          description: IMO Lexical title which the input title matches to
+                        default_lexical_code:
+                          type: string
+                          description: IMO Lexical code for the default variant of an IMO concept (e.g. “heart attack” points to “myocardial infarction”)
+                        default_lexical_title:
+                          type: string
+                          description: IMO Lexical title for the default variant of an IMO concept
+                        score:
+                          type: number
+                          description: The match score indicating quality of match. The value is between 0 and 1, with 1 being the best, an exact match
+                        certainty:
+                          type: string
+                          description: This value has been deprecated and will return an empty string ("")
+                        metadata:
+                          type: object
+                          description: code mappings from different code system such as ICD-10, SNOMED, CPT, etc.
+                          properties:
+                            mappings:
+                              type: object
+                              properties:
+                                icd10cm:
+                                  type: object
+                                  properties:
+                                    codes:
+                                      type: array
+                                      items:
+                                        type: object
+                                        properties:
+                                          code:
+                                            type: string
+                                            description: A ICD-10-CM code mapped to the IMO lexical
+                                          title:
+                                            type: string
+                                            description: The official description of the ICD-10-CM code
+                                          map_type:
+                                            type: string
+                                            description: Indicates the preference relationship between the code and the IMO lexical
+                                          relationship_type:
+                                            type: string
+                                            description: Indicates the semantic relationship between IMO lexical and the code
+                                          code_metadata:
+                                            type: object
+                                            properties:
+                                              ccsr:
+                                                type: array
+                                                description: Contains an array of CCSR objects. Each item in the array is a CCSR category associated with the code. If no categories are associated with the code from an applicable code system (ICD-10-CM or ICD-10-PCS) ccsr will be an empty array.
+                                                items:
+                                                  type: object
+                                                  properties:
+                                                    ccsr_category:
+                                                      type: string
+                                                      description: A CCSR category code
+                                                    ccsr_description:
+                                                      type: string
+                                                      description: The ccsr_category's description
+                                              hcc:
+                                                type: array
+                                                description: Contains an array of HCC objects. Each item in the array is an HCC category associated with the code. If no categories are associated with the code from an applicable code system (ICD-10-CM) hcc will be an empty array.
+                                                items:
+                                                  type: object
+                                                  properties:
+                                                    hcc_factors:
+                                                      type: object
+                                                      description: An HCC factor
+                                                      properties:
+                                                        institutional:
+                                                          type: string
+                                                          description: HCC Institutional factor
+                                                        community_fbdual_aged:
+                                                          type: string
+                                                          description: HCC Community FBDual Aged factor
+                                                        community_pbdual_aged:
+                                                          type: string
+                                                          description: HCC Community PBDual Aged factor
+                                                        community_nondual_aged:
+                                                          type: string
+                                                          description: HCC Community NonDual Aged factor
+                                                        community_fbdual_disabled:
+                                                          type: string
+                                                          description: HCC Community FBDual Disabled factor
+                                                        community_pbdual_disabled:
+                                                          type: string
+                                                          description: HCC Community PBDual Disabled factor
+                                                        community_nondual_disabled:
+                                                          type: string
+                                                          description: HCC Community NonDual Disabled factor
+                                                    hcc_model_category:
+                                                      type: string
+                                                      description: The HCC model category code
+                                                    hcc_version:
+                                                      type: string
+                                                      description: The HCC model version
+                                    map_context:
+                                      type: string
+                                      description: Describes the reason no codes from this code system are mapped to the IMO lexical code. Possible values are 'INSUFFICIENT INFORMATION' and 'NOT CODEABLE'.
+                                icd9cm:
+                                  type: object
+                                  properties:
+                                    codes:
+                                      type: array
+                                      items:
+                                        type: object
+                                        properties:
+                                          code:
+                                            type: string
+                                            description: A ICD-9-CM code mapped to the IMO lexical
+                                          title:
+                                            type: string
+                                            description: The official description of the ICD-9-CM code
+                                          map_type:
+                                            type: string
+                                            description: Indicates the preference relationship between the code and the IMO lexical
+                                    map_context:
+                                      type: string
+                                      description: Describes the reason no codes from this code system are mapped to the IMO lexical code. Possible values are 'INSUFFICIENT INFORMATION' and 'NOT CODEABLE'.
+                                icdo:
+                                  type: object
+                                  properties:
+                                    codes:
+                                      type: array
+                                      items:
+                                        type: object
+                                        properties:
+                                          relationship_group:
+                                            type: string
+                                            description: This group is used to identify ICD-O codes that are to be interpreted together to create a complete ICD-O code representation
+                                          topog_code:
+                                            type: string
+                                            description: The topography code indicates the site of the neoplasm
+                                          topog_desc:
+                                            type: string
+                                            description: This field provides the topography code description
+                                          morph_code:
+                                            type: string
+                                            description: The morphology code describes the cell type of the neoplasm and its behavior
+                                          morph_desc:
+                                            type: string
+                                            description: This field provides the morphology code description
+                                          hist_grad_code:
+                                            type: string
+                                            description: This code identifies the histological grading and differentiation of the neoplasm (i.e. grade I – well differentiated)
+                                          hist_grad_desc:
+                                            type: string
+                                            description: This field provides the histological grading and differentiation code description
+                                          immuno_desig_code:
+                                            type: string
+                                            description: This code identifies the immunophenotype designation for lymphomas and leukemias.
+                                          immuno_desig_desc:
+                                            type: string
+                                            description: This field provides the immunophenotype designation code description
+                                snomedInternational:
+                                  type: object
+                                  properties:
+                                    codes:
+                                      type: array
+                                      items:
+                                        type: object
+                                        properties:
+                                          code:
+                                            type: string
+                                            description: A SNOMED CT code mapped to the IMO lexical
+                                          mesh_code:
+                                            type: string
+                                            description: A MeSH code that maps 1:1 to the given SNOMED International code.
+                                          title:
+                                            type: string
+                                            description: The official description of the SNOMED CT code
+                                          map_type:
+                                            type: string
+                                            description: Indicates the preference relationship between the code and the IMO lexical
+                                          relationship_type:
+                                            type: string
+                                            description: Indicates the semantic relationship between IMO lexical and the code
+                                    map_context:
+                                      type: string
+                                      description: Describes the reason no codes from this code system are mapped to the IMO lexical code. Possible values are 'INSUFFICIENT INFORMATION' and 'NOT CODEABLE'.
+                                snomedUSExtension:
+                                  type: object
+                                  properties:
+                                    codes:
+                                      type: array
+                                      items:
+                                        type: object
+                                        properties:
+                                          code:
+                                            type: string
+                                            description: A SNOMED CT US code mapped to the IMO lexical
+                                          mesh_code:
+                                            type: string
+                                            description: A MeSH code that maps 1:1 to the given SNOMED US Extension code.
+                                          title:
+                                            type: string
+                                            description: The official description of the SNOMED CT US code
+                                          map_type:
+                                            type: string
+                                            description: Indicates the preference relationship between the code and the IMO lexical
+                                          relationship_type:
+                                            type: string
+                                            description: Indicates the semantic relationship between IMO lexical and the code
+                                    map_context:
+                                      type: string
+                                      description: Describes the reason no codes from this code system are mapped to the IMO lexical code. Possible values are 'INSUFFICIENT INFORMATION' and 'NOT CODEABLE'.
+                                dsm5tr:
+                                  type: object
+                                  properties:
+                                    codes:
+                                      type: array
+                                      items:
+                                        type: object
+                                        properties:
+                                          dsm_icd_10_cm_code:
+                                            type: string
+                                            description: ICD-10-CM code per DSM-5-TR guidance
+                                          dsm_title:
+                                            type: string
+                                            description: Description using DSM diagnostic terms
+                                          map_type:
+                                            type: string
+                                            description: Indicates the preference relationship between the code and the IMO lexical
+                                    map_context:
+                                      type: string
+                                      description: Describes the reason no codes from this code system are mapped to the IMO lexical code. Possible values are 'INSUFFICIENT INFORMATION' and 'NOT CODEABLE'.
+                                icd10pcs:
+                                  type: object
+                                  properties:
+                                    codes:
+                                      type: array
+                                      items:
+                                        type: object
+                                        properties:
+                                          code:
+                                            type: string
+                                            description: A ICD-10-PCS code mapped to the IMO lexical
+                                          title:
+                                            type: string
+                                            description: The official description of the ICD-10-PCS code
+                                          map_type:
+                                            type: string
+                                            description: Indicates the preference relationship between the code and the IMO lexical
+                                          long_title:
+                                            type: string
+                                            description: The long description of the ICD-10-PCS code for the Procedure domain
+                                          relationship_group:
+                                            type: string
+                                            description: Indicates a group number that each ICD-10-PCS code associates with
+                                          code_metadata:
+                                            type: object
+                                            properties:
+                                              ccsr:
+                                                type: array
+                                                description: Contains an array of CCSR category objects. If no CCSR categories are associated with the code then the ccsr object will be an empty array.
+                                                items:
+                                                  type: object
+                                                  properties:
+                                                    ccsr_category:
+                                                      type: string
+                                                      description: A CCSR category code
+                                                    ccsr_description:
+                                                      type: string
+                                                      description: The ccsr_category's description
+                                    map_context:
+                                      type: string
+                                      description: Describes the reason no codes from this code system are mapped to the IMO lexical code. Possible values are 'INSUFFICIENT INFORMATION' and 'NOT CODEABLE'.
+                                loinc:
+                                  type: object
+                                  properties:
+                                    codes:
+                                      type: array
+                                      items:
+                                        type: object
+                                        properties:
+                                          code:
+                                            type: string
+                                            description: A LOINC code mapped to the IMO lexical
+                                          title:
+                                            type: string
+                                            description: The official description of the LOINC code
+                                          map_type:
+                                            type: string
+                                            description: Indicates the preference relationship between the code and the IMO lexical
+                                    map_context:
+                                      type: string
+                                      description: Describes the reason no codes from this code system are mapped to the IMO lexical code. Possible values are 'INSUFFICIENT INFORMATION' and 'NOT CODEABLE'.
+                                cpt:
+                                  type: object
+                                  properties:
+                                    codes:
+                                      type: array
+                                      items:
+                                        type: object
+                                        properties:
+                                          code:
+                                            type: string
+                                            description: A CPT code mapped to the IMO lexical
+                                          title:
+                                            type: string
+                                            description: The official description of the CPT code
+                                          map_type:
+                                            type: string
+                                            description: Indicates the preference relationship between the code and the IMO lexical
+                                          long_title:
+                                            type: string
+                                            description: The long description of the CPT code for the Procedure domain
+                                    map_context:
+                                      type: string
+                                      description: Describes the reason no codes from this code system are mapped to the IMO lexical code. Possible values are 'INSUFFICIENT INFORMATION' and 'NOT CODEABLE'.
+                                umls:
+                                  type: object
+                                  properties:
+                                    codes:
+                                      type: array
+                                      items:
+                                        type: object
+                                        properties:
+                                          code:
+                                            type: string
+                                            description: A UMLS Concept Unique identifier (CUI) mapped to the IMO lexical
+                                          title:
+                                            type: string
+                                            description: The designated preferred name of the UMLS concept.
+                                uscdi:
+                                  type: object
+                                  properties:
+                                    profiles:
+                                      type: array
+                                      items:
+                                        type: object
+                                        properties:
+                                          data_class:
+                                            type: string
+                                            description: The USCDI-defined data class to which the mapped data element belongs
+                                          data_element:
+                                            type: string
+                                            description: The specific data element within the USCDI data class
+                                          valueset_oid:
+                                            type: string
+                                            description: The Object Identifier (OID) for the value set associated with the data element
+                                          hrsn_domain:
+                                            type: string
+                                            description: The Health-Related Social Needs (HRSN) domain associated with the data element
+                                          associated_codes:
+                                            type: array
+                                            items:
+                                              type: object
+                                              properties:
+                                                code:
+                                                  type: string
+                                                  description: A code from a standard terminology system (e.g., LOINC, SNOMED CT, CPT) that is associated with the USCDI profile
+                                                code_system:
+                                                  type: string
+                                                  description: The terminology system from which the associated code is derived (e.g., LOINC, SNOMED CT)
+                                hcpcs:
+                                  type: object
+                                  properties:
+                                    codes:
+                                      type: array
+                                      items:
+                                        type: object
+                                        properties:
+                                          code:
+                                            type: string
+                                            description: A HCPCS code mapped to the IMO lexical
+                                          title:
+                                            type: string
+                                            description: The official description of the HCPCS code
+                                          map_type:
+                                            type: string
+                                            description: Indicates the preference relationship between the code and the IMO lexical
+                                          long_title:
+                                            type: string
+                                            description: The long description of the HCPCS code for the Procedure domain
+                                    map_context:
+                                      type: string
+                                      description: Describes the reason no codes from this code system are mapped to the IMO lexical code. Possible values are 'INSUFFICIENT INFORMATION' and 'NOT CODEABLE'.
+                                rxnorm:
+                                  type: object
+                                  properties:
+                                    codes:
+                                      type: array
+                                      items:
+                                        type: object
+                                        properties:
+                                          rxnorm_code:
+                                            type: string
+                                            description: An RxNorm code mapped to the IMO lexical
+                                          rxnorm_titles:
+                                            type: array
+                                            items:
+                                              type: object
+                                              properties:
+                                                title:
+                                                  type: string
+                                                  description: An RxNorm title for rxnorm_code
+                                                title_type:
+                                                  type: string
+                                                  description: The RxNorm term type (TTY) for title
+                                    map_context:
+                                      type: string
+                                      description: Describes the reason no codes from this code system are mapped to the IMO lexical code. Possible values are 'INSUFFICIENT INFORMATION' and 'NOT CODEABLE'.
+                                ndc:
+                                  type: object
+                                  properties:
+                                    codes:
+                                      type: array
+                                      items:
+                                        type: object
+                                        properties:
+                                          ndc_code:
+                                            type: string
+                                            description: An NDC code mapped to the IMO lexical
+                                          ndc_metadata:
+                                            type: array
+                                            items:
+                                              type: object
+                                              properties:
+                                                route:
+                                                  type: array
+                                                  description: An array of route(s) of administration of the medication (e.g. oral, intravenous)
+                                                  items:
+                                                    type: string
+                                                strength:
+                                                  type: string
+                                                  description: Strength of the medication
+                                                dose_form:
+                                                  type: string
+                                                  description: Formulation of the medication (e.g. tablet, capsule, solution)
+                                                brand_name:
+                                                  type: string
+                                                  description: Brand name of the medication
+                                                generic_name:
+                                                  type: string
+                                                  description: Generic name of the medication
+                                                pharm_class:
+                                                  type: array
+                                                  description: An array of pharmacological class categories. If there is no official pharmacological class, such as with some herbal and OTC products, this will be null
+                                                  nullable: true
+                                                  items:
+                                                    type: string
+                                    map_context:
+                                      type: string
+                                      description: Describes the reason no codes from this code system are mapped to the IMO lexical code. Possible values are 'INSUFFICIENT INFORMATION' and 'NOT CODEABLE'.
+                                cvx:
+                                  type: object
+                                  properties:
+                                    codes:
+                                      type: array
+                                      items:
+                                        type: object
+                                        properties:
+                                          cvx_code:
+                                            type: string
+                                            description: An CVX code mapped to the IMO lexical
+                                          cvx_metadata:
+                                            type: array
+                                            items:
+                                              type: object
+                                              properties:
+                                                full_title:
+                                                  type: string
+                                                  description: Full vaccine name for the cvx_code
+                                                short_title:
+                                                  type: string
+                                                  description: Short description for the cvx_code
+                                                vaccine_status:
+                                                  type: string
+                                                  description: Indicates the vaccine's availability in the United States (valid values are 'Active', 'Inactive', 'Pending', 'Never Active') or if it is for use outside of the US ('Non-US')
+                                                Notes:
+                                                  type: string
+                                                  description: Notes from the CDC about the cvx_code
+                                          mvx_metadata:
+                                            type: array
+                                            items:
+                                              type: object
+                                              properties:
+                                                code:
+                                                  type: string
+                                                  description: An alphabetic string that identifies the manufacturer of a vaccine
+                                                status:
+                                                  type: string
+                                                  description: Indicates the vaccine's availability in the United States (valid values are 'Active', 'Inactive', 'Pending', 'Never Active') or if it is for use outside of the US ('Non-US')
+                                    map_context:
+                                      type: string
+                                      description: Describes the reason no codes from this code system are mapped to the IMO lexical code. Possible values are 'INSUFFICIENT INFORMATION' and 'NOT CODEABLE'.
+                                fda_biosimilar:
+                                  type: object
+                                  description: Indicates Biosimilar relationships of medications
+                                  properties:
+                                    bla_number:
+                                      type: string
+                                      description: The Biologics License Application number of the medication
+                                    ref_product_proper_name:
+                                      type: string
+                                      description: The non-trademarked, scientific name of the original biologic drug
+                                    ref_product_proprietary_name:
+                                      type: string
+                                      description: The trademarked, brand name assigned by the manufacturer of the original biologic drug
+                                severity_mappings:
+                                  type: object
+                                  properties:
+                                    snomedInternational:
+                                      type: object
+                                      properties:
+                                        codes:
+                                          type: array
+                                          items:
+                                            type: object
+                                            properties:
+                                              code:
+                                                type: string
+                                                description: A SNOMED CT code mapped to the IMO lexical
+                                              title:
+                                                type: string
+                                                description: The official description of the SNOMED CT code
+                                              map_type:
+                                                type: string
+                                                description: Indicates the preference relationship between the code and the IMO lexical
+                                reaction_mappings:
+                                  type: object
+                                  properties:
+                                    snomedInternational:
+                                      type: object
+                                      properties:
+                                        codes:
+                                          type: array
+                                          items:
+                                            type: object
+                                            properties:
+                                              code:
+                                                type: string
+                                                description: A SNOMED CT code mapped to the IMO lexical
+                                              title:
+                                                type: string
+                                                description: The official description of the SNOMED CT code
+                                              map_type:
+                                                type: string
+                                                description: Indicates the preference relationship between the code and the IMO lexical
+                                        map_context:
+                                          type: string
+                                          description: Describes the reason no codes from this code system are mapped to the IMO lexical code. Possible value is 'NO MATCH'.
+                            subdomains:
+                                  type: array
+                                  description: Subdomains associated with the procedure
+                                  items:
+                                    type: string
+                            flags:
+                              type: object
+                              properties:
+                                is_icd10cm_refinable:
+                                  type: boolean
+                                  description: A boolean variable indicating whether the lexical can be further refined using IMO's ICD-10-CM calculator/modifier workflow data. When true, it indicates that a term with more ICD-10-CM relevant specificity can be retrieved by submitting the lexical to the IMO Core Search API.
+                                allergen_categories:
+                                  type: array
+                                  description: These are general categories based on the nature of the allergen source, use, properties, etc. These align with the 2023 HL7 categories in the "AllergyIntoleranceCategory" value set for HL7 FHIR version 5.0.0. And this flag is only applied to the Allergen domain.
+                                  items:
+                                    type: string
+                                is_orderable:
+                                  type: boolean
+                                  description: Indicates if the procedure is orderable
+                                is_performable:
+                                  type: boolean
+                                  description: Indicates if the procedure is performable
+                                is_historical:
+                                  type: boolean
+                                  description: Indicates if the procedure is historical
+                                is_resultable:
+                                  type: boolean
+                                  description: Indicates if the procedure is resultable
+                                is_chargeable:
+                                  type: boolean
+                                  description: Indicates if the procedure is chargeable
+                  match_field:
+                    type: string
+                    description: Which input field(input_code or input_term) the match used. Valid when the match_field_pref is input_term_first or input_code_first.
+                  domain:
+                    type: string
+                    description: IMO domain the match result belongs to. When input domain is "Auto", this is the domain the input resolved to.
+                  custom_mapped:
+                    type: boolean
+                    description: Indicates if the match that was returned was the result of a custom map in Map Manager.
+                  match_includes_assumptions:
+                    type: boolean
+                    description: Indicates if the match that was returned includes assumptions made by IMO. Currently only applicable to Lab domain.
+                  error_message:
+                    type: array
+                    description: An array of error messages for the given request item
+                    items:
+                      type: string
+                  discrepancy:
+                    type: object
+                    properties:
+                      checked:
+                        type: boolean
+                        description: Indicates whether discrepancy check was performed
+                      found:
+                        type: boolean
+                        description: Whether discrepancy exists
+                      type:
+                        type: string
+                        description: The type of the discrepancy
+                      message:
+                        type: string
+                        description: A description of the identified discrepancy.
+                  transformed_term:
+                    type: string
+                    description: The term after transformation by the LLM, if applicable.
+                  explanation:
+                    type: string
+                    description: An explanation of how the engine matched the input term to the IMO lexical.
+        response_time:
+          type: number
+          description: Time taken in milliseconds to process the entire request
+    SessionResponse:
+      type: object
+      properties:
+        session_id:
+          type: string
+          description: A unique identifier for the session
+    EventSelectionRequest:
+      type: object
+      required: [session_id, result_selected]
+      properties:
+        session_id:
+          type: string
+          maxLength: 36
+        result_selected:
+          type: array
+          maxItems: 300
+          items:
+            type: object
+            properties:
+              record_id:
+                type: string
+                maxLength: 300
+                nullable: true
+              imo_lexical_code:
+                type: string
+                maxLength: 500
+                nullable: true
+    TokenRequest:
+      type: "object"
+      properties:
+        grant_type:
+          type: "string"
+        client_id:
+          type: "string"
+        client_secret:
+          type: "string"
+        audience:
+          type: "string"
+    TokenResponse:
+      type: "object"
+      properties:
+        access_token:
+          type: "string"
+        scope:
+          type: "string"
+        expires_in:
+          type: "number"
+        token_type:
+          type: "string"
+    Error:
+      type: object
+      properties:
+        error:
+          type: object
+          properties:
+            code:
+              type: string
+            message:
+              type: string
+            details:
+              type: object
+              properties:
+                code:
+                  type: string
+                message:
+                  type: string
+                traceId:
+                  type: string
+    TokenError:
+      type: object
+      properties:
+        error:
+          type: string
+        error_description:
+          type: string
+        error_uri:
+          type: string
+  responses:
+    BadRequest:
+      description: The server could not understand the request due to invalid syntax or missing parameters.
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+    Unauthorized:
+      description: The request is unauthenticated. Provide authentication using the Authorization HTTP header.
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+    Forbidden:
+      description: The client does not have access rights to make this request.
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+    PayloadTooLarge:
+      description: The response payload is larger than the limits. Consider reducing number of the items in the request
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+    TooManyRequests:
+      description: The client has sent too many requests in a given amount of time ("rate limiting").
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+    NotFound:
+      description: The server can not find the requested resource.
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+    InternalServerError:
+      description: The server has encountered a situation it doesn't know how to handle.
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+    ServiceUnavailable:
+      description: The server is not ready to handle the request. Common causes are a server that is down for maintenance or that is overloaded.
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+    TokenBadRequest:
+      description: The server could not understand the request due to invalid syntax or missing parameters.
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/TokenError'
+    TokenUnauthorized:
+      description: The request is unauthenticated. Provide authentication using the Authorization HTTP header.
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/TokenError'
+    TokenForbidden:
+      description: The client does not have access rights to make this request.
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/TokenError'
+    TokenTooManyRequests:
+      description: The client has sent too many requests in a given amount of time ("rate limiting").
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/TokenError'
+    TokenNotFound:
+      description: The server can not find the requested resource.
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/TokenError'
+    TokenInternalServerError:
+      description: The server has encountered a situation it doesn't know how to handle.
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/TokenError'
+    TokenServiceUnavailable:
+      description: The server is not ready to handle the request. Common causes are a server that is down for maintenance or that is overloaded.
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/TokenError'
+  securitySchemes:
+    application:
+      type: oauth2
+      flows:
+        clientCredentials:
+          tokenUrl: 'https://api-sandbox.imohealth.com/oauth/token'
+          scopes:
+            'normalize': access to API
