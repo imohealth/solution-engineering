@@ -97,22 +97,25 @@ http://localhost:5001
 
 ```
 CCP-Solution-Accelerator/
-├── app.py                      # Flask backend with API endpoints
-├── soap_generator.py           # SOAP note generation module
-├── nlp_processor.py           # IMO API integration for NLP
-├── config.py                  # Configuration and API credentials
-├── requirements.txt           # Python dependencies
-├── run.sh                     # Shell script to run the app (Unix/macOS)
-├── run.bat                    # Batch script to run the app (Windows)
+├── app.py                           # Flask backend with API endpoints
+├── soap_generator.py                # SOAP note generation module
+├── nlp_processor.py                 # IMO API integration for NLP
+├── config.py                        # Configuration and API credentials
+├── requirements.txt                 # Python dependencies
+├── run.sh                           # Shell script to run the app (Unix/macOS)
+├── run.bat                          # Batch script to run the app (Windows)
+├── openapi-engine-api-spec-1.0.45.yaml  # OpenAPI specification
+├── test_soap_procedures.txt         # Test SOAP procedures
 ├── templates/
-│   └── index.html            # Frontend UI
-├── sample_data/               # Sample medical transcripts
-│   ├── sample_transcript.txt
-│   ├── inpatient-transcript3.txt
-│   ├── outpatient-transcript1.txt
-│   └── outpatient-transcript2.txt
-├── README.md                  # This file
-└── QUICKSTART.md             # Quick start guide
+│   ├── index.html                   # Frontend UI
+│   └── index_old.html               # Previous version of UI
+├── sample_data/                     # Sample SOAP notes
+│   ├── soap_notes_1.txt
+│   ├── soap_notes_2.txt
+│   ├── soap_notes_3.txt
+│   └── soap_notes_4.txt
+├── README.md                        # This file
+└── QUICKSTART.md                    # Quick start guide
 ```
 
 ## API Endpoints
