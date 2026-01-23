@@ -66,7 +66,7 @@ pip install -r requirements.txt
    - Request access to "Amazon Nova Pro" model
    - Wait for approval (usually instant)
 
-6. (Optional) Configure IMO API credentials in `config.py`:
+6. Configure IMO API credentials in `config.py`:
    ```python
    imo_client_id = "your_client_id"
    imo_client_secret = "your_client_secret"
