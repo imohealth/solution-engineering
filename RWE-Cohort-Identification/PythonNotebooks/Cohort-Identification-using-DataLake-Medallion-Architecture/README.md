@@ -60,6 +60,7 @@ This approach enables:
       archive              • Quality improved         • Reporting
 ```
 
+```
 Legend:
 ┌────┐ Step    │  Data ▶▶▶ Flow
 └────┘ Object
