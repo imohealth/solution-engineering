@@ -3,7 +3,7 @@
 ---
 # RWD Cohort Identification - HL7 Workflow
 
-A notebook-driven pipeline to parse HL7 messages, extract and normalize medical codes, and apply cohort eligibility criteria using IMO APIs.
+A notebook-driven pipeline to parse HL7 messages, extract and normalize medical codes, and apply cohort eligibility criteria using IMO Health APIs.
 
 ## Table of Contents
 
@@ -24,8 +24,8 @@ The **HL7 Workflow** processes HL7 messages to extract medical codes and applies
 
 1. Start with HL7 messages
 2. Parse and extract ICD10CM/CPT/LOINC/SNOMED codes
-3. Normalize codes using IMO Precision API
-4. Apply cohort eligibility criteria via IMO FHIR ValueSets
+3. Normalize codes using IMO Health Precision API
+4. Apply cohort eligibility criteria via IMO Health FHIR ValueSets
 
 ### Architecture
 
@@ -51,7 +51,7 @@ Legend:
 ## Prerequisites
 
 - Python 3.9 or higher
-- IMO API credentials (Auth0 client credentials)
+- IMO Health API credentials (Auth0 client credentials)
 - Jupyter Notebook/Lab or VS Code + Jupyter extension
 - HL7 message files
 
@@ -92,7 +92,7 @@ Legend:
 
 ## Configuration
 
-Configure IMO API access in `config.json` (in the parent RWE-Cohort-Identification folder):
+Configure IMO Health API access in `config.json` (in the parent RWE-Cohort-Identification folder):
 
 ```json
 {
@@ -136,13 +136,13 @@ This single notebook handles the complete workflow:
    - Organizes codes by patient
 
 3. **Normalize Codes (Optional)**
-   - Uses IMO Precision API for code normalization
+   - Uses IMO Health Precision Normalize API for code normalization
    - Fills incomplete codes
    - Corrects invalid codes
    - Standardizes code formats
 
 4. **Apply Cohort Criteria**
-   - Fetches ValueSets via IMO FHIR API
+   - Fetches ValueSets via IMO Health Precision Set FHIR API
    - Applies inclusion/exclusion criteria
    - Matches patients against trial requirements
    - Generates eligibility reports
@@ -189,7 +189,7 @@ Extracted code types and typical HL7 segments:
 - **LOINC**: OBX segment (observations/labs)
 - **SNOMED CT**: Various segments depending on message type
 
-### Code Normalization (IMO Precision API)
+### Code Normalization (IMO Health Precision Normalize API)
 
 Optional normalization features:
 - Fill incomplete codes (e.g., "E11" → "E11.9")
@@ -200,13 +200,13 @@ Optional normalization features:
 Adjustable parameters:
 
 ```python
-use_normalization = True  # Enable/disable IMO Precision API calls
+use_normalization = True  # Enable/disable IMO Health Precision Normalize API calls
 request_delay = 0.5       # Seconds between API calls to avoid rate limiting
 ```
 
 ### Cohort Matching
 
-- Uses IMO FHIR ValueSet API to fetch trial criteria
+- Uses IMO Health FHIR ValueSet API to fetch trial criteria
 - Supports multiple code systems (ICD10CM, CPT, LOINC, SNOMED)
 - Generates patient eligibility reports
 - Exports results for analysis
@@ -215,7 +215,7 @@ request_delay = 0.5       # Seconds between API calls to avoid rate limiting
 
 ### Common Issues
 
-1. **Authentication Error (IMO Auth0)**
+1. **Authentication Error (IMO Health Auth0)**
   - Verify `domain`, `client_id`, `client_secret`, `audience` in `config.json`
   - Ensure credentials are for the correct environment
 
@@ -263,7 +263,7 @@ Output/
 ### Output File Descriptions
 
 - **trial_patient_dict.json**: Dictionary of all extracted codes organized by patient ID
-- **normalized_codes.csv**: Medical codes after IMO Precision normalization
+- **normalized_codes.csv**: Medical codes after IMO Health Precision normalization
 - **cohort_matching_results.csv**: Patient eligibility results with inclusion/exclusion criteria matching
 - **patient_reports/**: Detailed reports for each patient including matched criteria
 
@@ -289,4 +289,4 @@ Output/
 ## Support
 
 For questions or issues, contact:
-- IMO API Support: support@imohealth.com
+- IMO Health API Support: support@imohealth.com

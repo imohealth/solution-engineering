@@ -3,7 +3,7 @@
 ---
 # RWD Cohort Identification - OMOP Workflow
 
-A notebook-driven pipeline to extract structured patient data from clinical notes, convert results to OMOP CDM, and apply cohort eligibility criteria using IMO APIs.
+A notebook-driven pipeline to extract structured patient data from clinical notes, convert results to OMOP CDM, and apply cohort eligibility criteria using IMO Health APIs.
 
 ## Table of Contents
 
@@ -23,9 +23,9 @@ A notebook-driven pipeline to extract structured patient data from clinical note
 The **OMOP Workflow** transforms de-identified clinical notes into OMOP CDM format and applies cohort eligibility criteria:
 
 1. Start with de-identified clinical notes in CSV
-2. Extract entities via IMO NLP → Excel
+2. Extract entities via IMO Health NLP API → Excel
 3. Convert to OMOP CDM tables
-4. Apply cohort eligibility criteria via IMO FHIR ValueSets
+4. Apply cohort eligibility criteria via IMO Health Precision Set FHIR API
 
 ### Architecture
 
@@ -51,7 +51,7 @@ Legend:
 ## Prerequisites
 
 - Python 3.9 or higher
-- IMO API credentials (Auth0 client credentials)
+- IMO Health API credentials (Auth0 client credentials)
 - Jupyter Notebook/Lab or VS Code + Jupyter extension
 - **OMOP vocabularies** (required for conversion): 
   - Download from OHDSI Athena: https://athena.ohdsi.org/vocabulary/list
@@ -94,7 +94,7 @@ Legend:
 
 ## Configuration
 
-Configure IMO API access in `config.json` (in the parent RWE-Cohort-Identification folder):
+Configure IMO Health API access in `config.json` (in the parent RWE-Cohort-Identification folder):
 
 ```json
 {
@@ -125,7 +125,7 @@ Run the notebooks in the `using-OMOP/` folder in this order:
 **Notebook:** `01_SolutionAccelerator_RWE_Extraction_From_Notes_To_Patient_Data.ipynb`
 
 - **Input:** `upload_ihm/*.csv` (clinical notes)
-- **Process:** Calls IMO NLP API to extract medical entities (problems, procedures, medications, labs)
+- **Process:** Calls IMO Health NLP API to extract medical entities (problems, procedures, medications, labs)
 - **Output:** `Output/patient_output.xlsx` (structured patient data)
 
 #### 2. Convert to OMOP CDM Format
@@ -144,7 +144,7 @@ Run the notebooks in the `using-OMOP/` folder in this order:
 
 - **Input:** `Output/OMOP_CSV/*.csv` (from step 2)
 - **Process:** 
-  - Fetch ValueSets via IMO FHIR API
+  - Fetch ValueSets via IMO Health Precision Sets FHIR API
   - Apply inclusion/exclusion criteria
   - Match patients against trial requirements
 - **Output:** Cohort results and reports
@@ -163,7 +163,7 @@ Select the kernel "Python (rwd-cohort)" and Run All Cells in each notebook in th
 
 ### NLP Extraction (Step 1)
 
-- Endpoint: IMO Clinical Comprehensive NLP (`/entityextraction/pipelines/imo-clinical-comprehensive?version=3.0`)
+- Endpoint: IMO Health Clinical Comprehensive NLP (`/entityextraction/pipelines/imo-clinical-comprehensive?version=3.0`)
 - Adjustable parameters inside the notebook:
 
 ```python
@@ -186,7 +186,7 @@ request_delay = 0.5  # seconds between API calls to avoid rate limiting
 
 ### Cohort Matching (Step 3)
 
-- Uses IMO FHIR ValueSet API to fetch trial criteria
+- Uses IMO Health Precision Set FHIR  API to fetch trial criteria
 - Supports inclusion/exclusion criteria
 - Generates patient eligibility reports
 
@@ -194,7 +194,7 @@ request_delay = 0.5  # seconds between API calls to avoid rate limiting
 
 ### Common Issues
 
-1. **Authentication Error (IMO Auth0)**
+1. **Authentication Error (IMO Health Auth0)**
   - Verify `domain`, `client_id`, `client_secret`, `audience` in `config.json`
   - Ensure credentials are for the correct environment
 
@@ -246,4 +246,4 @@ Output/
 ## Support
 
 For questions or issues, contact:
-- IMO API Support: support@imohealth.com
+- IMO Health API Support: support@imohealth.com

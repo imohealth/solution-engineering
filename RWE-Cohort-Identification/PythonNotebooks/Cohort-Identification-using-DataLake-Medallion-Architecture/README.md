@@ -23,12 +23,12 @@ A notebook-driven pipeline implementing a medallion architecture (Bronze/Silver/
 The **Data Lake Workflow** implements a medallion architecture for scalable data processing:
 
 1. **Bronze Zone**: Raw data ingestion and historical archiving
-2. **Silver Zone**: Data normalization and enrichment using IMO APIs
+2. **Silver Zone**: Data normalization and enrichment using IMO Health APIs
 3. **Gold Zone**: Curated, cohort-filtered data ready for analytics
 
 This approach enables:
 - Governed data layers with clear quality progression
-- Standardized medical terminology using IMO Precision API
+- Standardized medical terminology using IMO Health Precision API
 - Cohort identification at scale
 - Production-ready analytics datasets
 
@@ -63,7 +63,7 @@ Legend:
 ## Prerequisites
 
 - Python 3.9 or higher
-- IMO API credentials (Auth0 client credentials)
+- IMO Health API credentials (Auth0 client credentials)
 - Jupyter Notebook/Lab or VS Code + Jupyter extension
 - AWS account with S3 access (for cloud storage)
 - boto3 configured for AWS access (optional for local development)
@@ -105,9 +105,9 @@ Legend:
 
 ## Configuration
 
-### IMO API Configuration
+### IMO Health API Configuration
 
-Configure IMO API access in `config.json` (in the parent RWE-Cohort-Identification folder):
+Configure IMO Health API access in `config.json` (in the parent RWE-Cohort-Identification folder):
 
 ```json
 {
@@ -187,7 +187,7 @@ This notebook implements the complete medallion architecture pipeline:
 **Key Features:**
 - Schema enforcement and validation
 - Duplicate detection and handling
-- IMO Precision API integration for medical terminology
+- IMO Health Precision Normalize API integration for medical terminology
 - Data quality metrics and reporting
 
 #### 3. Gold Zone - Cohort Curation
@@ -196,9 +196,9 @@ This notebook implements the complete medallion architecture pipeline:
 
 - **Input:** 
   - `silver/normalized_patient_data.csv`
-  - IMO FHIR ValueSets (cohort criteria)
+  - IMO Health FHIR ValueSets (cohort criteria)
 - **Process:**
-  - Fetch cohort criteria via IMO FHIR API
+  - Fetch cohort criteria via IMO Health Precision Sets FHIR API
   - Apply inclusion/exclusion rules
   - Filter patients meeting eligibility requirements
   - Aggregate and summarize for analytics
@@ -244,7 +244,7 @@ DROP_DUPLICATES = True
 VALIDATE_SCHEMA = True
 FILL_MISSING_VALUES = False
 
-# IMO Precision API settings
+# IMO Health Precision Normalize API settings
 USE_NORMALIZATION = True
 CODE_SYSTEMS = ["ICD10CM", "LOINC", "RXNORM", "CPT"]
 request_delay = 0.5  # Rate limiting
@@ -271,7 +271,7 @@ INCLUDE_METADATA = True
 
 ### Common Issues
 
-1. **Authentication Error (IMO Auth0)**
+1. **Authentication Error (IMO Health Auth0)**
   - Verify `domain`, `client_id`, `client_secret`, `audience` in `config.json`
   - Ensure credentials are for the correct environment
 
@@ -282,7 +282,7 @@ INCLUDE_METADATA = True
   - For local development, set `USE_S3 = False`
 
 3. **Rate Limiting (HTTP 429)**
-  - Adjust `request_delay` parameter for IMO API calls
+  - Adjust `request_delay` parameter for IMO Health API calls
   - Process data in smaller batches
   - Implement exponential backoff
 
@@ -402,7 +402,7 @@ Each zone includes quality metrics:
 1. Use columnar formats (Parquet) for large datasets
 2. Partition data by frequently queried dimensions
 3. Cache Silver zone results for repeated Gold zone processing
-4. Batch API calls to IMO services
+4. Batch API calls to IMO Health services
 5. Use appropriate data types to minimize memory usage
 
 ### Security and Compliance
@@ -416,4 +416,4 @@ Each zone includes quality metrics:
 ## Support
 
 For questions or issues, contact:
-- IMO API Support: support@imohealth.com
+- IMO Health API Support: support@imohealth.com
