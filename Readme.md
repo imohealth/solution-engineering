@@ -1,5 +1,3 @@
-# IMO Health Solution Engineering
-
 <p align="center">
   <img src="./static/imo_health.png" alt="IMO Health Logo" width="400"/>
 </p>
