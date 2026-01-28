@@ -252,7 +252,7 @@ Sample medical transcripts are provided in `sample_data/`. You can use your own 
 
 ## Troubleshooting
 - **AWS Bedrock Access Denied**: Ensure credentials have Bedrock permissions and Nova Pro is enabled
-- **IMO API Unauthorized**: Check OAuth credentials in `config.py` and API access
+- **IMO Health API Unauthorized**: Check OAuth credentials in `config.py` and API access
 - **Missing Dependencies**: Run `pip install --upgrade boto3 requests jupyter`
 
 ## Best Practices
@@ -279,7 +279,7 @@ Improvements welcome! Please:
 ## Support
 
 For questions or issues, contact:
-- IMO API Support: support@imohealth.com
+- IMO Health API Support: support@imohealth.com
 
 
 
