@@ -4,7 +4,7 @@
 
 ## Overview
 
-Welcome to the **IMO Health Solution Engineering** repository. This repository serves as a comprehensive collection of blueprints and solution accelerators that demonstrate how to integrate with IMO Health's powerful capabilities and APIs.
+Welcome to the **IMO Health Solution Accelerators** repository. This repository serves as a comprehensive collection of blueprints and solution accelerators that demonstrate how to integrate with IMO Health's powerful capabilities and APIs.
 
 IMO Health provides industry-leading clinical terminology, analytics, and AI-powered solutions that help healthcare organizations improve clinical documentation, enhance data quality, and drive better patient outcomes. This repository contains practical, real-world implementations and reference architectures to help you quickly integrate IMO Health's capabilities into your healthcare applications and workflows.
 
